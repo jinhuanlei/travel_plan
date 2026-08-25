@@ -16,6 +16,7 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif; }
     .hero-gradient { background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.9) 100%); }
+    details > summary::-webkit-details-marker { display: none; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-200">
@@ -85,18 +86,18 @@
     </div>
   </div>
 
-  <!-- 分时段深度行程 -->
+  <!-- 分时段深度行程与图文百科 -->
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-6">
 
     <div class="flex items-center space-x-3 mb-6">
       <span class="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-sm shadow-sm">
         <i class="fa-solid fa-clock"></i>
       </span>
-      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程安排</h2>
+      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程与图文百科</h2>
     </div>
 
     <!-- 节点 1 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs">09:30 - 14:00</span>
@@ -104,14 +105,38 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">高速自驾 3.5 小时</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Utah Highway 15" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🛣️ 15号州际高速公路 (I-15 South) 犹他高原红土景观大道</span>
+          <span class="text-amber-300 text-[11px]">宽阔双向四车道</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🚗 南下行车：</strong>在凯悦嘉轩享用热早餐后于 09:30 退房出发。并入 15 号州际高速公路一路向南，路面平整宽阔、视线极佳，沿途地貌逐渐由城市山谷转变为开阔的高原红土地貌。</p>
         <p><strong>🍔 雪松城中转休息 (Cedar City)：</strong>在行驶约 3.5 小时后抵达雪松城，在此加油、使用洗手间并在镇上餐厅（如 Depot Grill 或各大美式/快餐店）享用午餐，充分拉伸放松身体。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>地理百科：犹他州科罗拉多高原的地貌阶梯 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🏜️ 大阶梯 (Grand Staircase)：</strong>从盐湖城向南自驾，地貌逐渐进入著名的“大阶梯”地质沉积岩层。从上至下依次展现粉崖、灰崖、白崖、红崖到巧克力崖，数亿年岁月在地表雕刻出层层叠叠的奇绝色彩。</p>
+        </div>
+      </details>
     </div>
 
     <!-- 节点 2 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 font-bold text-xs">14:30 - 15:30</span>
@@ -119,10 +144,35 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-medium">锡安国家公园独立景区</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1508873696983-2df5293cb32f?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Kolob Canyons Finger View" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🏔️ 科洛布峡谷 (Kolob Canyons) 手指状千仞红色断崖群</span>
+          <span class="text-amber-300 text-[11px]">下车即达观景台</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🏔️ 零折返顺路打卡：</strong>从 I-15 高速 40 号出口驶出即是科洛布峡谷入口。出示国家公园年票免费进入访客中心。</p>
         <p><strong>📸 5 英里全景自驾路 (Scenic Drive)：</strong>全家人无需高强度徒步，驱车沿着 5 英里的高山景观路向上行驶，终点抵达 <strong>科洛布观景点 (Kolob Canyons Viewpoint)</strong>。下车即达观景台，近距离平视直插云霄的千仞红色砂岩断崖（Finger Canyons），气势非凡且游客稀少。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>地质百科：科洛布“手指峡谷”的断裂形成 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🖐️ 手指状断崖 (Finger Canyons)：</strong>科洛布峡谷由侏罗纪时期的纳瓦霍砂岩 (Navajo Sandstone) 构成。沿断层线经过数百万年水流与风霜的平行切割，形成了并排伸展的巨大红色悬崖峭壁，宛如大地的巨指直插云霄，极为壮观。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Kolob+Canyons+Visitor+Center" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>
@@ -132,7 +182,7 @@
     </div>
 
     <!-- 节点 3 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-indigo-100 text-indigo-800 font-bold text-xs">15:30 - 16:15</span>
@@ -140,11 +190,13 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-indigo-100 text-indigo-800 text-xs font-medium">舒适连住 2 晚</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🏨 入住酒店：</strong>从科洛布峡谷向南行驶 45 分钟抵达红岩之城 <strong>圣乔治 (St. George)</strong>，顺利入住 <strong>圣乔治凯悦嘉轩酒店 (Hyatt Place St. George / Convention Center)</strong>。</p>
         <p><strong>🅿️ 停车指引：</strong>酒店提供免费专属大型地面停车场，停车极其便捷。</p>
         <p><strong>🛌 晚间放松：</strong>酒店设施现代完备，傍晚在酒店露天泳池/热水池边放松，或在圣乔治市区享用晚餐，尽享度假慢生活。</p>
       </div>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Hyatt+Place+St.+George+Convention+Center" target="_blank" class="inline-flex items-center space-x-1.5 px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-dot text-amber-500"></i>

@@ -16,6 +16,7 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif; }
     .hero-gradient { background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.9) 100%); }
+    details > summary::-webkit-details-marker { display: none; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-200">
@@ -85,18 +86,18 @@
     </div>
   </div>
 
-  <!-- 分时段深度行程 -->
+  <!-- 分时段深度行程与图文百科 -->
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-6">
 
     <div class="flex items-center space-x-3 mb-6">
       <span class="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-sm shadow-sm">
         <i class="fa-solid fa-clock"></i>
       </span>
-      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程安排</h2>
+      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程与图文百科</h2>
     </div>
 
     <!-- 节点 1 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs">07:00 - 09:00</span>
@@ -104,13 +105,14 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">车程 2 小时</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🚗 避暑出行准则：</strong>备好车内饮水与干粮，早上 7:00 准时满油出发。经帕伦普 (Pahrump) 沿 NV-160 与 CA-190 由东门平稳驶入 <strong>死亡谷国家公园 (Death Valley National Park)</strong>。</p>
       </div>
     </div>
 
     <!-- 节点 2 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 font-bold text-xs">09:00 - 11:30</span>
@@ -118,12 +120,47 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-medium">低体能纯车游</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Zabriskie Point Death Valley" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🌄 扎布里斯基角 (Zabriskie Point) 金色褶皱恶地地貌</span>
+          <span class="text-amber-300 text-[11px]">全景铺装坡道</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🌄 扎布里斯基角 (Zabriskie Point)</strong> (09:00 - 09:30)：下车沿平缓铺装坡道走 2 分钟，即可 360 度俯瞰金黄色的褶皱千沟万壑，拍照视野极其震撼。</p>
         <p><strong>✨【可选项目：炉溪游客中心 (Furnace Creek)】</strong>(09:45 - 10:15)：全空调室内避暑、国家公园集章与著名的室外实时温度大屏幕合影（年票免费）。</p>
         <p><strong>🎨 艺术家车道 (Artist's Drive & Palette)</strong> (10:20 - 10:50)：驶入全长 9 英里的单向景观公路。坐在空调车内穿梭于由于矿物质氧化形成的五彩火山岩丘中，在“艺术家调色板”停车 5 分钟下车拍照。</p>
         <p><strong>🧂 恶水盆地 (Badwater Basin)</strong> (10:55 - 11:30)：北美地势最低点（海平面以下 86 米）。出车门即是平坦白色结晶盐滩，在边缘平地慢步留影，饱览盐白大地的苍茫壮阔。</p>
       </div>
+
+      <!-- 实景图片卡片 2 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1542332213-31f87348057f?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Badwater Basin Salt Flats" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🧂 恶水盆地 (Badwater Basin) 北美最低点六角形结晶盐滩</span>
+          <span class="text-amber-300 text-[11px]">海平面以下 86 米</span>
+        </div>
+      </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>地质百科：死亡谷的五彩矿物与极干旱成因 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🎨 艺术家调色板的成因：</strong>山崖上绚烂的粉色、紫色、青色与黄色源于火山灰沉淀中的多种金属矿物在热液与空气中氧化——铁化合物呈现粉红与暗红，云母分解呈现绿色，锰化合物呈现紫色，天然造就了如油画般的彩色丘陵。</p>
+          <p><strong>🧂 恶水盆地为什么叫“恶水”：</strong>早期测绘员的骡子拒绝饮用这里的盐水，故得名 Badwater。这里是远古曼利湖 (Lake Manly) 蒸发后的沉积盐层，结晶盐层厚度可达上百米，形成的六边形盐壳是地球上最独特的干旱景观之一。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Badwater+Basin+Death+Valley" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>

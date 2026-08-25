@@ -16,6 +16,7 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif; }
     .hero-gradient { background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.9) 100%); }
+    details > summary::-webkit-details-marker { display: none; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-200">
@@ -82,18 +83,18 @@
     </div>
   </div>
 
-  <!-- 分时段深度行程 -->
+  <!-- 分时段深度行程与图文百科 -->
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-6">
 
     <div class="flex items-center space-x-3 mb-6">
       <span class="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-sm shadow-sm">
         <i class="fa-solid fa-clock"></i>
       </span>
-      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程安排</h2>
+      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程与离境指南</h2>
     </div>
 
     <!-- 节点 1 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs">07:30 - 08:30</span>
@@ -101,13 +102,14 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">晨间准备</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🍳 早餐与整理：</strong>在格兰代尔凯悦嘉轩享用热早餐，将购买的纪念品与行李规整好放入后备箱，于 08:30 办理退房手续。</p>
       </div>
     </div>
 
     <!-- 节点 2 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-amber-100 text-amber-800 font-bold text-xs">08:30 - 09:30</span>
@@ -115,14 +117,38 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">还车与航站楼转运</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1580655653885-65763b2597d0?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="LAX Tom Bradley Terminal" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>✈️ 洛杉矶国际机场 (LAX) 汤姆·布兰得利国际航站楼 (TBIT)</span>
+          <span class="text-amber-300 text-[11px]">提前3小时抵达</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🚗 顺畅行车：</strong>当天为周六早晨，逆向前往机场无工作日早高峰堵车困扰，车程仅需 40 分钟左右。</p>
         <p><strong>🏁 租车点还车：</strong>驶入租车公司还车通道，工作人员扫码验车（几分钟内完成收车）。随后推着行李搭乘租车公司的免费摆渡大巴（Shuttle Bus）直达 LAX 国际航站楼出发层。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>离境指南：LAX 航站楼退税与免税店贴士 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🛍️ 国际免税店：</strong>TBIT 国际航站楼安检后拥有巨大的 DFS 免税店与各大加州伴手礼专卖店（如 See's Candies 巧克力、加州坚果与红酒），候机时可轻松选购补齐伴手礼。</p>
+        </div>
+      </details>
     </div>
 
     <!-- 节点 3 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 font-bold text-xs">09:30 - 12:30</span>
@@ -130,6 +156,7 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-medium">离境启程</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>✈️ 顺利登机：</strong>提前近 3 小时抵达航站楼，从容办理登机牌打印与托运，通过安检后在免税店闲逛或休息室等候登机。12:30 班机起飞，满载全家人的美好回忆平安回国！</p>
       </div>

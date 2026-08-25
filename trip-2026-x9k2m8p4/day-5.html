@@ -16,6 +16,7 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif; }
     .hero-gradient { background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.9) 100%); }
+    details > summary::-webkit-details-marker { display: none; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-200">
@@ -85,18 +86,18 @@
     </div>
   </div>
 
-  <!-- 分时段深度行程 -->
+  <!-- 分时段深度行程与图文百科 -->
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-6">
 
     <div class="flex items-center space-x-3 mb-6">
       <span class="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-sm shadow-sm">
         <i class="fa-solid fa-clock"></i>
       </span>
-      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程安排</h2>
+      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程与图文百科</h2>
     </div>
 
     <!-- 节点 1 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs">07:30 - 11:30</span>
@@ -104,42 +105,78 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">AZ-389 & US-89A 公路</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1574786198875-49f5d09fe2d5?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Navajo Bridge Marble Canyon" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🌉 纳瓦霍双拱桥 (Navajo Bridge) 跨越深邃的大理石峡谷</span>
+          <span class="text-amber-300 text-[11px]">科罗拉多河上游</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>⏰ 提早准时出发：</strong>在圣乔治凯悦享用热早餐后于 07:30 退房出发，沿 AZ-389 公路驶往大峡谷东门方向。</p>
         <p><strong>✨【可选项目 1：管泉国家纪念地 (Pipe Spring National Monument)】</strong>(08:30 - 09:10)：正位于公路旁，持国家公园年票免费。沙漠绿洲清凉泉水与百年先驱者石砌堡垒（温莎城堡），全平整硬化地面，步行仅 200 米，配有干净洗手间与空调访客中心，非常适合全家人中途拉伸歇脚（<em>若感疲劳可不下车直行</em>）。</p>
         <p><strong>✨【可选项目 2：悬崖民居奇石屋 (Cliff Dwellers)】</strong>(10:15 - 10:30)：紧邻 US-89A 路肩，利用天然红色巨石修建的独特石屋，下车平地合影 10 分钟（免费，体能消耗为零）。</p>
         <p><strong>🌉 纳瓦霍桥 (Navajo Bridge)</strong> (10:35 - 10:55)：在平坦的桥头观景台眺望壮丽的大理石峡谷与科罗拉多河，稍作拉伸活动。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>地标百科：纳瓦霍桥与珍稀加州神鹰 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🦅 加州神鹰 (California Condor)：</strong>纳瓦霍桥高悬于科罗拉多河上方 142 米，桥架钢梁是极度濒危动物——加州神鹰（北美最大陆禽，双翼展开达 3 米）常年栖息筑巢的场所。站在桥头人行道上，经常能抬头看到编号神鹰在峡谷气流中翱翔。</p>
+        </div>
+      </details>
     </div>
 
     <!-- 节点 2 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
-      <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
-        <div class="flex items-center space-x-2.5">
-          <span class="px-2.5 py-1 rounded-lg bg-amber-100 text-amber-800 font-bold text-xs">11:30 - 12:00</span>
-          <h3 class="font-bold text-slate-900 text-base">卡梅伦印第安贸易站 (Cameron Trading Post) 中转补给</h3>
-        </div>
-        <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">大峡谷东门前枢纽</span>
-      </div>
-      <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
-        <p><strong>🛒 文化补给站：</strong>在进入大峡谷东门前停靠百年印第安手工艺术品贸易站。这里有干净卫生间、便利店与空调休息区，全家人在此休息补充饮用水和零食（免费，无需门票）。</p>
-      </div>
-    </div>
-
-    <!-- 节点 3 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 font-bold text-xs">12:00 - 15:30</span>
-          <h3 class="font-bold text-slate-900 text-base">科罗拉多大峡谷国家公园 (Grand Canyon) 深度游览</h3>
+          <h3 class="font-bold text-slate-900 text-base">科罗拉多大峡谷国家公园 (Grand Canyon) 深度车游</h3>
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-medium">东门进 ➔ 南门出</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Grand Canyon Desert View Watchtower" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🏰 大峡谷东门沙漠景观瞭望塔 (Desert View Watchtower)</span>
+          <span class="text-amber-300 text-[11px]">平视科罗拉多河转弯</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🏰 沙漠景观瞭望塔 (Desert View Watchtower)：</strong>东门驶入首站。近距离平视大峡谷地平线与历史石头塔楼，视野极其开阔，下车走 50 米平路即达。</p>
         <p><strong>✨【可选项目 3：利潘角观景点 (Lipan Point)】</strong>(12:45 - 13:05)：位于东门至南缘村庄的景观公路 AZ-64 旁。停车场紧邻观景台（步行仅 20 米平路），俯瞰科罗拉多河大转弯极其壮观（年票免费）。</p>
         <p><strong>🦅 麦色观景点 (Mather Point)：</strong>南缘核心观景台，全平坦无障碍铺装路面，步行仅需 3~5 分钟，安全、低体能消耗地饱览最深邃壮丽的断崖风光，且避开了傍晚的高原寒风。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>地质百科：大峡谷 20 亿年地球年轮与沙漠塔历史 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🌍 20 亿年的地球切片：</strong>大峡谷全长 446 公里，最深处达 1800 米。谷底露出的黑褐色片岩形成于 20 亿年前的元古代，几乎代表了地球近半的演化史，被地质学家誉为“活的教科书”。</p>
+          <p><strong>🏰 沙漠塔建筑：</strong>建于 1932 年的沙漠景观塔由著名女建筑师玛丽·科尔特 (Mary Colter) 设计，外观严格模仿美洲原住民古印第安普韦布洛石头瞭望塔，内部绘有精美的霍皮族 (Hopi) 图腾壁画。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Desert+View+Watchtower+Grand+Canyon" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>
@@ -148,8 +185,8 @@
       </div>
     </div>
 
-    <!-- 节点 4 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <!-- 节点 3 -->
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-indigo-100 text-indigo-800 font-bold text-xs">17:00 - 18:30</span>
@@ -157,10 +194,12 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-indigo-100 text-indigo-800 text-xs font-medium">安全避开夜路</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🚗 林区驾驶与动物防范：</strong>于 17:00 准时驶出公园南门，沿 AZ-64 与 US-180 驱车 1.5 小时前往旗杆镇。黄昏林区路段严格控制车速在 45-55 mph 以下，防范大角鹿横穿，在 18:30 天黑前顺利抵达 <strong>旗杆镇凯悦嘉轩酒店 (Hyatt Place Flagstaff)</strong>。</p>
         <p><strong>🛒 全食超市晚餐：</strong>入住安顿后，可前往隔壁的全食超市 (Whole Foods Market) 采购新鲜水果、热食与晚餐。</p>
       </div>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Hyatt+Place+Flagstaff" target="_blank" class="inline-flex items-center space-x-1.5 px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-dot text-amber-500"></i>

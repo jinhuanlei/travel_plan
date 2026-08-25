@@ -16,6 +16,7 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif; }
     .hero-gradient { background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.9) 100%); }
+    details > summary::-webkit-details-marker { display: none; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-200">
@@ -85,18 +86,18 @@
     </div>
   </div>
 
-  <!-- 分时段深度行程 -->
+  <!-- 分时段深度行程与图文百科 -->
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-6">
 
     <div class="flex items-center space-x-3 mb-6">
       <span class="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-sm shadow-sm">
         <i class="fa-solid fa-clock"></i>
       </span>
-      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程安排</h2>
+      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程与图文百科</h2>
     </div>
 
     <!-- 节点 1 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs">10:30 - 12:30</span>
@@ -104,14 +105,38 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">室内趣味慢游</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Coca Cola Store Las Vegas" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🥤 可口可乐旗舰店 (Coca-Cola Store) 16国环球饮料品尝盘</span>
+          <span class="text-amber-300 text-[11px]">2层室内空调区</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🥤 可口可乐旗舰店 (Coca-Cola Store)：</strong>打车直达大道南端。在 2 楼体验著名的“环球 16 种可乐风味品尝套餐 (Around the World Tray)”，品尝世界各国奇趣饮料并与经典北极熊合影，全室内空调，趣味满满。</p>
         <p><strong>🍫 M&M's 巧克力世界：</strong>顺步漫步隔壁的 4 层巧克力互动展馆，挑选定制纪念品。游览约 1.5 小时后打车回酒店午休。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>趣味百科：16国特色可乐与北极熊合影 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🌍 环球风味：</strong>品尝托盘包含来自意大利（苦味草本 Beverly）、秘鲁（印加可乐 Inca Kola）、南非、泰国等 16 种不同国家独特配方的汽水，全家边尝边猜，趣味十足。</p>
+        </div>
+      </details>
     </div>
 
     <!-- 节点 2 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-orange-100 text-orange-800 font-bold text-xs">17:30 - 18:30</span>
@@ -119,9 +144,34 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-medium">全景空调座舱</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1581351721010-8cf859cb14a4?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="High Roller Observation Wheel" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🎡 豪客摩天轮 (High Roller) 167米高空俯瞰拉斯维加斯大道</span>
+          <span class="text-amber-300 text-[11px]">30分钟平稳旋转</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🎡 30 分钟平稳旋转：</strong>打车前往 LINQ 商业街。搭乘配有空调的封闭式巨型座舱，在慢速旋转中缓缓升至 167 米高空，一边欣赏落日晚霞，一边俯瞰大道两旁霓虹灯光次第亮起，体能消耗为零。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>工程百科：北美最高观景摩天轮的构造 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🎡 167 米高空平稳运行：</strong>豪客摩天轮拥有 28 个球形全景观光舱，每个球舱可容纳 40 人，舱内配备全自动水平自平衡系统与冷暖空调，即便在最高点也毫无晃动感，极其平稳舒适。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=High+Roller+Las+Vegas" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>
@@ -131,7 +181,7 @@
     </div>
 
     <!-- 节点 3 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 font-bold text-xs">18:15 - 21:30</span>
@@ -139,10 +189,12 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-medium">Yelp 线上无缝排队</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🥩 烧肉盛宴与零排队技巧：</strong>下午 15:30~17:45 在手机 Yelp App 加入 888 Japanese BBQ 的 Waitlist 线上排队。摩天轮结束后打车（约 $10-$12，10分钟车程）直达餐厅，到店即叫号入座！全家畅享高品质日式黑毛和牛与烤肉自助。</p>
         <p><strong>🚣 大运河购物中心 (Grand Canal Shoppes)：</strong>餐后打车前往威尼斯人室内大运河商圈，在人造蓝天白云下漫步消化，欣赏贡多拉船夫歌声，随后打车返回酒店。</p>
       </div>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=888+Japanese+BBQ+Las+Vegas" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-utensils text-amber-500"></i>

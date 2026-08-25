@@ -16,6 +16,7 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif; }
     .hero-gradient { background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.9) 100%); }
+    details > summary::-webkit-details-marker { display: none; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-200">
@@ -85,25 +86,35 @@
     </div>
   </div>
 
-  <!-- 分时段深度行程 -->
+  <!-- 分时段深度行程与图文百科 -->
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-6">
 
     <div class="flex items-center space-x-3 mb-6">
       <span class="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-sm shadow-sm">
         <i class="fa-solid fa-clock"></i>
       </span>
-      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程安排</h2>
+      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程与图文百科</h2>
     </div>
 
     <!-- 节点 1 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs">09:00 - 10:50</span>
           <h3 class="font-bold text-slate-900 text-base">威廉姆斯车览 ➔ 【可选】塞利格曼 (Seligman) 66号公路情怀打卡</h3>
         </div>
-        <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">I-40 沿线</span>
+        <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">母亲之路传奇</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Route 66 Seligman" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🚗 塞利格曼 66号公路怀旧街区与彩色古董老爷车</span>
+          <span class="text-amber-300 text-[11px]">《赛车总动员》原型地</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🚂 威廉姆斯车览 (Williams)：</strong>在凯悦享用早餐后退房（09:00 出发）。沿 I-40 西行，顺路穿过高山松林小镇威廉姆斯，车窗内近距离饱览百年大峡谷蒸汽火车站与古董蒸汽机车，无需下车，轻松掠过。</p>
         <p><strong>✨【可选项目 1：塞利格曼/Seligman (66号公路传奇名镇)】</strong>(10:15 - 10:50)：
@@ -111,35 +122,61 @@
           <br>• <strong>漫步体验：</strong>在明媚阳光下漫步平坦主街，道路两侧停放着画有卡通大眼睛的 1930~1950 年代古董老爷车、老式加油机与趣味路标（如著名的雪帽汽车餐厅 Delgadillo's Snow Cap），拍照极其出片。平整硬化地面，停留 25~35 分钟，体能消耗极低（免费，无需门票；<em>若感疲劳可在车内慢速观赏后直行</em>）。
         </p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>文化百科：66号公路“母亲之路”的复兴历史 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🛣️ 母亲之路 (Mother Road)：</strong>66 号公路建于 1926 年，东起芝加哥，西至洛杉矶圣莫尼卡，全长近 4000 公里，承载着无数美国开拓者的梦想。小镇塞利格曼的理发师安赫尔·德尔加迪洛 (Angel Delgadillo) 发起保护运动，最终使这里成为全美保存最完好的历史 66 号公路重镇。</p>
+        </div>
+      </details>
     </div>
 
     <!-- 节点 2 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
-      <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
-        <div class="flex items-center space-x-2.5">
-          <span class="px-2.5 py-1 rounded-lg bg-orange-100 text-orange-800 font-bold text-xs">11:45 - 12:45</span>
-          <h3 class="font-bold text-slate-900 text-base">金曼 (Kingman) 66号公路枢纽午餐与休息</h3>
-        </div>
-        <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">中途就餐与加油</span>
-      </div>
-      <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
-        <p><strong>🍔 午餐推荐：</strong>驱车 50 分钟抵达 66 号公路重镇金曼。推荐在著名的 <em>Mr. D'z Route 66 Diner</em>（复古蓝粉色调美式餐厅）或 <em>Calico's Restaurant</em> 享用午餐。餐厅环境宽敞舒适，餐后顺手将油箱加满。</p>
-      </div>
-    </div>
-
-    <!-- 节点 3 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-blue-100 text-blue-800 font-bold text-xs">13:45 - 15:15</span>
           <h3 class="font-bold text-slate-900 text-base">胡佛大坝旁侧桥观景台 ➔ 【可选】博尔德城野生大角羊</h3>
         </div>
-        <span class="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-medium">工程奇观与野生动物</span>
+        <span class="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-medium">世界水利奇迹</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1582234044738-9580554181f2?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Hoover Dam Bypass Bridge" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🌉 胡佛大坝 (Hoover Dam) 拱形重力大坝与高空人行桥</span>
+          <span class="text-amber-300 text-[11px]">无障碍坡道直达</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🌉 胡佛大坝旁侧桥 (Hoover Dam Bypass Bridge Walkway)：</strong>在胡佛大坝前驶下，停靠于大坝桥专用免费停车场。沿着平缓的无障碍坡道登上人行观景桥，在高空直接俯瞰壮丽的胡佛大坝工程与科罗拉多河（免费，无需门票）。</p>
         <p><strong>🐑【可选项目 2：博尔德城海明威公园 (Hemenway Park)】</strong>(14:35 - 15:15)：当年为建大坝而建的历史绿洲小镇，绿树成荫。小镇内的海明威公园常年有成群的野生<strong>沙漠大角羊 (Desert Bighorn Sheep)</strong> 在平整绿草坪上悠闲吃草。车停公园旁即可在草坪边安全近距离观察（免费，无需门票；<em>若感疲劳可直接直行去酒店</em>）。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>工程与生态百科：胡佛大坝奇迹与沙漠大角羊 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🌊 工程壮举：</strong>建于 1931~1936 年大萧条时期的胡佛大坝高 221 米，混凝土浇筑量达 325 万立方米。它拦蓄科罗拉多河形成了全美最大人工湖——米德湖 (Lake Mead)，至今为内华达与加州供应着清洁水电与水源。</p>
+          <p><strong>🐑 沙漠大角羊：</strong>内华达州的官方州兽，善于在陡峭岩壁上跳跃。博尔德城的海明威公园种植有新鲜绿草并有喷淋水源，大角羊常在午后来此饮水纳凉，性格温和。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Hoover+Dam+Bypass+Bridge+Parking" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>
@@ -148,8 +185,8 @@
       </div>
     </div>
 
-    <!-- 节点 4 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <!-- 节点 3 -->
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-purple-100 text-purple-800 font-bold text-xs">16:00 - 21:30</span>
@@ -157,11 +194,13 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800 text-xs font-medium">赌城连住 4 晚</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🏨 入住酒店 (16:00)：</strong>驱车 40 分钟在天黑前顺利抵达 <strong>拉斯维加斯凯悦嘉轩酒店 (Hyatt Place Las Vegas)</strong>（确认号: 40023B22959570）。酒店避开赌场嘈杂，包含全家热早餐并提供免费停车，连住 4 晚不挪窝！</p>
         <p><strong>🌊 百乐宫喷泉水秀 (18:30)：</strong>在酒店打车（约 $8-$10，5-7分钟）直达百乐宫酒店门前，观赏声光水影交织的喷泉秀，并在附近轻松就餐。</p>
         <p><strong>🎭 太阳马戏团《O秀》(19:30)：</strong>在百乐宫专用水上剧院入座观赏 90 分钟水上大秀。坐席舒适，视觉震撼，无语言门槛，全平路低体能消耗。散场后打车返回酒店休息。</p>
       </div>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Hyatt+Place+Las+Vegas+Paradise+Rd" target="_blank" class="inline-flex items-center space-x-1.5 px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-dot text-amber-500"></i>

@@ -16,6 +16,7 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif; }
     .hero-gradient { background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.9) 100%); }
+    details > summary::-webkit-details-marker { display: none; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-200">
@@ -85,28 +86,53 @@
     </div>
   </div>
 
-  <!-- 分时段深度行程 -->
+  <!-- 分时段深度行程与图文百科 -->
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-6">
 
     <div class="flex items-center space-x-3 mb-6">
       <span class="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-sm shadow-sm">
         <i class="fa-solid fa-clock"></i>
       </span>
-      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程安排</h2>
+      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程与图文百科</h2>
     </div>
 
     <!-- 节点 1 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs">09:00 - 09:45</span>
           <h3 class="font-bold text-slate-900 text-base">拉斯维加斯退房 ➔ 七彩巨石 (Seven Magic Mountains) 合影</h3>
         </div>
-        <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">I-15 路旁免费地标</span>
+        <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">I-15 路旁艺术地标</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Seven Magic Mountains" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🎨 七彩巨石 (Seven Magic Mountains) 沙漠中的荧光巨石艺术塔</span>
+          <span class="text-amber-300 text-[11px]">免费停车参观</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🎨 艺术地标合影：</strong>在凯悦享用早餐后退房南下，行驶 25 分钟停靠于七彩巨石停车场。全家沿着平坦路面慢步 80 米到高耸的彩色荧光巨石塔前合影，停留 15~20 分钟（免费，无需门票/预约）。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>艺术百科：七彩巨石的设计初衷 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🎨 大地艺术：</strong>瑞士艺术家乌戈·隆迪诺内 (Ugo Rondinone) 历时 5 年创作，由 33 块重达数十吨的本地石灰岩巨石叠放成 7 座高达 9~11 米的石塔，涂抹鲜艳的荧光色，象征自然与人造文明的诗意交汇。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Seven+Magic+Mountains" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>
@@ -116,7 +142,7 @@
     </div>
 
     <!-- 节点 2 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 font-bold text-xs">12:30 - 14:00</span>
@@ -124,12 +150,38 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-medium">持年票免费进入</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Joshua Tree Skull Rock" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🌵 约书亚树国家公园 (Joshua Tree) 骷髅岩与标志性约书亚树林</span>
+          <span class="text-amber-300 text-[11px]">公路正旁平步拍照</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🌵 纯平路低体能车游：</strong>经 CA-247 公路驶入约书亚树国家公园。奇形怪状的约书亚树与巨大花岗岩巨石林立：
           <br>• <strong>奇亚斯岩 (Cap Rock)：</strong>拥有全平坦硬化的 0.4 英里无障碍环形步道，漫步其间仿佛置身外星球；
           <br>• <strong>骷髅岩 (Skull Rock)：</strong>正位于主公路边，下车走 20 米平路即可在巨大骷髅状岩石前合影。
         </p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>植物与地质百科：不是“树”的约书亚树与巨石成因 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🌵 约书亚树的植物学身份：</strong>约书亚树（学名：短叶丝兰 <em>Yucca brevifolia</em>）在生物学上其实属于百合科龙舌兰亚科，并不是真正的树木！它们生长极慢（每年仅长 1~3 厘米），寿命可达数百年以上。</p>
+          <p><strong>🪨 巨大花岗岩巨石：</strong>公园内圆润奇特的白色巨石群形成于 1 亿年前地下的岩浆冷却，经过地壳抬升与数千万年的地下水溶蚀风化，形成了今日奇幻的地质公园景观。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Joshua+Tree+National+Park+Visitor+Center" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>
@@ -139,7 +191,7 @@
     </div>
 
     <!-- 节点 3 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-indigo-100 text-indigo-800 font-bold text-xs">14:45 - 21:00</span>
@@ -147,11 +199,13 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-indigo-100 text-indigo-800 text-xs font-medium">棕榈泉度假时光</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🏨 入住酒店 (14:45)：</strong>驱车 45 分钟抵达棕榈泉市中心，入住 <strong>拉斯布里萨斯贝斯特韦斯特优选酒店 (Best Western Plus Las Brisas Hotel)</strong>。酒店充满地中海风情，包含免费热早餐。</p>
         <p><strong>♨️ 露天热水水疗池 (Hot Tub)：</strong>下午在酒店户外热水池泡温泉，洗去几天自驾的疲乏。</p>
         <p><strong>🌮 Tac/Quila 餐厅晚餐 (18:30)：</strong>从酒店出门沿着平坦林荫大道步行仅 5 分钟（约 400 米）即可抵达高分人气餐厅 <strong>Tac/Quila 餐厅</strong> (415 N Palm Canyon Dr)。品尝美味墨西哥卷饼、鲜榨果汁与特色烤肉，环境惬意温馨。</p>
       </div>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Best+Western+Plus+Las+Brisas+Hotel+Palm+Springs" target="_blank" class="inline-flex items-center space-x-1.5 px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-dot text-amber-500"></i>

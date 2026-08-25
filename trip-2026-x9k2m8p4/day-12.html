@@ -16,6 +16,7 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif; }
     .hero-gradient { background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.9) 100%); }
+    details > summary::-webkit-details-marker { display: none; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-200">
@@ -85,18 +86,18 @@
     </div>
   </div>
 
-  <!-- 分时段深度行程 -->
+  <!-- 分时段深度行程与图文百科 -->
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-6">
 
     <div class="flex items-center space-x-3 mb-6">
       <span class="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-sm shadow-sm">
         <i class="fa-solid fa-clock"></i>
       </span>
-      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程安排</h2>
+      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程与图文百科</h2>
     </div>
 
     <!-- 节点 1 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs">10:00 - 13:00</span>
@@ -104,10 +105,36 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-sky-100 text-sky-800 text-xs font-medium">艺术殿堂与城市全景</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="The Getty Center Gardens" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🏛️ 盖蒂中心 (The Getty Center) 白石建筑群与中央露天花园</span>
+          <span class="text-amber-300 text-[11px]">免费轻轨直达山顶</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🚊 无障碍轻轨直达山顶：</strong>从山脚停车场搭乘免费电动轻轨缆车直达山顶美术馆。馆内所有展厅均配备电梯与轮椅通道，平整开阔，收藏有梵高《鸢尾花》等名画。</p>
         <p><strong>🌺 中央露天花园与午餐：</strong>室外中央花园繁花似锦，向南可俯瞰洛杉矶全景与太平洋海岸线。在馆内庭院餐厅轻松享用午餐。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>建筑与艺术百科：理查德·迈耶的白色石灰华艺术 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🏛️ 建筑用料：</strong>由著名建筑大师理查德·迈耶 (Richard Meier) 设计，外墙采用从意大利罗马运来的 1.6 万吨米黄色石灰华 (Travertine) 石材，阳光照耀下呈现温暖而高雅的米白质感。</p>
+          <p><strong>🎨 镇馆名画：</strong>西展厅展出梵高在圣雷米疗养院创作的代表作《鸢尾花》(Irises)，色彩浓郁生动，全展厅均为无障碍平路。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=The+Getty+Center+Los+Angeles" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>
@@ -117,7 +144,7 @@
     </div>
 
     <!-- 节点 2 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 font-bold text-xs">14:30 - 15:30</span>
@@ -125,13 +152,37 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-medium">下车即达零爬坡</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1580655653885-65763b2597d0?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Hollywood Sign from Park" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🏞️ 好莱坞湖公园 (Lake Hollywood Park) 绿色草坪与标志牌合影</span>
+          <span class="text-amber-300 text-[11px]">经典平地机位</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🏞️ 最佳经典机位：</strong>驱车前往好莱坞山脚下的好莱坞湖公园。车停路边即可步入开阔平坦的绿色大草坪，近距离正对著名的 <strong>好莱坞标志 (Hollywood Sign)</strong>，合影留念极其惬意，完全无需登山爬坡。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>影史百科：好莱坞标志 (Hollywood Sign) 的百年传奇 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🎬 原为地产广告：</strong>这块立于 1923 年的标志最初写着“HOLLYWOODLAND”，原是房地产项目的户外广告牌。随着美国电影黄金时代的崛起，它于 1949 年去掉了“LAND”，成为全球电影工业的象征符号。</p>
+        </div>
+      </details>
     </div>
 
     <!-- 节点 3 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-purple-100 text-purple-800 font-bold text-xs">16:30 - 18:30</span>
@@ -139,10 +190,35 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800 text-xs font-medium">自驾终章圆满时刻</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Santa Monica Pier Sunset" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🌅 圣莫尼卡海滩木栈桥 (Santa Monica Pier) 太平洋壮丽落日</span>
+          <span class="text-amber-300 text-[11px]">66号公路终点站</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🌊 66号公路终点 (Route 66 End of Trail)：</strong>沿着完全平坦的圣莫尼卡木栈道慢步，在著名的“66号公路终点标志牌”前合影留念。</p>
         <p><strong>🌅 壮丽太平洋落日：</strong>吹着加州清凉的海风，听着海浪声，在木栈桥边静静凝望金色夕阳缓缓坠入浩瀚太平洋，为这场跨越犹他、亚利桑那、内华达与加州的精彩自驾之旅画上最温馨圆满的句号！</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>人文百科：66号公路在此融入太平洋 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🌊 终点牌的意义：</strong>建于 1909 年的圣莫尼卡码头是美国西海岸最古老的木质码头之一。木栈桥尽头的“Route 66 - End of the Trail”标志象征着全长 3940 公里的母亲之路在此到达大洋终点，是所有自驾旅人最具仪式感的打卡地。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Santa+Monica+Pier" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>

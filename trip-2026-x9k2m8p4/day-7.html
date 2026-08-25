@@ -16,6 +16,7 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif; }
     .hero-gradient { background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.9) 100%); }
+    details > summary::-webkit-details-marker { display: none; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-200">
@@ -85,18 +86,18 @@
     </div>
   </div>
 
-  <!-- 分时段深度行程 -->
+  <!-- 分时段深度行程与图文百科 -->
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-6">
 
     <div class="flex items-center space-x-3 mb-6">
       <span class="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-sm shadow-sm">
         <i class="fa-solid fa-clock"></i>
       </span>
-      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程安排</h2>
+      <h2 class="text-xl font-bold text-slate-900">当日深度分时段行程与图文百科</h2>
     </div>
 
     <!-- 节点 1 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs">10:00 - 12:00</span>
@@ -104,6 +105,7 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">全室内空调体验</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🎯 专业射击体验：</strong>自驾前往 <strong>战场拉斯维加斯 (Battlefield Vegas)</strong> 或 <strong>702射击场 (The Range 702)</strong>。现场配有专业一对一安全教练指导，体验各种经典枪型射击（附带免费专用停车场）。</p>
         <p><strong>🛌 中午回酒店洗漱：</strong>12:00 结束射击后自驾返回凯悦酒店洗漱并午休，将下午和晚上的出行状态调整到最佳。</p>
@@ -111,7 +113,7 @@
     </div>
 
     <!-- 节点 2 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-amber-100 text-amber-800 font-bold text-xs">13:00 - 16:30</span>
@@ -119,13 +121,37 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">室内艺术与建筑</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Bellagio Conservatory Autumn" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🌸 百乐宫室内温室花园 (Conservatory & Botanical Gardens)</span>
+          <span class="text-amber-300 text-[11px]">秋季丰收艺术主题</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🌸 百乐宫室内温室花园 (Conservatory & Botanical Gardens)：</strong>打车前往百乐宫。漫步观赏由数万朵鲜花与艺术装置精心布置的秋季主题花卉展（免费入内，全空调平路）。随后漫步至隔壁凯撒皇宫酒店，观赏罗马风情建筑与喷泉。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>艺术百科：百乐宫温室花卉的造景魔法 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🍁 四季更迭的玻璃穹顶：</strong>百乐宫温室占地 1300 平方米，由 120 多位专业园艺师与工程团队维护。10 月份呈现经典的“秋季丰收”主题，巨型南瓜树屋、金黄色银杏树与数万株鲜活菊花构建出童话般的室内园林奇观。</p>
+        </div>
+      </details>
     </div>
 
     <!-- 节点 3 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 font-bold text-xs">16:45 - 18:45</span>
@@ -133,13 +159,14 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-medium">已预约 16:45 入座</span>
       </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🍽️ 美食盛宴：</strong>在凯撒皇宫享用著名的 <strong>凯撒皇宫自助餐 (Caesars Bacchanal Buffet)</strong>。汇聚新鲜海鲜、烤肉排、精美甜点等百余种料理，全家人慢节奏就餐 2 小时，大饱口福。</p>
       </div>
     </div>
 
     <!-- 节点 4 -->
-    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
+    <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
         <div class="flex items-center space-x-2.5">
           <span class="px-2.5 py-1 rounded-lg bg-purple-100 text-purple-800 font-bold text-xs">19:15 - 22:00</span>
@@ -147,9 +174,34 @@
         </div>
         <span class="px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800 text-xs font-medium">地标级视听震撼</span>
       </div>
+
+      <!-- 实景图片卡片 -->
+      <div class="rounded-xl overflow-hidden shadow-sm relative group">
+        <img src="https://images.unsplash.com/photo-1581351721010-8cf859cb14a4?auto=format&fit=crop&w=1200&q=80" class="w-full h-48 sm:h-56 object-cover transition-transform duration-300 group-hover:scale-[1.01]" alt="Sphere Las Vegas Exterior" />
+        <div class="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs flex items-center justify-between">
+          <span>🌐 拉斯维加斯球形馆 (Sphere Las Vegas) 巨型球体光影秀</span>
+          <span class="text-amber-300 text-[11px]">20:00 场次</span>
+        </div>
+      </div>
+
       <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
         <p><strong>🌐 全球瞩目的地标体验：</strong>在凯撒皇宫打车直达 <strong>Sphere Las Vegas</strong>。提前 40 分钟检票入场，观赏 20:00 超大球幕电影。坐在配有人体工学舒适座椅与声学系统的大厅内，享受震撼的沉浸式视觉盛宴。散场后打车直达酒店休息。</p>
       </div>
+
+      <!-- 📖 可折叠百科面板 -->
+      <details class="group bg-amber-50/60 border border-amber-200/80 rounded-xl overflow-hidden transition-all">
+        <summary class="flex items-center justify-between px-4 py-2.5 cursor-pointer text-xs font-bold text-amber-900 select-none hover:bg-amber-100/60">
+          <span class="flex items-center space-x-2">
+            <i class="fa-solid fa-book-open text-amber-600"></i>
+            <span>科技百科：Sphere 巨型球形馆的技术奥秘 (点击展开)</span>
+          </span>
+          <i class="fa-solid fa-chevron-down text-amber-600 group-open:rotate-180 transition-transform text-xs"></i>
+        </summary>
+        <div class="px-4 pb-3 pt-2 text-xs text-slate-700 space-y-2 border-t border-amber-200/60">
+          <p><strong>🌐 建筑与视听奇迹：</strong>Sphere 高 112 米，宽 157 米，是全球最大的球形建筑。外部包裹着 5.4 万平方米的超高清 LED 外屏；内部拥有 16K 分辨率的沉浸式环形曲面屏，配合 16.7 万个定向扬声器系统，打造身临其境的视听包围感。</p>
+        </div>
+      </details>
+
       <div class="pt-2">
         <a href="https://maps.google.com/?q=Sphere+Las+Vegas" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
           <i class="fa-solid fa-location-arrow text-amber-500"></i>
