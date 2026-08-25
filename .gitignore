@@ -1,0 +1,21 @@
+# Sensitive personal info files (containing passport, phone, address, visa info)
+travel_plan_en.md
+travel_plan_en.pdf
+邀请函.doc
+邀请函.pdf
+*.doc
+*.docx
+*.pdf
+
+# Agent instructions & internal rules
+.agents/
+.agents/*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
