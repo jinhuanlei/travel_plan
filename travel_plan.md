@@ -3,7 +3,7 @@
 ## 🗺️ 旅行计划总览 (Trip Overview)
 
 - **行程日期**：10月12日 至 10月24日 (共13天)
-- **航班时间**：10月12日 早上 10:00 降落洛杉矶国际机场 (LAX) => 10月12日 下午转机飞往盐湖城国际机场 (SLC)
+- **航班时间**：10月12日 早上 10:00 降落洛杉矶国际机场 (LAX) => 10月12日 16:31 搭乘美联航/United Airlines UA5307 转机飞往盐湖城国际机场 (SLC)，19:25 抵达
 - **离境航班**：10月24日 中午 12:30 起飞回国 (LAX)
 - **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 盐湖城 (Salt Lake City) => 犹他州议会大厦 (Utah State Capitol) => 圣殿广场 (Temple Square) => 大盐湖羚羊岛州立公园 (Antelope Island State Park) => 科洛布峡谷景区 (Kolob Canyons) => 圣乔治 (St. George) => 锡安国家公园 (Zion National Park) => 雪谷州立公园 (Snow Canyon State Park) => 【可选】管泉国家纪念地 (Pipe Spring National Monument) => 【可选】悬崖民居奇石屋 (Cliff Dwellers) => 纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff) => 威廉姆斯 (Williams) => 【可选】塞利格曼 (Seligman, Route 66) => 胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge) => 【可选】博尔德城与海明威公园 (Boulder City & Hemenway Park) => 拉斯维加斯 (Las Vegas) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 【可选】卡巴松巨型恐龙 (Cabazon Dinosaurs) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
 
@@ -25,9 +25,9 @@
 ### Day 1 (10月12日): 抵达洛杉矶 (Arrive in Los Angeles) => 转机 => 盐湖城 (Salt Lake City)
 
 - **今日车程**：仅机场到酒店约 20 分钟。
-- **今日交通**：全天自驾 (Drive) / 飞行转机与机场取车自驾。
-- **今日行程**：早上 10:00 班机降落洛杉矶国际机场 (LAX)。在洛杉矶国际机场通关并提取所有托运行李，通过美国海关后，在转机处重新托运行李，随后搭乘内陆航班飞往盐湖城 (Salt Lake City)。抵达后在航站楼顺畅办理租车手续，驱车前往市中心酒店入住。
-- **时差调整**：考虑到长途国际飞行，今日不安排任何观光项目。下午直接在酒店休息、调整时差。可在酒店附近进行简单的晚餐和超市物资（水、零食）补给。
+- **今日交通**：国际航班抵达 LAX 后转乘美联航/United Airlines UA5307 国内段飞往盐湖城；抵达盐湖城机场后取车自驾前往酒店。
+- **今日行程**：早上 10:00 班机降落洛杉矶国际机场 (LAX)。在洛杉矶国际机场通关并提取所有托运行李，通过美国海关后，在转机处重新托运行李。转机衔接时间较为宽裕（约 6 小时），可在候机楼内从容用餐、休息，无需赶路。下午 16:31 搭乘 UA5307 航班飞往盐湖城 (Salt Lake City)，19:25 抵达。抵达后在航站楼办理租车手续，驱车约 20 分钟前往市中心酒店，预计 20:30 前后办理入住。
+- **时差调整**：由于抵达酒店时间较晚，今日不安排任何观光项目，全天以交通与入住为主。建议在洛杉矶转机候机时或抵达盐湖城前提前解决晚餐（如机场简餐），入住后直接休息，为次日行程养精蓄锐。
 
 ### Day 2 (10月13日): 盐湖城 (Salt Lake City) => 羚羊岛州立公园 (Antelope Island State Park) => 盐湖城 (Salt Lake City)
 
@@ -175,6 +175,7 @@ _【已订妥入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，使用 �
 
 ### 1. ✅ 已落实预订的项目清单 (Already Booked)
 
+- **✈️ 洛杉矶转盐湖城国内段机票/Domestic Connecting Flight (LAX => SLC)**：**已订妥** (确认号/Confirmation #: E7L9VV，美联航/United Airlines UA5307，经济舱，10月12日 16:31 起飞 => 19:25 抵达盐湖城)。
 - **🚗 跨州异地租车服务/Car Rental & One-Way Drop-off** (盐湖城/Salt Lake City 租车，洛杉矶/Los Angeles 还车)：**已订妥**。
 - **🏨 盐湖城/市中心凯悦嘉轩酒店/Hyatt Place Salt Lake City/Downtown/The Gateway** (Day 1 10月12日入住 2 晚)：**已订妥** (自助停车为 $15/晚，包含无限次进出特权)。
 - **🏨 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center** (Day 3 10月14日入住 2 晚)：**已订妥** (包含全家热早餐，适合连续入住休息)。

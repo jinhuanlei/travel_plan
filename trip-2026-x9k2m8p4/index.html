@@ -1,1246 +1,2580 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
-  <title>美西自驾旅行手册 (U.S. Road Trip Guide)</title>
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+    <title>美西自驾旅行手册 (U.S. Road Trip Guide)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['"Plus Jakarta Sans"', '"Noto Sans SC"', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              50: '#fffbeb',
-              100: '#fef3c7',
-              500: '#f59e0b',
-              600: '#d97706',
-              700: '#b45309',
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', '"Noto Sans SC"', 'sans-serif'],
             },
-            canyon: {
-              50: '#fff7ed',
-              100: '#ffedd5',
-              500: '#f97316',
-              600: '#ea580c',
-              700: '#c2410c',
-            }
-          }
+            colors: {
+              brand: {
+                50: '#fffbeb',
+                100: '#fef3c7',
+                500: '#f59e0b',
+                600: '#d97706',
+                700: '#b45309',
+              },
+              canyon: {
+                50: '#fff7ed',
+                100: '#ffedd5',
+                500: '#f97316',
+                600: '#ea580c',
+                700: '#c2410c',
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 5rem;
+      }
+      @media (min-width: 1024px) {
+        html {
+          scroll-padding-top: 2rem;
         }
       }
-    }
-  </script>
-  <style>
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 5rem;
-    }
-    @media (min-width: 1024px) {
-      html {
-        scroll-padding-top: 2rem;
+      .hero-gradient {
+        background: linear-gradient(
+          180deg,
+          rgba(15, 23, 42, 0.45) 0%,
+          rgba(15, 23, 42, 0.88) 100%
+        );
       }
-    }
-    .hero-gradient {
-      background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.88) 100%);
-    }
-    /* 自定义美化滚动条 */
-    ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #f1f5f9;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #cbd5e1;
-      border-radius: 9999px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #94a3b8;
-    }
-    .nav-active {
-      background-color: rgba(245, 158, 11, 0.15);
-      color: #f59e0b;
-      font-weight: 600;
-      border-left: 3px solid #f59e0b;
-    }
-  </style>
-</head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-200 overflow-x-hidden">
-
-  <!-- ========================================================================= -->
-  <!-- 🖥️ 电脑端左侧常驻侧边导航栏 (Desktop Sidebar Navigation) -->
-  <!-- ========================================================================= -->
-  <aside class="hidden lg:flex lg:flex-col lg:w-72 lg:fixed lg:inset-y-0 lg:z-50 bg-slate-900 text-white border-r border-slate-800">
-    
-    <!-- 侧边栏头部 -->
-    <div class="p-5 border-b border-slate-800">
-      <div class="flex items-center space-x-3">
-        <span class="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center text-slate-950 font-bold shadow-md">
-          <i class="fa-solid fa-route text-lg"></i>
-        </span>
-        <div>
-          <div class="font-bold text-base tracking-tight text-white">美西自驾路书</div>
-          <div class="text-[11px] text-amber-400 font-medium">10.12 - 10.24 • 13天12晚</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 侧边栏导航列表 -->
-    <div class="flex-1 overflow-y-auto py-4 px-3 space-y-1 text-xs sm:text-sm font-medium">
-      
-      <div class="px-3 py-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider">核心导航</div>
-      
-      <a href="#overview" class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group">
-        <i class="fa-solid fa-gauge-high w-5 text-slate-400 group-hover:text-amber-400 transition-colors"></i>
-        <span>行程总览 & 指标</span>
-      </a>
-
-      <a href="#route-map" class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group">
-        <i class="fa-solid fa-map-location-dot w-5 text-slate-400 group-hover:text-amber-400 transition-colors"></i>
-        <span>自驾路线全景图谱</span>
-      </a>
-
-      <a href="#hotels" class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group">
-        <i class="fa-solid fa-hotel w-5 text-slate-400 group-hover:text-amber-400 transition-colors"></i>
-        <span>宾馆住宿总结</span>
-        <span class="ml-auto px-1.5 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-800">已订妥</span>
-      </a>
-
-      <div class="pt-3 px-3 py-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider">13 天每日专属详情页</div>
-
-      <div class="pl-2 space-y-0.5">
-        <a href="day-1.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D1</span>
-          <span>10.12 抵美 ➔ 盐湖城</span>
-        </a>
-        <a href="day-2.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D2</span>
-          <span>10.13 盐湖城 ➔ 羚羊岛</span>
-        </a>
-        <a href="day-3.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D3</span>
-          <span>10.14 科洛布峡谷 ➔ 圣乔治</span>
-        </a>
-        <a href="day-4.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D4</span>
-          <span>10.15 锡安国家公园慢游</span>
-        </a>
-        <a href="day-5.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D5</span>
-          <span>10.16 大峡谷南缘 ➔ 旗杆镇</span>
-        </a>
-        <a href="day-6.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D6</span>
-          <span>10.17 66号公路 ➔ 赌城大秀</span>
-        </a>
-        <a href="day-7.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D7</span>
-          <span>10.18 射击 ➔ 自助 ➔ Sphere</span>
-        </a>
-        <a href="day-8.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D8</span>
-          <span>10.19 摩天轮 ➔ 888 烧肉</span>
-        </a>
-        <a href="day-9.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D9</span>
-          <span>10.20 死亡谷避暑纯车游</span>
-        </a>
-        <a href="day-10.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D10</span>
-          <span>10.21 约书亚树 ➔ 棕榈泉</span>
-        </a>
-        <a href="day-11.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D11</span>
-          <span>10.22 旋转缆车 ➔ 洛杉矶</span>
-        </a>
-        <a href="day-12.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D12</span>
-          <span>10.23 盖蒂 ➔ 圣莫尼卡落日</span>
-        </a>
-        <a href="day-13.html" class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors">
-          <span class="w-5 text-[11px] font-bold text-slate-500">D13</span>
-          <span>10.24 顺利还车 ➔ 离境回国</span>
-        </a>
-      </div>
-
-      <div class="pt-3 px-3 py-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider">出行保障</div>
-
-      <a href="#checklist" class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group">
-        <i class="fa-solid fa-list-check w-5 text-slate-400 group-hover:text-amber-400 transition-colors"></i>
-        <span>预订落实清单</span>
-      </a>
-
-      <a href="#safety" class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group">
-        <i class="fa-solid fa-shield-halved w-5 text-amber-400 group-hover:text-amber-300 transition-colors"></i>
-        <span>核心安全指南</span>
-      </a>
-
-    </div>
-
-    <!-- 侧边栏底部操作区 -->
-    <div class="p-4 border-t border-slate-800 space-y-2">
-      <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="w-full py-2 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs flex items-center justify-center space-x-2 transition-colors">
-        <i class="fa-solid fa-arrow-up"></i>
-        <span>返回顶部</span>
-      </button>
-      <button onclick="window.print()" class="w-full py-2 px-3 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 text-xs flex items-center justify-center space-x-2 transition-colors">
-        <i class="fa-solid fa-print"></i>
-        <span>打印 / 保存为 PDF</span>
-      </button>
-    </div>
-
-  </aside>
-
-  <!-- ========================================================================= -->
-  <!-- 📱 手机端顶部吸顶导航栏 + 汉堡抽屉菜单 (Mobile Header & Slide-over Drawer) -->
-  <!-- ========================================================================= -->
-  <header class="lg:hidden sticky top-0 z-40 bg-slate-900/95 backdrop-blur-md text-white border-b border-slate-800 h-14 px-4 flex items-center justify-between">
-    <div class="flex items-center space-x-2.5">
-      <span class="w-7 h-7 rounded-lg bg-amber-500 flex items-center justify-center text-slate-950 font-bold text-xs">
-        <i class="fa-solid fa-route"></i>
-      </span>
-      <span class="font-bold text-sm text-white">美西自驾路书</span>
-      <span class="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-amber-400 font-medium">10.12-10.24</span>
-    </div>
-    
-    <button id="mobile-menu-btn" class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white focus:outline-none" aria-label="打开菜单">
-      <i class="fa-solid fa-bars text-base"></i>
-    </button>
-  </header>
-
-  <!-- 手机端抽屉菜单遮罩与面板 -->
-  <div id="mobile-drawer" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm hidden transition-opacity opacity-0">
-    <div id="drawer-panel" class="fixed inset-y-0 right-0 max-w-xs w-full bg-slate-900 text-white shadow-2xl p-5 flex flex-col justify-between transform translate-x-full transition-transform duration-300 ease-in-out">
-      
-      <div>
-        <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-4">
-          <div class="font-bold text-sm text-white flex items-center space-x-2">
-            <i class="fa-solid fa-compass text-amber-500"></i>
-            <span>导航目录</span>
-          </div>
-          <button id="close-drawer-btn" class="p-2 rounded-lg text-slate-400 hover:text-white" aria-label="关闭菜单">
-            <i class="fa-solid fa-xmark text-lg"></i>
-          </button>
-        </div>
-
-        <div class="space-y-2 overflow-y-auto max-h-[75vh] text-xs pr-1">
-          <a href="#overview" class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"><i class="fa-solid fa-gauge-high mr-2 text-amber-400"></i>行程总览 & 指标</a>
-          <a href="#route-map" class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"><i class="fa-solid fa-map-location-dot mr-2 text-amber-400"></i>自驾路线全景图谱</a>
-          <a href="#hotels" class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"><i class="fa-solid fa-hotel mr-2 text-amber-400"></i>宾馆住宿总结</a>
-          <a href="#checklist" class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"><i class="fa-solid fa-list-check mr-2 text-amber-400"></i>预订落实清单</a>
-          <a href="#safety" class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"><i class="fa-solid fa-shield-halved mr-2 text-amber-400"></i>核心安全指南</a>
-
-          <div class="pt-3 pb-1 text-[10px] font-bold text-slate-500 uppercase tracking-wider">每日专属详细方案直达</div>
-          <div class="grid grid-cols-2 gap-1.5 text-[11px]">
-            <a href="day-1.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D1 盐湖城</a>
-            <a href="day-2.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D2 羚羊岛</a>
-            <a href="day-3.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D3 科洛布</a>
-            <a href="day-4.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D4 锡安公园</a>
-            <a href="day-5.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D5 大峡谷</a>
-            <a href="day-6.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D6 66号公路</a>
-            <a href="day-7.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D7 Sphere</a>
-            <a href="day-8.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D8 烧肉摩天轮</a>
-            <a href="day-9.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D9 死亡谷</a>
-            <a href="day-10.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D10 约书亚树</a>
-            <a href="day-11.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D11 旋转缆车</a>
-            <a href="day-12.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors">D12 盖蒂落日</a>
-            <a href="day-13.html" class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors col-span-2">D13 LAX 离境</a>
+      /* 自定义美化滚动条 */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 9999px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+      .nav-active {
+        background-color: rgba(245, 158, 11, 0.15);
+        color: #f59e0b;
+        font-weight: 600;
+        border-left: 3px solid #f59e0b;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-200 overflow-x-hidden"
+  >
+    <!-- ========================================================================= -->
+    <!-- 🖥️ 电脑端左侧常驻侧边导航栏 (Desktop Sidebar Navigation) -->
+    <!-- ========================================================================= -->
+    <aside
+      class="hidden lg:flex lg:flex-col lg:w-72 lg:fixed lg:inset-y-0 lg:z-50 bg-slate-900 text-white border-r border-slate-800"
+    >
+      <!-- 侧边栏头部 -->
+      <div class="p-5 border-b border-slate-800">
+        <div class="flex items-center space-x-3">
+          <span
+            class="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center text-slate-950 font-bold shadow-md"
+          >
+            <i class="fa-solid fa-route text-lg"></i>
+          </span>
+          <div>
+            <div class="font-bold text-base tracking-tight text-white">
+              美西自驾路书
+            </div>
+            <div class="text-[11px] text-amber-400 font-medium">
+              10.12 - 10.24 • 13天12晚
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="pt-4 border-t border-slate-800">
-        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'}); toggleDrawer();" class="w-full py-2.5 rounded-xl bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center space-x-2">
+      <!-- 侧边栏导航列表 -->
+      <div
+        class="flex-1 overflow-y-auto py-4 px-3 space-y-1 text-xs sm:text-sm font-medium"
+      >
+        <div
+          class="px-3 py-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider"
+        >
+          核心导航
+        </div>
+
+        <a
+          href="#overview"
+          class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group"
+        >
+          <i
+            class="fa-solid fa-gauge-high w-5 text-slate-400 group-hover:text-amber-400 transition-colors"
+          ></i>
+          <span>行程总览 & 指标</span>
+        </a>
+
+        <a
+          href="#route-map"
+          class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group"
+        >
+          <i
+            class="fa-solid fa-map-location-dot w-5 text-slate-400 group-hover:text-amber-400 transition-colors"
+          ></i>
+          <span>自驾路线全景图谱</span>
+        </a>
+
+        <a
+          href="#hotels"
+          class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group"
+        >
+          <i
+            class="fa-solid fa-hotel w-5 text-slate-400 group-hover:text-amber-400 transition-colors"
+          ></i>
+          <span>宾馆住宿总结</span>
+          <span
+            class="ml-auto px-1.5 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-800"
+            >已订妥</span
+          >
+        </a>
+
+        <div
+          class="pt-3 px-3 py-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider"
+        >
+          13 天每日专属详情页
+        </div>
+
+        <div class="pl-2 space-y-0.5">
+          <a
+            href="day-1.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D1</span>
+            <span>10.12 抵美 ➔ 盐湖城</span>
+          </a>
+          <a
+            href="day-2.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D2</span>
+            <span>10.13 盐湖城 ➔ 羚羊岛</span>
+          </a>
+          <a
+            href="day-3.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D3</span>
+            <span>10.14 科洛布峡谷 ➔ 圣乔治</span>
+          </a>
+          <a
+            href="day-4.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D4</span>
+            <span>10.15 锡安国家公园慢游</span>
+          </a>
+          <a
+            href="day-5.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D5</span>
+            <span>10.16 大峡谷南缘 ➔ 旗杆镇</span>
+          </a>
+          <a
+            href="day-6.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D6</span>
+            <span>10.17 66号公路 ➔ 赌城大秀</span>
+          </a>
+          <a
+            href="day-7.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D7</span>
+            <span>10.18 射击 ➔ 自助 ➔ Sphere</span>
+          </a>
+          <a
+            href="day-8.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D8</span>
+            <span>10.19 摩天轮 ➔ 888 烧肉</span>
+          </a>
+          <a
+            href="day-9.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D9</span>
+            <span>10.20 死亡谷避暑纯车游</span>
+          </a>
+          <a
+            href="day-10.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D10</span>
+            <span>10.21 约书亚树 ➔ 棕榈泉</span>
+          </a>
+          <a
+            href="day-11.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D11</span>
+            <span>10.22 旋转缆车 ➔ 洛杉矶</span>
+          </a>
+          <a
+            href="day-12.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D12</span>
+            <span>10.23 盖蒂 ➔ 圣莫尼卡落日</span>
+          </a>
+          <a
+            href="day-13.html"
+            class="flex items-center px-3 py-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-amber-300 text-xs transition-colors"
+          >
+            <span class="w-5 text-[11px] font-bold text-slate-500">D13</span>
+            <span>10.24 顺利还车 ➔ 离境回国</span>
+          </a>
+        </div>
+
+        <div
+          class="pt-3 px-3 py-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider"
+        >
+          出行保障
+        </div>
+
+        <a
+          href="#checklist"
+          class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group"
+        >
+          <i
+            class="fa-solid fa-list-check w-5 text-slate-400 group-hover:text-amber-400 transition-colors"
+          ></i>
+          <span>预订落实清单</span>
+        </a>
+
+        <a
+          href="#safety"
+          class="flex items-center px-3 py-2.5 rounded-xl text-slate-300 hover:bg-slate-800 hover:text-white transition-all group"
+        >
+          <i
+            class="fa-solid fa-shield-halved w-5 text-amber-400 group-hover:text-amber-300 transition-colors"
+          ></i>
+          <span>核心安全指南</span>
+        </a>
+      </div>
+
+      <!-- 侧边栏底部操作区 -->
+      <div class="p-4 border-t border-slate-800 space-y-2">
+        <button
+          onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+          class="w-full py-2 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs flex items-center justify-center space-x-2 transition-colors"
+        >
           <i class="fa-solid fa-arrow-up"></i>
-          <span>返回页面顶部</span>
+          <span>返回顶部</span>
+        </button>
+        <button
+          onclick="window.print()"
+          class="w-full py-2 px-3 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 text-xs flex items-center justify-center space-x-2 transition-colors"
+        >
+          <i class="fa-solid fa-print"></i>
+          <span>打印 / 保存为 PDF</span>
         </button>
       </div>
+    </aside>
 
-    </div>
-  </div>
-
-  <!-- ========================================================================= -->
-  <!-- 📖 主内容呈现区域 (Main Content Area - Offset on Desktop) -->
-  <!-- ========================================================================= -->
-  <main class="lg:pl-72 min-h-screen flex flex-col">
-    
-    <!-- Hero 视觉大图区 -->
-    <section class="relative h-[420px] sm:h-[480px] lg:h-[520px] flex items-center justify-center text-white overflow-hidden">
-      <img src="images/road-trip-hero.jpg" alt="American West Road Trip" class="absolute inset-0 w-full h-full object-cover" />
-      <div class="absolute inset-0 hero-gradient"></div>
-      <div class="relative z-10 max-w-3xl mx-auto px-4 text-center">
-        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-amber-300 text-xs sm:text-sm font-medium mb-3">
-          <span>🇺🇸 美西国家公园 & 城市自驾手册</span>
-          <span>•</span>
-          <span>共 13 天 12 晚</span>
-        </div>
-        <h1 class="text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-3 drop-shadow-md">
-          盐湖城 ➔ 大峡谷 ➔ 拉斯维加斯 ➔ 洛杉矶
-        </h1>
-        <p class="text-slate-200 text-xs sm:text-sm lg:text-base max-w-xl mx-auto mb-6 font-light leading-relaxed">
-          慢节奏、低消耗、全家温馨自驾探索之旅。饱览壮丽红岩峡谷、荒漠绿洲、沉浸大秀与太平洋落日。
-        </p>
-        <div class="flex flex-wrap justify-center gap-3">
-          <a href="#itinerary" class="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-medium text-xs sm:text-sm transition-colors shadow-lg shadow-amber-500/30 flex items-center space-x-2">
-            <span>浏览每日行程</span>
-            <i class="fa-solid fa-chevron-down text-xs"></i>
-          </a>
-          <a href="#safety" class="px-5 py-2.5 rounded-xl bg-white/15 hover:bg-white/25 backdrop-blur-md text-white font-medium text-xs sm:text-sm transition-colors border border-white/20 flex items-center space-x-2">
-            <i class="fa-solid fa-shield-halved text-amber-300"></i>
-            <span>出行安全须知</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- 行程总览指标栏 -->
-    <section id="overview" class="py-10 bg-white border-b border-slate-200">
-      <div class="max-w-5xl mx-auto px-4 sm:px-6">
-        
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-          <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-center">
-            <div class="w-9 h-9 mx-auto mb-2 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-base">
-              <i class="fa-solid fa-plane-arrival"></i>
-            </div>
-            <div class="text-[11px] text-slate-500 font-medium">入境抵美</div>
-            <div class="text-sm sm:text-base font-bold text-slate-800 mt-0.5">10月12日 10:00</div>
-            <div class="text-[11px] text-slate-400 mt-0.5">LAX 转机至盐湖城</div>
-          </div>
-
-          <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-center">
-            <div class="w-9 h-9 mx-auto mb-2 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-base">
-              <i class="fa-solid fa-car"></i>
-            </div>
-            <div class="text-[11px] text-slate-500 font-medium">自驾模式</div>
-            <div class="text-sm sm:text-base font-bold text-slate-800 mt-0.5">盐湖城取 ➔ 洛杉矶还</div>
-            <div class="text-[11px] text-slate-400 mt-0.5">单向不折返 • 日均≤4.5h</div>
-          </div>
-
-          <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-center">
-            <div class="w-9 h-9 mx-auto mb-2 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-base">
-              <i class="fa-solid fa-id-card"></i>
-            </div>
-            <div class="text-[11px] text-slate-500 font-medium">国家公园年票</div>
-            <div class="text-sm sm:text-base font-bold text-slate-800 mt-0.5">已备好 (Pass)</div>
-            <div class="text-[11px] text-slate-400 mt-0.5">畅行大峡谷/锡安/死亡谷等</div>
-          </div>
-
-          <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-center">
-            <div class="w-9 h-9 mx-auto mb-2 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center text-base">
-              <i class="fa-solid fa-plane-departure"></i>
-            </div>
-            <div class="text-[11px] text-slate-500 font-medium">离境回国</div>
-            <div class="text-sm sm:text-base font-bold text-slate-800 mt-0.5">10月24日 12:30</div>
-            <div class="text-[11px] text-slate-400 mt-0.5">洛杉矶 LAX 直飞离境</div>
-          </div>
-        </div>
-
-        <!-- 🗺️ 自驾路线全景图谱 -->
-        <div id="route-map" class="mt-8 p-5 sm:p-7 rounded-3xl bg-gradient-to-br from-amber-50/90 via-orange-50/40 to-slate-50 border border-amber-200/80 shadow-sm">
-          
-          <div class="flex flex-wrap items-center justify-between gap-3 mb-6 pb-4 border-b border-amber-200/60">
-            <div class="flex items-center space-x-3">
-              <span class="w-8 h-8 rounded-xl bg-amber-500 text-white flex items-center justify-center shadow-sm text-sm">
-                <i class="fa-solid fa-map-location-dot"></i>
-              </span>
-              <div>
-                <h3 class="font-bold text-slate-900 text-base">自驾路线全景图谱 (Road Trip Route Map)</h3>
-                <p class="text-xs text-slate-500">6 大核心过夜枢纽 • 5 大主题阶段 • 顺路景点清晰串联</p>
-              </div>
-            </div>
-            <div class="flex flex-wrap items-center gap-2 text-[11px]">
-              <span class="inline-flex items-center px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-800 font-medium">
-                <i class="fa-solid fa-mountain mr-1"></i> 国家公园
-              </span>
-              <span class="inline-flex items-center px-2 py-0.5 rounded-md bg-blue-100 text-blue-800 font-medium">
-                <i class="fa-solid fa-city mr-1"></i> 城市人文
-              </span>
-              <span class="inline-flex items-center px-2 py-0.5 rounded-md bg-amber-100 text-amber-800 border border-amber-300 font-medium">
-                <i class="fa-solid fa-sparkles mr-1"></i> 顺路可选
-              </span>
-            </div>
-          </div>
-
-          <!-- 6大核心过夜城市里程碑 -->
-          <div class="mb-6">
-            <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-2.5">6 大住宿城市枢纽主线</div>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
-              <div class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs">
-                <span class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5">STOP 1</span>
-                <div class="font-bold text-slate-900 text-xs">盐湖城 (SLC)</div>
-                <div class="text-[10px] text-amber-600 font-medium">连住 2 晚</div>
-              </div>
-              <div class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs">
-                <span class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5">STOP 2</span>
-                <div class="font-bold text-slate-900 text-xs">圣乔治 (UT)</div>
-                <div class="text-[10px] text-amber-600 font-medium">连住 2 晚</div>
-              </div>
-              <div class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs">
-                <span class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5">STOP 3</span>
-                <div class="font-bold text-slate-900 text-xs">旗杆镇 (AZ)</div>
-                <div class="text-[10px] text-amber-600 font-medium">住 1 晚 (中转)</div>
-              </div>
-              <div class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs">
-                <span class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5">STOP 4</span>
-                <div class="font-bold text-slate-900 text-xs">拉斯维加斯 (NV)</div>
-                <div class="text-[10px] text-amber-600 font-medium">连住 4 晚</div>
-              </div>
-              <div class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs">
-                <span class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5">STOP 5</span>
-                <div class="font-bold text-slate-900 text-xs">棕榈泉 (CA)</div>
-                <div class="text-[10px] text-amber-600 font-medium">住 1 晚 (温泉)</div>
-              </div>
-              <div class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs">
-                <span class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5">STOP 6</span>
-                <div class="font-bold text-slate-900 text-xs">洛杉矶 (LA)</div>
-                <div class="text-[10px] text-amber-600 font-medium">连住 2 晚 (终点)</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 5 大主题自驾阶段微章流 -->
-          <div class="space-y-3">
-            <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">分段自驾景点串联流向</div>
-            
-            <!-- 阶段 1 -->
-            <div class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80">
-              <div class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2">
-                <span class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]">1</span>
-                <span>第一阶段：犹他高原起步与大盐湖 (Day 1 - Day 2)</span>
-              </div>
-              <div class="flex flex-wrap items-center gap-1.5 text-xs">
-                <span class="px-2 py-1 rounded-lg bg-sky-50 border border-sky-200 text-sky-800 font-medium"><i class="fa-solid fa-plane mr-1"></i>洛杉矶 (LAX) ➔ 飞 ➔ 盐湖城 (SLC)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800">犹他州议会大厦</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800">圣殿广场花园</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-medium">羚羊岛美洲野牛纯车游</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold">🏨 盐湖城凯悦嘉轩 (连住2晚)</span>
-              </div>
-            </div>
-
-            <!-- 阶段 2 -->
-            <div class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80">
-              <div class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2">
-                <span class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]">2</span>
-                <span>第二阶段：红岩峡谷断崖与大峡谷奇观 (Day 3 - Day 5)</span>
-              </div>
-              <div class="flex flex-wrap items-center gap-1.5 text-xs">
-                <span class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800">科洛布峡谷景观路</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold">🏨 圣乔治凯悦嘉轩 (连住2晚)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-medium">锡安国家公园 (沿河平坦步道)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800 font-medium">✨【可选】管泉国家纪念地</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800">✨【可选】悬崖奇石屋</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-slate-100 border border-slate-200 text-slate-700">纳瓦霍桥 & 卡梅伦贸易站</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold">🦅 科罗拉多大峡谷国家公园 (沙漠塔 ➔ 利潘角 ➔ 麦色点)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold">🏨 旗杆镇凯悦嘉轩</span>
-              </div>
-            </div>
-
-            <!-- 阶段 3 -->
-            <div class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80">
-              <div class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2">
-                <span class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]">3</span>
-                <span>第三阶段：66号公路情怀、胡佛大坝与赌城大秀 (Day 6 - Day 8)</span>
-              </div>
-              <div class="flex flex-wrap items-center gap-1.5 text-xs">
-                <span class="px-2 py-1 rounded-lg bg-slate-100 border border-slate-200 text-slate-700">威廉姆斯 (蒸汽火车车览)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800 font-medium">✨【可选】塞利格曼 (赛车总动员老爷车)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-orange-50 border border-orange-200 text-orange-800">金曼 (66号公路午餐)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800 font-medium">胡佛大坝旁侧桥观景台</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800 font-medium">✨【可选】博尔德城野生大角羊</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold">🏨 拉斯维加斯凯悦嘉轩 (连住4晚)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-purple-50 border border-purple-200 text-purple-800 font-medium">百乐宫《O秀》• 凯撒自助餐 • Sphere 球形馆 • 豪客摩天轮</span>
-              </div>
-            </div>
-
-            <!-- 阶段 4 -->
-            <div class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80">
-              <div class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2">
-                <span class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]">4</span>
-                <span>第四阶段：死亡谷避暑车游与荒漠度假 (Day 9 - Day 10)</span>
-              </div>
-              <div class="flex flex-wrap items-center gap-1.5 text-xs">
-                <span class="px-2 py-1 rounded-lg bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold">🏜️ 死亡谷国家公园 (恶水盆地 • 扎布里斯基角 • 艺术家车道)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-orange-50 border border-orange-200 text-orange-800">七彩巨石 (艺术合影)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-medium">约书亚树国家公园 (骷髅岩 • 奇亚斯岩)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold">🏨 棕榈泉贝斯特韦斯特优选 (Tac/Quila 晚餐)</span>
-              </div>
-            </div>
-
-            <!-- 阶段 5 -->
-            <div class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80">
-              <div class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2">
-                <span class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]">5</span>
-                <span>第五阶段：高空旋转缆车、天使之城艺术与太平洋落日 (Day 11 - Day 13)</span>
-              </div>
-              <div class="flex flex-wrap items-center gap-1.5 text-xs">
-                <span class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800 font-medium">棕榈泉高空旋转缆车 & 莫滕植物园</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800">✨【可选】卡巴松巨型恐龙</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold">🏨 洛杉矶格兰代尔凯悦嘉轩 (连住2晚)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800">格里菲斯天文台夜景</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800">盖蒂中心美术馆</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800">好莱坞标志大草坪</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-semibold">圣莫尼卡海滩太平洋落日 (66号公路终点)</span>
-                <i class="fa-solid fa-arrow-right text-slate-300 text-[10px]"></i>
-                <span class="px-2 py-1 rounded-lg bg-sky-100 border border-sky-300 text-sky-900 font-bold"><i class="fa-solid fa-plane-departure mr-1"></i>LAX 机场离境回国</span>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- 🏨 宾馆住宿总结 -->
-    <section id="hotels" class="py-10 max-w-5xl mx-auto px-4 sm:px-6 w-full">
-      <div class="flex items-center justify-between mb-6">
-        <div>
-          <h2 class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center">
-            <i class="fa-solid fa-hotel text-amber-500 mr-2.5"></i> 宾馆住宿总结
-          </h2>
-          <p class="text-slate-500 text-xs sm:text-sm mt-0.5">全部已订妥 • 优先凯悦/Hyatt • 连住不搬行李 • 全家包含热早餐</p>
-        </div>
-        <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-semibold">
-          100% 已锁定
+    <!-- ========================================================================= -->
+    <!-- 📱 手机端顶部吸顶导航栏 + 汉堡抽屉菜单 (Mobile Header & Slide-over Drawer) -->
+    <!-- ========================================================================= -->
+    <header
+      class="lg:hidden sticky top-0 z-40 bg-slate-900/95 backdrop-blur-md text-white border-b border-slate-800 h-14 px-4 flex items-center justify-between"
+    >
+      <div class="flex items-center space-x-2.5">
+        <span
+          class="w-7 h-7 rounded-lg bg-amber-500 flex items-center justify-center text-slate-950 font-bold text-xs"
+        >
+          <i class="fa-solid fa-route"></i>
         </span>
+        <span class="font-bold text-sm text-white">美西自驾路书</span>
+        <span
+          class="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-amber-400 font-medium"
+          >10.12-10.24</span
+        >
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-        
-        <!-- 酒店 1 -->
-        <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-          <div class="flex items-center justify-between mb-2.5">
-            <span class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700">
-              10.12 - 10.14 (2晚)
-            </span>
-            <span class="text-xs text-emerald-700 font-semibold flex items-center">
-              <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
-            </span>
+      <button
+        id="mobile-menu-btn"
+        class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white focus:outline-none"
+        aria-label="打开菜单"
+      >
+        <i class="fa-solid fa-bars text-base"></i>
+      </button>
+    </header>
+
+    <!-- 手机端抽屉菜单遮罩与面板 -->
+    <div
+      id="mobile-drawer"
+      class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm hidden transition-opacity opacity-0"
+    >
+      <div
+        id="drawer-panel"
+        class="fixed inset-y-0 right-0 max-w-xs w-full bg-slate-900 text-white shadow-2xl p-5 flex flex-col justify-between transform translate-x-full transition-transform duration-300 ease-in-out"
+      >
+        <div>
+          <div
+            class="flex items-center justify-between pb-4 border-b border-slate-800 mb-4"
+          >
+            <div
+              class="font-bold text-sm text-white flex items-center space-x-2"
+            >
+              <i class="fa-solid fa-compass text-amber-500"></i>
+              <span>导航目录</span>
+            </div>
+            <button
+              id="close-drawer-btn"
+              class="p-2 rounded-lg text-slate-400 hover:text-white"
+              aria-label="关闭菜单"
+            >
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
           </div>
-          <h3 class="font-bold text-slate-900 text-sm sm:text-base">盐湖城/市中心凯悦嘉轩酒店</h3>
-          <p class="text-[11px] text-slate-500 mb-3">Hyatt Place Salt Lake City / Downtown / The Gateway</p>
-          <div class="text-xs text-slate-600 space-y-1.5 mb-4">
-            <div class="flex items-start"><i class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"></i><span>55 N 400 W, Salt Lake City, UT 84101</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-mug-hot w-4 text-amber-500"></i><span>包含全家热早餐 • 倒时差核心地段</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-square-parking w-4 text-amber-500"></i><span>自助停车 $15/晚 (无限次进出)</span></div>
+
+          <div class="space-y-2 overflow-y-auto max-h-[75vh] text-xs pr-1">
+            <a
+              href="#overview"
+              class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"
+              ><i class="fa-solid fa-gauge-high mr-2 text-amber-400"></i
+              >行程总览 & 指标</a
+            >
+            <a
+              href="#route-map"
+              class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"
+              ><i class="fa-solid fa-map-location-dot mr-2 text-amber-400"></i
+              >自驾路线全景图谱</a
+            >
+            <a
+              href="#hotels"
+              class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"
+              ><i class="fa-solid fa-hotel mr-2 text-amber-400"></i
+              >宾馆住宿总结</a
+            >
+            <a
+              href="#checklist"
+              class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"
+              ><i class="fa-solid fa-list-check mr-2 text-amber-400"></i
+              >预订落实清单</a
+            >
+            <a
+              href="#safety"
+              class="drawer-link block p-2.5 rounded-xl bg-slate-800/60 text-slate-200"
+              ><i class="fa-solid fa-shield-halved mr-2 text-amber-400"></i
+              >核心安全指南</a
+            >
+
+            <div
+              class="pt-3 pb-1 text-[10px] font-bold text-slate-500 uppercase tracking-wider"
+            >
+              每日专属详细方案直达
+            </div>
+            <div class="grid grid-cols-2 gap-1.5 text-[11px]">
+              <a
+                href="day-1.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D1 盐湖城</a
+              >
+              <a
+                href="day-2.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D2 羚羊岛</a
+              >
+              <a
+                href="day-3.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D3 科洛布</a
+              >
+              <a
+                href="day-4.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D4 锡安公园</a
+              >
+              <a
+                href="day-5.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D5 大峡谷</a
+              >
+              <a
+                href="day-6.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D6 66号公路</a
+              >
+              <a
+                href="day-7.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D7 Sphere</a
+              >
+              <a
+                href="day-8.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D8 烧肉摩天轮</a
+              >
+              <a
+                href="day-9.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D9 死亡谷</a
+              >
+              <a
+                href="day-10.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D10 约书亚树</a
+              >
+              <a
+                href="day-11.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D11 旋转缆车</a
+              >
+              <a
+                href="day-12.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors"
+                >D12 盖蒂落日</a
+              >
+              <a
+                href="day-13.html"
+                class="p-2 rounded bg-slate-800 text-slate-300 text-center hover:bg-amber-500 hover:text-slate-950 font-medium transition-colors col-span-2"
+                >D13 LAX 离境</a
+              >
+            </div>
           </div>
-          <a href="https://maps.google.com/?q=Hyatt+Place+Salt+Lake+City+Downtown+The+Gateway" target="_blank" class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
-            <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
-          </a>
         </div>
 
-        <!-- 酒店 2 -->
-        <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-          <div class="flex items-center justify-between mb-2.5">
-            <span class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700">
-              10.14 - 10.16 (2晚)
-            </span>
-            <span class="text-xs text-emerald-700 font-semibold flex items-center">
-              <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
-            </span>
-          </div>
-          <h3 class="font-bold text-slate-900 text-sm sm:text-base">圣乔治凯悦嘉轩酒店</h3>
-          <p class="text-[11px] text-slate-500 mb-3">Hyatt Place St. George / Convention Center</p>
-          <div class="text-xs text-slate-600 space-y-1.5 mb-4">
-            <div class="flex items-start"><i class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"></i><span>1819 S 120 E, St. George, UT 84790</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-mug-hot w-4 text-amber-500"></i><span>包含全家热早餐 • 免费专属停车</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-bed w-4 text-amber-500"></i><span>连住2晚免挪窝 • 辐射锡安国家公园</span></div>
-          </div>
-          <a href="https://maps.google.com/?q=Hyatt+Place+St.+George+Convention+Center" target="_blank" class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
-            <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
-          </a>
-        </div>
-
-        <!-- 酒店 3 -->
-        <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-          <div class="flex items-center justify-between mb-2.5">
-            <span class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700">
-              10.16 - 10.17 (1晚)
-            </span>
-            <span class="text-xs text-emerald-700 font-semibold flex items-center">
-              <i class="fa-solid fa-check-circle mr-1"></i> 积分已兑
-            </span>
-          </div>
-          <h3 class="font-bold text-slate-900 text-sm sm:text-base">旗杆镇凯悦嘉轩酒店</h3>
-          <p class="text-[11px] text-slate-500 mb-3">Hyatt Place Flagstaff</p>
-          <div class="text-xs text-slate-600 space-y-1.5 mb-4">
-            <div class="flex items-start"><i class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"></i><span>397 S Malpais Ln, Flagstaff, AZ 86001</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-ticket w-4 text-amber-500"></i><span>确认号: 40023B23500861</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-cart-shopping w-4 text-amber-500"></i><span>包含全家热早餐 • 邻近全食超市</span></div>
-          </div>
-          <a href="https://maps.google.com/?q=Hyatt+Place+Flagstaff" target="_blank" class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
-            <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
-          </a>
-        </div>
-
-        <!-- 酒店 4 -->
-        <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-          <div class="flex items-center justify-between mb-2.5">
-            <span class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700">
-              10.17 - 10.21 (4晚连住)
-            </span>
-            <span class="text-xs text-emerald-700 font-semibold flex items-center">
-              <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
-            </span>
-          </div>
-          <h3 class="font-bold text-slate-900 text-sm sm:text-base">拉斯维加斯凯悦嘉轩酒店</h3>
-          <p class="text-[11px] text-slate-500 mb-3">Hyatt Place Las Vegas</p>
-          <div class="text-xs text-slate-600 space-y-1.5 mb-4">
-            <div class="flex items-start"><i class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"></i><span>4520 Paradise Rd, Las Vegas, NV 89169</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-ticket w-4 text-amber-500"></i><span>确认号: 40023B22959570</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-shield-heart w-4 text-amber-500"></i><span>避开赌场喧嚣 • 包含热早餐 • 免费停车</span></div>
-          </div>
-          <a href="https://maps.google.com/?q=Hyatt+Place+Las+Vegas+Paradise+Rd" target="_blank" class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
-            <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
-          </a>
-        </div>
-
-        <!-- 酒店 5 -->
-        <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-          <div class="flex items-center justify-between mb-2.5">
-            <span class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700">
-              10.21 - 10.22 (1晚)
-            </span>
-            <span class="text-xs text-emerald-700 font-semibold flex items-center">
-              <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
-            </span>
-          </div>
-          <h3 class="font-bold text-slate-900 text-sm sm:text-base">拉斯布里萨斯贝斯特韦斯特优选酒店</h3>
-          <p class="text-[11px] text-slate-500 mb-3">Best Western Plus Las Brisas Hotel (棕榈泉)</p>
-          <div class="text-xs text-slate-600 space-y-1.5 mb-4">
-            <div class="flex items-start"><i class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"></i><span>222 S Indian Canyon Dr, Palm Springs, CA 92262</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-utensils w-4 text-amber-500"></i><span>市中心核心 • 步行5分钟达 Tac/Quila 餐厅</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-hot-tub-person w-4 text-amber-500"></i><span>包含免费热早餐 • 露天热水水疗池</span></div>
-          </div>
-          <a href="https://maps.google.com/?q=Best+Western+Plus+Las+Brisas+Hotel+Palm+Springs" target="_blank" class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
-            <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
-          </a>
-        </div>
-
-        <!-- 酒店 6 -->
-        <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-          <div class="flex items-center justify-between mb-2.5">
-            <span class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700">
-              10.22 - 10.24 (2晚)
-            </span>
-            <span class="text-xs text-emerald-700 font-semibold flex items-center">
-              <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
-            </span>
-          </div>
-          <h3 class="font-bold text-slate-900 text-sm sm:text-base">格兰代尔中心凯悦嘉轩酒店</h3>
-          <p class="text-[11px] text-slate-500 mb-3">Hyatt Place Glendale / Downtown (洛杉矶)</p>
-          <div class="text-xs text-slate-600 space-y-1.5 mb-4">
-            <div class="flex items-start"><i class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"></i><span>225 W Wilson Ave, Glendale, CA 91203</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-shield-halved w-4 text-amber-500"></i><span>洛杉矶北部治安绝佳区域 • 包含全家早餐</span></div>
-            <div class="flex items-center"><i class="fa-solid fa-square-parking w-4 text-amber-500"></i><span>隔壁橙街公立停车楼日封顶仅 $15</span></div>
-          </div>
-          <a href="https://maps.google.com/?q=Hyatt+Place+Glendale+Downtown" target="_blank" class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors">
-            <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- 🗓️ 每日详细日程 -->
-    <section id="itinerary" class="py-10 bg-slate-100/70 border-t border-slate-200">
-      <div class="max-w-5xl mx-auto px-4 sm:px-6">
-        
-        <div class="text-center max-w-2xl mx-auto mb-8">
-          <span class="text-amber-600 font-semibold text-xs tracking-wider uppercase">Daily Detailed Plan</span>
-          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">13天 每日精细行程</h2>
-          <p class="text-slate-500 text-xs sm:text-sm mt-1.5">时间节点明确 • 纯平路低消耗 • 顺路可选景点自由增减</p>
-        </div>
-
-        <div class="space-y-5">
-
-          <!-- Day 1 -->
-          <div id="day-1" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D1</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月12日 (周一): 抵达洛杉矶 (LAX) ➔ 转机 ➔ 盐湖城 (SLC)</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">时差调整 • 取车自驾 • 酒店充分休整</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程 20 分钟</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">体能消耗：零</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>✈️ 抵美通关与转机：</strong>早上 10:00 班机降落洛杉矶国际机场 (LAX)。通关提取全部行李，过海关后在转机区托运，搭乘内陆航班飞往盐湖城 (SLC)。</p>
-              <p><strong>🚗 顺畅取车：</strong>抵达盐湖城机场后，在航站楼顺畅办理租车手续，驱车 20 分钟入住 <strong>盐湖城/市中心凯悦嘉轩酒店</strong>。</p>
-              <p><strong>🛌 倒时差与休整：</strong>考虑长途国际飞行，首日不安排任何观光。下午直接在酒店休息补觉，晚间在酒店周边就餐及超市采购水和零食。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-1.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 1 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 2 -->
-          <div id="day-2" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D2</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月13日 (周二): 盐湖城漫步 ➔ 大盐湖羚羊岛州立公园</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">州议会大厦 • 圣殿广场花园 • 美洲野牛纯车游</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程约 2 小时</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">低体能消耗</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🏛️ 上午 (09:30 - 11:00)：</strong>游览 <strong>犹他州议会大厦/Utah State Capitol</strong>，全空调电梯环境，俯瞰城市全貌；随后前往 <strong>圣殿广场/Temple Square</strong> 外围花园公共步道慢节奏合影。</p>
-              <p><strong>🍲 中午 (11:00 - 13:00)：</strong>前往 <strong>城市溪流中心/City Creek Center</strong> 享用午餐，漫步室内瀑布溪流商圈。</p>
-              <p><strong>🦬 下午 (13:30 - 17:00)：</strong>驱车前往 <strong>大盐湖羚羊岛州立公园/Antelope Island State Park</strong>。车窗内近距离观赏美洲野牛 (American Bison)，开车直达观景点俯瞰内陆盐海，傍晚返回市中心。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-2.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 2 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 3 -->
-          <div id="day-3" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D3</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月14日 (周三): 盐湖城 ➔ 科洛布峡谷 ➔ 圣乔治</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">锡安红岩景观公路 • 舒适入住圣乔治</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程约 4.75 小时</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">低体能消耗</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🚗 上午 (09:30 - 14:00)：</strong>享用早餐后退房，沿 15 号公路南下，中途在 <strong>雪松城/Cedar City</strong> 停靠午餐与休息。</p>
-              <p><strong>🏔️ 下午顺路打卡 (14:30 - 15:30)：</strong>从 40 号出口驶入 <strong>科洛布峡谷景区/Kolob Canyons (锡安国家公园)</strong>。无需长时间徒步，在 5 英里景观公路上自驾并在观景点近距离俯瞰红色砂岩断崖（年票免费）。</p>
-              <p><strong>🏨 入住 (15:30 - 16:15)：</strong>驱车 45 分钟入住 <strong>圣乔治凯悦嘉轩酒店</strong>，享受连住两晚的放松时光。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-3.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 3 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 4 -->
-          <div id="day-4" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D4</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月15日 (周四): 圣乔治 ➔ 锡安国家公园 ➔ 【可选】雪谷州立公园 ➔ 圣乔治</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">峡谷观光巴士 • 沿河平坦步道 • 连住第2晚免换房</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程 2~2.5 小时</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">平坦慢步</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🚌 上午 (09:00 - 13:30)：</strong>轻松驱车前往 <strong>锡安国家公园/Zion National Park</strong>。搭乘全空调免费观光巴士饱览两岸红岩，随后在最平坦无障碍的 <strong>沿河步道/Riverside Walk</strong> 随缘慢步，听维琴河水潺潺。</p>
-              <p><strong>📸 下午纯车游升级【可选】(14:30 - 16:30)：</strong>回程顺路前往 <strong>雪谷州立公园/Snow Canyon State Park</strong>。纯车游公路两侧红白砂岩相间，在路边即可拍照（若感疲劳可跳过直接回酒店休息）。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-4.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 4 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 5 -->
-          <div id="day-5" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D5</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月16日 (周五): 圣乔治 ➔ 科罗拉多大峡谷国家公园 ➔ 旗杆镇</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">沙漠景观瞭望塔 • 麦色观景点 • 傍晚入住旗杆镇凯悦</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程约 5.5 小时</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">低体能消耗</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🌿 上午出发与顺路歇脚 (07:30 - 11:30)：</strong>7:30 准时出发。
-                <br>• <span class="text-amber-700 font-medium">【可选】管泉国家纪念地/Pipe Spring</span>：清凉绿洲古堡，平地步行 200 米歇脚避暑（年票免费）；
-                <br>• <span class="text-amber-700 font-medium">【可选】悬崖民居奇石屋/Cliff Dwellers</span>：路边独特巨石屋拍照 10 分钟；
-                <br>• <strong>纳瓦霍桥/Navajo Bridge</strong>：桥头观景台俯瞰大理石峡谷与科罗拉多河。
-              </p>
-              <p><strong>🦅 中午至下午大峡谷深度游 (12:00 - 15:30)：</strong>由东门进入 <strong>科罗拉多大峡谷国家公园/Grand Canyon National Park</strong>。游览 <strong>沙漠景观瞭望塔 (Desert View Watchtower)</strong> ➔ <span class="text-amber-700 font-medium">【可选】利潘角 (Lipan Point)</span> 俯瞰大转弯 ➔ <strong>麦色观景点 (Mather Point)</strong> 无障碍铺装道路漫步。</p>
-              <p><strong>🏨 入住 (17:00 - 18:30)：</strong>在南门外可自选地质博物馆或 IMAX 电影，17:00 驱车前往并入住 <strong>旗杆镇凯悦嘉轩酒店</strong>，避开夜间长途山路。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-5.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 5 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 6 -->
-          <div id="day-6" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D6</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月17日 (周六): 旗杆镇 ➔ 66号公路 ➔ 胡佛大坝 ➔ 拉斯维加斯</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">《赛车总动员》原型小镇 • 百乐宫喷泉与《O秀》• 赌城连住第1晚</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程约 4 小时</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">低体能消耗</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🚗 上午 (09:00 - 10:50)：</strong>沿 I-40 西行，顺路车览 <strong>威廉姆斯/Williams</strong> 蒸汽火车，随后顺路驶入 <span class="text-amber-700 font-medium">【可选】塞利格曼/Seligman (66号公路名镇)</span>，在阳光下漫步《赛车总动员》原型街区，与彩色古董老爷车合影。</p>
-              <p><strong>🍔 午餐与大坝 (11:45 - 14:30)：</strong>在 <strong>金曼/Kingman</strong> 享用午餐（推荐 Mr. D'z 或 Calico's 餐厅）。下午登上 <strong>胡佛大坝旁侧桥观景台</strong> 俯瞰壮丽大坝工程。</p>
-              <p><strong>🐑 顺路大角羊【可选】(14:35 - 15:15)：</strong>在 <strong>博尔德城/Boulder City</strong> 的 <strong>海明威公园/Hemenway Park</strong> 绿草坪边近距离观察野生沙漠大角羊。</p>
-              <p><strong>🎭 傍晚至夜间 (18:30 - 21:00)：</strong>入住 <strong>拉斯维加斯凯悦嘉轩酒店</strong>。打车前往百乐宫门前观赏 <strong>百乐宫喷泉水秀</strong>，并在 19:30 舒适入座观赏 <strong>太阳马戏团《O秀》/Cirque du Soleil "O" Show</strong>。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-6.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 6 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 7 -->
-          <div id="day-7" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D7</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月18日 (周日): 拉斯维加斯 (射击 ➔ 自助餐 ➔ 球形馆 Sphere)</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">真枪射击体验 • 凯撒皇宫自助盛宴 • Sphere 沉浸式电影 (20:00 已订妥)</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-taxi mr-1"></i>市内打车出行</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">全空调零疲劳</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🎯 上午 (10:00 - 12:00)：</strong>自驾前往 <strong>702射击场 (The Range 702)</strong> 或 <strong>战场拉斯维加斯 (Battlefield Vegas)</strong> 体验真枪射击，结束后回酒店洗漱休整。</p>
-              <p><strong>🌸 下午 (13:00 - 16:30)：</strong>打车前往百乐宫漫步观赏 <strong>室内秋季花卉展 (Botanical Gardens)</strong> 与凯撒皇宫建筑。</p>
-              <p><strong>🍽️ 傍晚 (16:45 - 18:45)：</strong>在凯撒皇宫享用 <strong>凯撒皇宫自助餐/Caesars Bacchanal Buffet</strong>（已在 OpenTable 预约妥当）。</p>
-              <p><strong>🌐 晚间 (19:15 - 22:00)：</strong>前往地标 <strong>拉斯维加斯球形馆/Sphere Las Vegas</strong> 观看 20:00 超大球幕电影（特别提醒：严禁背包，仅带手机与小手包出行）。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-7.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 7 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 8 -->
-          <div id="day-8" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D8</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月19日 (周一): 拉斯维加斯 (可口可乐 ➔ 摩天轮 ➔ 日式烧肉)</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">世界可乐品尝 • 豪客摩天轮日落 • 888 日式自助烧肉</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-taxi mr-1"></i>打车便捷出行</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">体能消耗：零</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🥤 上午至中午 (10:30 - 12:30)：</strong>打车前往 <strong>可口可乐主题商店/Coca-Cola Store</strong> 体验 16 种世界特色饮料套餐并合影，漫步隔壁 <strong>M&M's 巧克力世界</strong>，午后回酒店休息。</p>
-              <p><strong>🎡 黄昏 (17:30 - 18:30)：</strong>体验 <strong>豪客摩天轮/High Roller</strong>，在全封闭空调舱内饱览日落与赌城大道璀璨夜景。</p>
-              <p><strong>🥩 晚餐与漫步 (18:15 - 21:30)：</strong>提前在 Yelp 加入排队，打车前往 <strong>888日式烧肉/888 Japanese BBQ</strong> 享用丰盛自助晚餐，餐后漫步 <strong>大运河购物中心/Grand Canal Shoppes</strong>。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-8.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 8 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 9 -->
-          <div id="day-9" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D9</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月20日 (周二): 拉斯维加斯 ➔ 死亡谷国家公园 ➔ 拉斯维加斯</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">清晨出发避暑 • 扎布里斯基角 • 艺术家车道 • 恶水盆地 • 连住第4晚</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>往返车程 5 小时</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">车游低消耗</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🌅 清晨出发 (07:00 - 09:00)：</strong>早晨 7:00 准时满油出发，驱车 2 小时从东门进入 <strong>死亡谷国家公园/Death Valley National Park</strong>。</p>
-              <p><strong>🏜️ 上午核心车游 (09:00 - 11:30)：</strong>
-                <br>• <strong>扎布里斯基角/Zabriskie Point</strong>：下车走 2 分钟坡道俯瞰金色山谷；
-                <br>• <span class="text-amber-700 font-medium">【可选】炉溪游客中心/Furnace Creek</span>：空调避暑、国家公园集章与温度大屏合影；
-                <br>• <strong>艺术家车道/Artist's Drive & 调色板/Palette</strong>：坐在空调车内穿梭彩色五彩火山丘；
-                <br>• <strong>恶水盆地/Badwater Basin</strong>：北美最低点白色平坦盐滩漫步合影。
-              </p>
-              <p><strong>🛌 午后折返休整 (11:30 - 13:45)：</strong>游览完毕直接折返拉斯维加斯，完全避开死亡谷正午烈日高温，下午在酒店深度休息。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-9.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 9 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 10 -->
-          <div id="day-10" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D10</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月21日 (周三): 拉斯维加斯 ➔ 约书亚树国家公园 ➔ 棕榈泉</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">七彩巨石 • 骷髅岩 • 奇亚斯岩 • 棕榈泉 Tac/Quila 晚餐</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程约 5.1 小时</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">低体能消耗</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🎨 上午 (09:00 - 12:30)：</strong>退房南下，在 <strong>七彩巨石/Seven Magic Mountains</strong> 停车合影 15 分钟，随后并入 CA-247 前往约书亚树。</p>
-              <p><strong>🌵 中午至下午 (12:30 - 14:00)：</strong>使用年票进入 <strong>约书亚树国家公园/Joshua Tree National Park</strong>。纯平路游览 <strong>奇亚斯岩 (Cap Rock)</strong> 与公路正旁的 <strong>骷髅岩 (Skull Rock)</strong>。</p>
-              <p><strong>🌮 傍晚美食 (14:45 - 21:00)：</strong>入住 <strong>拉斯布里萨斯贝斯特韦斯特优选酒店</strong>。晚上步行仅 5 分钟前往人气特色餐厅 <strong>Tac/Quila 餐厅</strong> 享用晚餐。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-10.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 10 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 11 -->
-          <div id="day-11" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D11</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月22日 (周四): 棕榈泉 (旋转缆车) ➔ 洛杉矶 (格里菲斯天文台夜景)</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">高空旋转缆车 • 莫滕植物园 • 先存行李后游天文台</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程约 2.75 小时</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">平坦慢游</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🚠 上午 (09:30 - 13:00)：</strong>体验 <strong>棕榈泉高空旋转缆车/Palm Springs Aerial Tramway</strong>，登上山顶俯瞰沙漠全景；中午在山顶或市中心用餐。</p>
-              <p><strong>🦕 下午 (13:00 - 16:30)：</strong>漫步 <strong>莫滕植物园/Moorten Botanical Garden</strong>；沿 I-10 返回洛杉矶顺路停靠 <span class="text-amber-700 font-medium">【可选】卡巴松巨型恐龙 (Cabazon Dinosaurs)</span> 合影。</p>
-              <p><strong>🌟 安全入住与天文台 (16:30 - 19:15)：</strong>先抵达 <strong>格兰代尔中心凯悦嘉轩酒店</strong> 办理入住并将全家托运行李全部存入房间。随后打车 15 分钟前往 <strong>格里菲斯天文台/Griffith Observatory</strong>，在平坦草坪观赏好莱坞标志与日落夜景。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-11.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 11 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 12 -->
-          <div id="day-12" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D12</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月23日 (周五): 洛杉矶 (盖蒂中心 ➔ 好莱坞标志 ➔ 圣莫尼卡落日)</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">艺术轻轨美术馆 • 大草坪地标合影 • 66号公路终点海边落日</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程约 2 小时</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">慢节奏散步</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>🏛️ 上午 (10:00 - 13:00)：</strong>搭乘免费无障碍轻轨缆车直达 <strong>盖蒂中心/The Getty Center</strong>，馆内全平整，室外花园饱览洛杉矶全景。</p>
-              <p><strong>🏞️ 下午 (14:30 - 15:30)：</strong>前往 <strong>好莱坞湖公园/Lake Hollywood Park</strong>，在平坦开阔大草坪近距离与 好莱坞标志 (Hollywood Sign) 合影，下车即达。</p>
-              <p><strong>🌅 傍晚 (16:30 - 18:30)：</strong>前往 <strong>圣莫尼卡海滩/Santa Monica State Beach</strong>，沿平坦木栈道漫步，在 66 号公路终点标志前留影，欣赏太平洋落日。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-12.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 12 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Day 13 -->
-          <div id="day-13" class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20">
-            <div class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center space-x-3">
-                <span class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm">D13</span>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold">10月24日 (周六): 洛杉矶 (LAX) ➔ 离境回国</h3>
-                  <p class="text-xs text-slate-300 mt-0.5">顺畅还车 • 搭乘机场接驳巴士 • 圆满结束行程</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-2 text-xs">
-                <span class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"><i class="fa-solid fa-car mr-1"></i>车程 40 分钟</span>
-                <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">离境</span>
-              </div>
-            </div>
-            <div class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5">
-              <p><strong>✈️ 离境回国：</strong>国际航班于 12:30 起飞。早上 08:30 办理退房，从格兰代尔酒店出发驾车 40 分钟前往 LAX 机场还车点还车，搭乘免费接驳车抵达航站楼，圆满结束美西之旅。</p>
-              <div class="pt-3 border-t border-slate-100 mt-2">
-                <a href="day-13.html" class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm">
-                  <span>查看 Day 13 完整详细方案</span>
-                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
+        <div class="pt-4 border-t border-slate-800">
+          <button
+            onclick="
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+              toggleDrawer();
+            "
+            class="w-full py-2.5 rounded-xl bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center space-x-2"
+          >
+            <i class="fa-solid fa-arrow-up"></i>
+            <span>返回页面顶部</span>
+          </button>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- 💡 预订待办清单 -->
-    <section id="checklist" class="py-10 max-w-5xl mx-auto px-4 sm:px-6 w-full">
-      <h2 class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center mb-1.5">
-        <i class="fa-solid fa-list-check text-amber-500 mr-2.5"></i> 出行前落实预订清单
-      </h2>
-      <p class="text-slate-500 text-xs sm:text-sm mb-6">按时间窗口分类整理，清晰掌控所有待办事项</p>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-        
-        <!-- 需提前预约 -->
-        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-amber-200 shadow-sm">
-          <div class="flex items-center space-x-2 text-amber-700 font-bold mb-4 text-sm sm:text-base">
-            <span class="w-5 h-5 rounded-full bg-amber-100 flex items-center justify-center text-xs">!</span>
-            <span>仍需提前预约 / 购买项目 (To Be Booked)</span>
+    <!-- ========================================================================= -->
+    <!-- 📖 主内容呈现区域 (Main Content Area - Offset on Desktop) -->
+    <!-- ========================================================================= -->
+    <main class="lg:pl-72 min-h-screen flex flex-col">
+      <!-- Hero 视觉大图区 -->
+      <section
+        class="relative h-[420px] sm:h-[480px] lg:h-[520px] flex items-center justify-center text-white overflow-hidden"
+      >
+        <img
+          src="images/road-trip-hero.jpg"
+          alt="American West Road Trip"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 hero-gradient"></div>
+        <div class="relative z-10 max-w-3xl mx-auto px-4 text-center">
+          <div
+            class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-amber-300 text-xs sm:text-sm font-medium mb-3"
+          >
+            <span>🇺🇸 美西国家公园 & 城市自驾手册</span>
+            <span>•</span>
+            <span>共 13 天 12 晚</span>
           </div>
-          <ul class="space-y-3.5 text-xs sm:text-sm text-slate-700">
-            <li class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start">
-              <div>
-                <div class="font-bold text-slate-900">🚠 棕榈泉高空旋转缆车 (Day 11 上午)</div>
-                <div class="text-xs text-slate-500 mt-0.5">建议提前 2~3 周在官网购票锁定乘车时段</div>
-              </div>
-              <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs font-semibold whitespace-nowrap ml-2">提前2-3周</span>
-            </li>
-            <li class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start">
-              <div>
-                <div class="font-bold text-slate-900">🌮 Tac/Quila 餐厅 (Day 10 晚上)</div>
-                <div class="text-xs text-slate-500 mt-0.5">建议提前 1~2 周在 OpenTable 免费预约座位</div>
-              </div>
-              <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs font-semibold whitespace-nowrap ml-2">提前1-2周</span>
-            </li>
-            <li class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start">
-              <div>
-                <div class="font-bold text-slate-900">🏛️ 盖蒂中心入场券 (Day 12 上午)</div>
-                <div class="text-xs text-slate-500 mt-0.5">建议提前 1~2 周在官网免费预约 10:00 时段</div>
-              </div>
-              <span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-xs font-semibold whitespace-nowrap ml-2">免费预约</span>
-            </li>
-            <li class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start">
-              <div>
-                <div class="font-bold text-slate-900">🎯 702 或 战场射击场 (Day 7 上午)</div>
-                <div class="text-xs text-slate-500 mt-0.5">建议提前 1~2 周在官网预约射击套餐与时段</div>
-              </div>
-              <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs font-semibold whitespace-nowrap ml-2">提前1-2周</span>
-            </li>
-            <li class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start">
-              <div>
-                <div class="font-bold text-slate-900">🥩 888日式烧肉排队 (Day 8 晚上)</div>
-                <div class="text-xs text-slate-500 mt-0.5">当天下午 15:30~17:45 在手机 Yelp App 线上排队</div>
-              </div>
-              <span class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-xs font-semibold whitespace-nowrap ml-2">当天操作</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- 已完成预订 -->
-        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-emerald-200 shadow-sm">
-          <div class="flex items-center space-x-2 text-emerald-700 font-bold mb-4 text-sm sm:text-base">
-            <i class="fa-solid fa-circle-check"></i>
-            <span>已落实预订的项目清单 (Already Booked)</span>
-          </div>
-          <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>🚗 跨州异地自驾租车 (SLC 取车，LAX 还车)</span></li>
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>🏨 盐湖城市中心凯悦嘉轩酒店 (10.12 - 10.14)</span></li>
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>🏨 圣乔治凯悦嘉轩酒店 (10.14 - 10.16)</span></li>
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>🏨 旗杆镇凯悦嘉轩酒店 (10.16 - 10.17 / 积分房)</span></li>
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>🏨 拉斯维加斯凯悦嘉轩酒店 (10.17 - 10.21 / 4晚连住)</span></li>
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>🏨 棕榈泉贝斯特韦斯特优选酒店 (10.21 - 10.22)</span></li>
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>🏨 格兰代尔中心凯悦嘉轩酒店 (10.22 - 10.24)</span></li>
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>🌐 拉斯维加斯球形馆 Sphere 门票 (10.18 20:00)</span></li>
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>🍽️ 凯撒皇宫自助餐 Caesars Bacchanal (10.18 16:45)</span></li>
-            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i><span>💳 美国国家公园年票 (America the Beautiful Pass)</span></li>
-          </ul>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- 🛡️ 核心安全与防范指南 -->
-    <section id="safety" class="py-10 bg-slate-900 text-white w-full">
-      <div class="max-w-5xl mx-auto px-4 sm:px-6">
-        
-        <div class="text-center max-w-2xl mx-auto mb-8">
-          <span class="text-amber-400 font-semibold text-xs tracking-wider uppercase">Safety & Universal Guidelines</span>
-          <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold mt-1">全行程核心通用出行准则</h2>
-          <p class="text-slate-400 text-xs sm:text-sm mt-1.5">牢记以下三项全局原则，确保全家人旅途顺畅安心</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
-
-          <div class="p-5 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-2">
-            <div class="text-amber-400 text-xl"><i class="fa-solid fa-gas-pump"></i></div>
-            <h3 class="font-bold text-sm sm:text-base text-white">荒漠公路“半箱油即加满”</h3>
-            <p class="text-xs text-slate-300 leading-relaxed">
-              美西州际与国家公园沿线常有数十英里无人区与无补给路段。只要油表降至 <strong>1/2（半箱）</strong>，离开城镇前见站即补满，绝不在荒漠路段冒险压低油表。
-            </p>
-          </div>
-
-          <div class="p-5 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-2">
-            <div class="text-amber-400 text-xl"><i class="fa-solid fa-bottle-water"></i></div>
-            <h3 class="font-bold text-sm sm:text-base text-white">高原沙漠防干燥与全天补水</h3>
-            <p class="text-xs text-slate-300 leading-relaxed">
-              美西内陆高原与沙漠相对湿度常低于 15%。随车全程常备整箱瓶装水，全家人随身备好润唇膏、墨镜、遮阳帽与保湿乳，随渴随饮。
-            </p>
-          </div>
-
-          <div class="p-5 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-2">
-            <div class="text-amber-400 text-xl"><i class="fa-solid fa-shield-halved"></i></div>
-            <h3 class="font-bold text-sm sm:text-base text-white">停车安全与车内零遗留</h3>
-            <p class="text-xs text-slate-300 leading-relaxed">
-              无论在景区、商圈或市区停靠，车内座位、扶手箱与后座<strong>绝不遗留任何包袋或可见物品</strong>。护照与贵重物品随身携带，大件托运行李抵店后先存入房间再出行。
-            </p>
-          </div>
-
-        </div>
-
-        <!-- 单日专属安全指引提示条 -->
-        <div class="mt-6 p-3.5 rounded-xl bg-slate-800/40 border border-slate-700/60 text-center">
-          <p class="text-xs text-slate-400 flex items-center justify-center space-x-2">
-            <i class="fa-solid fa-circle-info text-amber-400"></i>
-            <span>各景区专属安全细节（如死亡谷离线地图、大峡谷防鹿、Sphere无包令、洛杉矶停车等）已精准置于各单日详细方案中。</span>
+          <h1
+            class="text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-3 drop-shadow-md"
+          >
+            盐湖城 ➔ 大峡谷 ➔ 拉斯维加斯 ➔ 洛杉矶
+          </h1>
+          <p
+            class="text-slate-200 text-xs sm:text-sm lg:text-base max-w-xl mx-auto mb-6 font-light leading-relaxed"
+          >
+            慢节奏、低消耗、全家温馨自驾探索之旅。饱览壮丽红岩峡谷、荒漠绿洲、沉浸大秀与太平洋落日。
           </p>
+          <div class="flex flex-wrap justify-center gap-3">
+            <a
+              href="#itinerary"
+              class="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-medium text-xs sm:text-sm transition-colors shadow-lg shadow-amber-500/30 flex items-center space-x-2"
+            >
+              <span>浏览每日行程</span>
+              <i class="fa-solid fa-chevron-down text-xs"></i>
+            </a>
+            <a
+              href="#safety"
+              class="px-5 py-2.5 rounded-xl bg-white/15 hover:bg-white/25 backdrop-blur-md text-white font-medium text-xs sm:text-sm transition-colors border border-white/20 flex items-center space-x-2"
+            >
+              <i class="fa-solid fa-shield-halved text-amber-300"></i>
+              <span>出行安全须知</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 行程总览指标栏 -->
+      <section id="overview" class="py-10 bg-white border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+            <div
+              class="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-center"
+            >
+              <div
+                class="w-9 h-9 mx-auto mb-2 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-base"
+              >
+                <i class="fa-solid fa-plane-arrival"></i>
+              </div>
+              <div class="text-[11px] text-slate-500 font-medium">入境抵美</div>
+              <div class="text-sm sm:text-base font-bold text-slate-800 mt-0.5">
+                10月12日 10:00
+              </div>
+              <div class="text-[11px] text-slate-400 mt-0.5">
+                16:31转机 ➔ 19:25抵盐湖城
+              </div>
+            </div>
+
+            <div
+              class="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-center"
+            >
+              <div
+                class="w-9 h-9 mx-auto mb-2 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-base"
+              >
+                <i class="fa-solid fa-car"></i>
+              </div>
+              <div class="text-[11px] text-slate-500 font-medium">自驾模式</div>
+              <div class="text-sm sm:text-base font-bold text-slate-800 mt-0.5">
+                盐湖城取 ➔ 洛杉矶还
+              </div>
+              <div class="text-[11px] text-slate-400 mt-0.5">
+                单向不折返 • 日均≤4.5h
+              </div>
+            </div>
+
+            <div
+              class="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-center"
+            >
+              <div
+                class="w-9 h-9 mx-auto mb-2 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-base"
+              >
+                <i class="fa-solid fa-id-card"></i>
+              </div>
+              <div class="text-[11px] text-slate-500 font-medium">
+                国家公园年票
+              </div>
+              <div class="text-sm sm:text-base font-bold text-slate-800 mt-0.5">
+                已备好 (Pass)
+              </div>
+              <div class="text-[11px] text-slate-400 mt-0.5">
+                畅行大峡谷/锡安/死亡谷等
+              </div>
+            </div>
+
+            <div
+              class="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-center"
+            >
+              <div
+                class="w-9 h-9 mx-auto mb-2 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center text-base"
+              >
+                <i class="fa-solid fa-plane-departure"></i>
+              </div>
+              <div class="text-[11px] text-slate-500 font-medium">离境回国</div>
+              <div class="text-sm sm:text-base font-bold text-slate-800 mt-0.5">
+                10月24日 12:30
+              </div>
+              <div class="text-[11px] text-slate-400 mt-0.5">
+                洛杉矶 LAX 直飞离境
+              </div>
+            </div>
+          </div>
+
+          <!-- 🗺️ 自驾路线全景图谱 -->
+          <div
+            id="route-map"
+            class="mt-8 p-5 sm:p-7 rounded-3xl bg-gradient-to-br from-amber-50/90 via-orange-50/40 to-slate-50 border border-amber-200/80 shadow-sm"
+          >
+            <div
+              class="flex flex-wrap items-center justify-between gap-3 mb-6 pb-4 border-b border-amber-200/60"
+            >
+              <div class="flex items-center space-x-3">
+                <span
+                  class="w-8 h-8 rounded-xl bg-amber-500 text-white flex items-center justify-center shadow-sm text-sm"
+                >
+                  <i class="fa-solid fa-map-location-dot"></i>
+                </span>
+                <div>
+                  <h3 class="font-bold text-slate-900 text-base">
+                    自驾路线全景图谱 (Road Trip Route Map)
+                  </h3>
+                  <p class="text-xs text-slate-500">
+                    6 大核心过夜枢纽 • 5 大主题阶段 • 顺路景点清晰串联
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-wrap items-center gap-2 text-[11px]">
+                <span
+                  class="inline-flex items-center px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-800 font-medium"
+                >
+                  <i class="fa-solid fa-mountain mr-1"></i> 国家公园
+                </span>
+                <span
+                  class="inline-flex items-center px-2 py-0.5 rounded-md bg-blue-100 text-blue-800 font-medium"
+                >
+                  <i class="fa-solid fa-city mr-1"></i> 城市人文
+                </span>
+                <span
+                  class="inline-flex items-center px-2 py-0.5 rounded-md bg-amber-100 text-amber-800 border border-amber-300 font-medium"
+                >
+                  <i class="fa-solid fa-sparkles mr-1"></i> 顺路可选
+                </span>
+              </div>
+            </div>
+
+            <!-- 6大核心过夜城市里程碑 -->
+            <div class="mb-6">
+              <div
+                class="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-2.5"
+              >
+                6 大住宿城市枢纽主线
+              </div>
+              <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
+                <div
+                  class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs"
+                >
+                  <span
+                    class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5"
+                    >STOP 1</span
+                  >
+                  <div class="font-bold text-slate-900 text-xs">
+                    盐湖城 (SLC)
+                  </div>
+                  <div class="text-[10px] text-amber-600 font-medium">
+                    连住 2 晚
+                  </div>
+                </div>
+                <div
+                  class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs"
+                >
+                  <span
+                    class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5"
+                    >STOP 2</span
+                  >
+                  <div class="font-bold text-slate-900 text-xs">
+                    圣乔治 (UT)
+                  </div>
+                  <div class="text-[10px] text-amber-600 font-medium">
+                    连住 2 晚
+                  </div>
+                </div>
+                <div
+                  class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs"
+                >
+                  <span
+                    class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5"
+                    >STOP 3</span
+                  >
+                  <div class="font-bold text-slate-900 text-xs">
+                    旗杆镇 (AZ)
+                  </div>
+                  <div class="text-[10px] text-amber-600 font-medium">
+                    住 1 晚 (中转)
+                  </div>
+                </div>
+                <div
+                  class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs"
+                >
+                  <span
+                    class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5"
+                    >STOP 4</span
+                  >
+                  <div class="font-bold text-slate-900 text-xs">
+                    拉斯维加斯 (NV)
+                  </div>
+                  <div class="text-[10px] text-amber-600 font-medium">
+                    连住 4 晚
+                  </div>
+                </div>
+                <div
+                  class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs"
+                >
+                  <span
+                    class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5"
+                    >STOP 5</span
+                  >
+                  <div class="font-bold text-slate-900 text-xs">
+                    棕榈泉 (CA)
+                  </div>
+                  <div class="text-[10px] text-amber-600 font-medium">
+                    住 1 晚 (温泉)
+                  </div>
+                </div>
+                <div
+                  class="bg-white p-2.5 rounded-xl border border-slate-200 text-center shadow-2xs"
+                >
+                  <span
+                    class="inline-block px-1.5 py-0.2 rounded text-[9px] font-bold bg-slate-100 text-slate-600 mb-0.5"
+                    >STOP 6</span
+                  >
+                  <div class="font-bold text-slate-900 text-xs">
+                    洛杉矶 (LA)
+                  </div>
+                  <div class="text-[10px] text-amber-600 font-medium">
+                    连住 2 晚 (终点)
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5 大主题自驾阶段微章流 -->
+            <div class="space-y-3">
+              <div
+                class="text-[11px] font-bold text-slate-400 uppercase tracking-wider"
+              >
+                分段自驾景点串联流向
+              </div>
+
+              <!-- 阶段 1 -->
+              <div
+                class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80"
+              >
+                <div
+                  class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2"
+                >
+                  <span
+                    class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]"
+                    >1</span
+                  >
+                  <span>第一阶段：犹他高原起步与大盐湖 (Day 1 - Day 2)</span>
+                </div>
+                <div class="flex flex-wrap items-center gap-1.5 text-xs">
+                  <span
+                    class="px-2 py-1 rounded-lg bg-sky-50 border border-sky-200 text-sky-800 font-medium"
+                    ><i class="fa-solid fa-plane mr-1"></i>洛杉矶 (LAX) ➔ 飞 ➔
+                    盐湖城 (SLC)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800"
+                    >犹他州议会大厦</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800"
+                    >圣殿广场花园</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-medium"
+                    >羚羊岛美洲野牛纯车游</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold"
+                    >🏨 盐湖城凯悦嘉轩 (连住2晚)</span
+                  >
+                </div>
+              </div>
+
+              <!-- 阶段 2 -->
+              <div
+                class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80"
+              >
+                <div
+                  class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2"
+                >
+                  <span
+                    class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]"
+                    >2</span
+                  >
+                  <span
+                    >第二阶段：红岩峡谷断崖与大峡谷奇观 (Day 3 - Day 5)</span
+                  >
+                </div>
+                <div class="flex flex-wrap items-center gap-1.5 text-xs">
+                  <span
+                    class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800"
+                    >科洛布峡谷景观路</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold"
+                    >🏨 圣乔治凯悦嘉轩 (连住2晚)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-medium"
+                    >锡安国家公园 (沿河平坦步道)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800 font-medium"
+                    >✨【可选】管泉国家纪念地</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800"
+                    >✨【可选】悬崖奇石屋</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-slate-100 border border-slate-200 text-slate-700"
+                    >纳瓦霍桥 & 卡梅伦贸易站</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold"
+                    >🦅 科罗拉多大峡谷国家公园 (沙漠塔 ➔ 利潘角 ➔ 麦色点)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold"
+                    >🏨 旗杆镇凯悦嘉轩</span
+                  >
+                </div>
+              </div>
+
+              <!-- 阶段 3 -->
+              <div
+                class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80"
+              >
+                <div
+                  class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2"
+                >
+                  <span
+                    class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]"
+                    >3</span
+                  >
+                  <span
+                    >第三阶段：66号公路情怀、胡佛大坝与赌城大秀 (Day 6 - Day
+                    8)</span
+                  >
+                </div>
+                <div class="flex flex-wrap items-center gap-1.5 text-xs">
+                  <span
+                    class="px-2 py-1 rounded-lg bg-slate-100 border border-slate-200 text-slate-700"
+                    >威廉姆斯 (蒸汽火车车览)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800 font-medium"
+                    >✨【可选】塞利格曼 (赛车总动员老爷车)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-orange-50 border border-orange-200 text-orange-800"
+                    >金曼 (66号公路午餐)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800 font-medium"
+                    >胡佛大坝旁侧桥观景台</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800 font-medium"
+                    >✨【可选】博尔德城野生大角羊</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold"
+                    >🏨 拉斯维加斯凯悦嘉轩 (连住4晚)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-purple-50 border border-purple-200 text-purple-800 font-medium"
+                    >百乐宫《O秀》• 凯撒自助餐 • Sphere 球形馆 •
+                    豪客摩天轮</span
+                  >
+                </div>
+              </div>
+
+              <!-- 阶段 4 -->
+              <div
+                class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80"
+              >
+                <div
+                  class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2"
+                >
+                  <span
+                    class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]"
+                    >4</span
+                  >
+                  <span
+                    >第四阶段：死亡谷避暑车游与荒漠度假 (Day 9 - Day 10)</span
+                  >
+                </div>
+                <div class="flex flex-wrap items-center gap-1.5 text-xs">
+                  <span
+                    class="px-2 py-1 rounded-lg bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold"
+                    >🏜️ 死亡谷国家公园 (恶水盆地 • 扎布里斯基角 •
+                    艺术家车道)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-orange-50 border border-orange-200 text-orange-800"
+                    >七彩巨石 (艺术合影)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-medium"
+                    >约书亚树国家公园 (骷髅岩 • 奇亚斯岩)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold"
+                    >🏨 棕榈泉贝斯特韦斯特优选 (Tac/Quila 晚餐)</span
+                  >
+                </div>
+              </div>
+
+              <!-- 阶段 5 -->
+              <div
+                class="bg-white/80 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border border-slate-200/80"
+              >
+                <div
+                  class="flex items-center space-x-2 text-xs font-bold text-slate-700 mb-2"
+                >
+                  <span
+                    class="w-4 h-4 rounded-full bg-slate-800 text-white flex items-center justify-center text-[9px]"
+                    >5</span
+                  >
+                  <span
+                    >第五阶段：高空旋转缆车、天使之城艺术与太平洋落日 (Day 11 -
+                    Day 13)</span
+                  >
+                </div>
+                <div class="flex flex-wrap items-center gap-1.5 text-xs">
+                  <span
+                    class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800 font-medium"
+                    >棕榈泉高空旋转缆车 & 莫滕植物园</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-amber-50 border border-amber-300 border-dashed text-amber-800"
+                    >✨【可选】卡巴松巨型恐龙</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-800 font-semibold"
+                    >🏨 洛杉矶格兰代尔凯悦嘉轩 (连住2晚)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800"
+                    >格里菲斯天文台夜景</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800"
+                    >盖蒂中心美术馆</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-800"
+                    >好莱坞标志大草坪</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-semibold"
+                    >圣莫尼卡海滩太平洋落日 (66号公路终点)</span
+                  >
+                  <i
+                    class="fa-solid fa-arrow-right text-slate-300 text-[10px]"
+                  ></i>
+                  <span
+                    class="px-2 py-1 rounded-lg bg-sky-100 border border-sky-300 text-sky-900 font-bold"
+                    ><i class="fa-solid fa-plane-departure mr-1"></i>LAX
+                    机场离境回国</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 🏨 宾馆住宿总结 -->
+      <section id="hotels" class="py-10 max-w-5xl mx-auto px-4 sm:px-6 w-full">
+        <div class="flex items-center justify-between mb-6">
+          <div>
+            <h2
+              class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center"
+            >
+              <i class="fa-solid fa-hotel text-amber-500 mr-2.5"></i>
+              宾馆住宿总结
+            </h2>
+            <p class="text-slate-500 text-xs sm:text-sm mt-0.5">
+              全部已订妥 • 优先凯悦/Hyatt • 连住不搬行李 • 全家包含热早餐
+            </p>
+          </div>
+          <span
+            class="px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-semibold"
+          >
+            100% 已锁定
+          </span>
         </div>
 
-      </div>
-    </section>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5"
+        >
+          <!-- 酒店 1 -->
+          <div
+            class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-between mb-2.5">
+              <span
+                class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700"
+              >
+                10.12 - 10.14 (2晚)
+              </span>
+              <span
+                class="text-xs text-emerald-700 font-semibold flex items-center"
+              >
+                <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
+              </span>
+            </div>
+            <h3 class="font-bold text-slate-900 text-sm sm:text-base">
+              盐湖城/市中心凯悦嘉轩酒店
+            </h3>
+            <p class="text-[11px] text-slate-500 mb-3">
+              Hyatt Place Salt Lake City / Downtown / The Gateway
+            </p>
+            <div class="text-xs text-slate-600 space-y-1.5 mb-4">
+              <div class="flex items-start">
+                <i
+                  class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"
+                ></i
+                ><span>55 N 400 W, Salt Lake City, UT 84101</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-mug-hot w-4 text-amber-500"></i
+                ><span>包含全家热早餐 • 倒时差核心地段</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-square-parking w-4 text-amber-500"></i
+                ><span>自助停车 $15/晚 (无限次进出)</span>
+              </div>
+            </div>
+            <a
+              href="https://maps.google.com/?q=Hyatt+Place+Salt+Lake+City+Downtown+The+Gateway"
+              target="_blank"
+              class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors"
+            >
+              <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
+            </a>
+          </div>
 
-    <!-- 页脚 -->
-    <footer class="py-6 bg-slate-950 text-slate-500 text-center text-xs border-t border-slate-800 mt-auto">
-      <div class="max-w-5xl mx-auto px-4">
-        <p class="text-slate-400">美西自驾旅行计划 • 2026 U.S. Road Trip Guide</p>
-        <p class="mt-1">祝全家人旅途愉快、平安顺遂！</p>
-      </div>
-    </footer>
+          <!-- 酒店 2 -->
+          <div
+            class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-between mb-2.5">
+              <span
+                class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700"
+              >
+                10.14 - 10.16 (2晚)
+              </span>
+              <span
+                class="text-xs text-emerald-700 font-semibold flex items-center"
+              >
+                <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
+              </span>
+            </div>
+            <h3 class="font-bold text-slate-900 text-sm sm:text-base">
+              圣乔治凯悦嘉轩酒店
+            </h3>
+            <p class="text-[11px] text-slate-500 mb-3">
+              Hyatt Place St. George / Convention Center
+            </p>
+            <div class="text-xs text-slate-600 space-y-1.5 mb-4">
+              <div class="flex items-start">
+                <i
+                  class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"
+                ></i
+                ><span>1819 S 120 E, St. George, UT 84790</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-mug-hot w-4 text-amber-500"></i
+                ><span>包含全家热早餐 • 免费专属停车</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-bed w-4 text-amber-500"></i
+                ><span>连住2晚免挪窝 • 辐射锡安国家公园</span>
+              </div>
+            </div>
+            <a
+              href="https://maps.google.com/?q=Hyatt+Place+St.+George+Convention+Center"
+              target="_blank"
+              class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors"
+            >
+              <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
+            </a>
+          </div>
 
-  </main>
+          <!-- 酒店 3 -->
+          <div
+            class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-between mb-2.5">
+              <span
+                class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700"
+              >
+                10.16 - 10.17 (1晚)
+              </span>
+              <span
+                class="text-xs text-emerald-700 font-semibold flex items-center"
+              >
+                <i class="fa-solid fa-check-circle mr-1"></i> 积分已兑
+              </span>
+            </div>
+            <h3 class="font-bold text-slate-900 text-sm sm:text-base">
+              旗杆镇凯悦嘉轩酒店
+            </h3>
+            <p class="text-[11px] text-slate-500 mb-3">Hyatt Place Flagstaff</p>
+            <div class="text-xs text-slate-600 space-y-1.5 mb-4">
+              <div class="flex items-start">
+                <i
+                  class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"
+                ></i
+                ><span>397 S Malpais Ln, Flagstaff, AZ 86001</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-ticket w-4 text-amber-500"></i
+                ><span>确认号: 40023B23500861</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-cart-shopping w-4 text-amber-500"></i
+                ><span>包含全家热早餐 • 邻近全食超市</span>
+              </div>
+            </div>
+            <a
+              href="https://maps.google.com/?q=Hyatt+Place+Flagstaff"
+              target="_blank"
+              class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors"
+            >
+              <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
+            </a>
+          </div>
 
-  <!-- ========================================================================= -->
-  <!-- 💻 交互控制脚本 (Navigation & Drawer Controller) -->
-  <!-- ========================================================================= -->
-  <script>
-    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-    const closeDrawerBtn = document.getElementById('close-drawer-btn');
-    const mobileDrawer = document.getElementById('mobile-drawer');
-    const drawerPanel = document.getElementById('drawer-panel');
-    const drawerLinks = document.querySelectorAll('.drawer-link');
+          <!-- 酒店 4 -->
+          <div
+            class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-between mb-2.5">
+              <span
+                class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700"
+              >
+                10.17 - 10.21 (4晚连住)
+              </span>
+              <span
+                class="text-xs text-emerald-700 font-semibold flex items-center"
+              >
+                <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
+              </span>
+            </div>
+            <h3 class="font-bold text-slate-900 text-sm sm:text-base">
+              拉斯维加斯凯悦嘉轩酒店
+            </h3>
+            <p class="text-[11px] text-slate-500 mb-3">Hyatt Place Las Vegas</p>
+            <div class="text-xs text-slate-600 space-y-1.5 mb-4">
+              <div class="flex items-start">
+                <i
+                  class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"
+                ></i
+                ><span>4520 Paradise Rd, Las Vegas, NV 89169</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-ticket w-4 text-amber-500"></i
+                ><span>确认号: 40023B22959570</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-shield-heart w-4 text-amber-500"></i
+                ><span>避开赌场喧嚣 • 包含热早餐 • 免费停车</span>
+              </div>
+            </div>
+            <a
+              href="https://maps.google.com/?q=Hyatt+Place+Las+Vegas+Paradise+Rd"
+              target="_blank"
+              class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors"
+            >
+              <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
+            </a>
+          </div>
 
-    function openDrawer() {
-      mobileDrawer.classList.remove('hidden');
-      setTimeout(() => {
-        mobileDrawer.classList.remove('opacity-0');
-        drawerPanel.classList.remove('translate-x-full');
-      }, 10);
-    }
+          <!-- 酒店 5 -->
+          <div
+            class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-between mb-2.5">
+              <span
+                class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700"
+              >
+                10.21 - 10.22 (1晚)
+              </span>
+              <span
+                class="text-xs text-emerald-700 font-semibold flex items-center"
+              >
+                <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
+              </span>
+            </div>
+            <h3 class="font-bold text-slate-900 text-sm sm:text-base">
+              拉斯布里萨斯贝斯特韦斯特优选酒店
+            </h3>
+            <p class="text-[11px] text-slate-500 mb-3">
+              Best Western Plus Las Brisas Hotel (棕榈泉)
+            </p>
+            <div class="text-xs text-slate-600 space-y-1.5 mb-4">
+              <div class="flex items-start">
+                <i
+                  class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"
+                ></i
+                ><span>222 S Indian Canyon Dr, Palm Springs, CA 92262</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-utensils w-4 text-amber-500"></i
+                ><span>市中心核心 • 步行5分钟达 Tac/Quila 餐厅</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-hot-tub-person w-4 text-amber-500"></i
+                ><span>包含免费热早餐 • 露天热水水疗池</span>
+              </div>
+            </div>
+            <a
+              href="https://maps.google.com/?q=Best+Western+Plus+Las+Brisas+Hotel+Palm+Springs"
+              target="_blank"
+              class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors"
+            >
+              <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
+            </a>
+          </div>
 
-    function closeDrawer() {
-      mobileDrawer.classList.add('opacity-0');
-      drawerPanel.classList.add('translate-x-full');
-      setTimeout(() => {
-        mobileDrawer.classList.add('hidden');
-      }, 300);
-    }
+          <!-- 酒店 6 -->
+          <div
+            class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div class="flex items-center justify-between mb-2.5">
+              <span
+                class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700"
+              >
+                10.22 - 10.24 (2晚)
+              </span>
+              <span
+                class="text-xs text-emerald-700 font-semibold flex items-center"
+              >
+                <i class="fa-solid fa-check-circle mr-1"></i> 已订妥
+              </span>
+            </div>
+            <h3 class="font-bold text-slate-900 text-sm sm:text-base">
+              格兰代尔中心凯悦嘉轩酒店
+            </h3>
+            <p class="text-[11px] text-slate-500 mb-3">
+              Hyatt Place Glendale / Downtown (洛杉矶)
+            </p>
+            <div class="text-xs text-slate-600 space-y-1.5 mb-4">
+              <div class="flex items-start">
+                <i
+                  class="fa-solid fa-location-dot mt-0.5 w-4 text-amber-500"
+                ></i
+                ><span>225 W Wilson Ave, Glendale, CA 91203</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-shield-halved w-4 text-amber-500"></i
+                ><span>洛杉矶北部治安绝佳区域 • 包含全家早餐</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fa-solid fa-square-parking w-4 text-amber-500"></i
+                ><span>隔壁橙街公立停车楼日封顶仅 $15</span>
+              </div>
+            </div>
+            <a
+              href="https://maps.google.com/?q=Hyatt+Place+Glendale+Downtown"
+              target="_blank"
+              class="block text-center py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium transition-colors"
+            >
+              <i class="fa-solid fa-location-arrow mr-1"></i> Google 地图导航
+            </a>
+          </div>
+        </div>
+      </section>
 
-    mobileMenuBtn?.addEventListener('click', openDrawer);
-    closeDrawerBtn?.addEventListener('click', closeDrawer);
-    mobileDrawer?.addEventListener('click', (e) => {
-      if (e.target === mobileDrawer) closeDrawer();
-    });
+      <!-- 🗓️ 每日详细日程 -->
+      <section
+        id="itinerary"
+        class="py-10 bg-slate-100/70 border-t border-slate-200"
+      >
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+          <div class="text-center max-w-2xl mx-auto mb-8">
+            <span
+              class="text-amber-600 font-semibold text-xs tracking-wider uppercase"
+              >Daily Detailed Plan</span
+            >
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">
+              13天 每日精细行程
+            </h2>
+            <p class="text-slate-500 text-xs sm:text-sm mt-1.5">
+              时间节点明确 • 纯平路低消耗 • 顺路可选景点自由增减
+            </p>
+          </div>
 
-    drawerLinks.forEach(link => {
-      link.addEventListener('click', closeDrawer);
-    });
-  </script>
+          <div class="space-y-5">
+            <!-- Day 1 -->
+            <div
+              id="day-1"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D1</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月12日 (周一): 抵达洛杉矶 (LAX) ➔ 转机 ➔ 盐湖城 (SLC)
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      时差调整 • 取车自驾 • 酒店充分休整
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程 20 分钟</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >体能消耗：零</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>✈️ 抵美通关与转机：</strong>早上 10:00
+                  班机降落洛杉矶国际机场
+                  (LAX)。通关提取全部行李，过海关后在转机区托运。转机衔接时间宽裕（约
+                  6 小时），可从容用餐休息，下午 16:31 搭乘美联航/United
+                  Airlines UA5307 飞往盐湖城 (SLC)，19:25 抵达。
+                </p>
+                <p>
+                  <strong>🚗 顺畅取车：</strong
+                  >抵达盐湖城机场后，在航站楼办理租车手续，驱车 20 分钟入住
+                  <strong>盐湖城/市中心凯悦嘉轩酒店</strong>，预计 20:30
+                  前后办理入住。
+                </p>
+                <p>
+                  <strong>🛌 倒时差与休整：</strong
+                  >由于抵达较晚，首日不安排任何观光。建议在机场或抵达后简单用晚餐，入住后直接休息倒时差。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-1.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 1 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
 
-</body>
+            <!-- Day 2 -->
+            <div
+              id="day-2"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D2</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月13日 (周二): 盐湖城漫步 ➔ 大盐湖羚羊岛州立公园
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      州议会大厦 • 圣殿广场花园 • 美洲野牛纯车游
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程约 2 小时</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >低体能消耗</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🏛️ 上午 (09:30 - 11:00)：</strong>游览
+                  <strong>犹他州议会大厦/Utah State Capitol</strong
+                  >，全空调电梯环境，俯瞰城市全貌；随后前往
+                  <strong>圣殿广场/Temple Square</strong>
+                  外围花园公共步道慢节奏合影。
+                </p>
+                <p>
+                  <strong>🍲 中午 (11:00 - 13:00)：</strong>前往
+                  <strong>城市溪流中心/City Creek Center</strong>
+                  享用午餐，漫步室内瀑布溪流商圈。
+                </p>
+                <p>
+                  <strong>🦬 下午 (13:30 - 17:00)：</strong>驱车前往
+                  <strong
+                    >大盐湖羚羊岛州立公园/Antelope Island State Park</strong
+                  >。车窗内近距离观赏美洲野牛 (American
+                  Bison)，开车直达观景点俯瞰内陆盐海，傍晚返回市中心。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-2.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 2 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 3 -->
+            <div
+              id="day-3"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D3</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月14日 (周三): 盐湖城 ➔ 科洛布峡谷 ➔ 圣乔治
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      锡安红岩景观公路 • 舒适入住圣乔治
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程约 4.75 小时</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >低体能消耗</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🚗 上午 (09:30 - 14:00)：</strong>享用早餐后退房，沿
+                  15 号公路南下，中途在
+                  <strong>雪松城/Cedar City</strong> 停靠午餐与休息。
+                </p>
+                <p>
+                  <strong>🏔️ 下午顺路打卡 (14:30 - 15:30)：</strong>从 40
+                  号出口驶入
+                  <strong>科洛布峡谷景区/Kolob Canyons (锡安国家公园)</strong
+                  >。无需长时间徒步，在 5
+                  英里景观公路上自驾并在观景点近距离俯瞰红色砂岩断崖（年票免费）。
+                </p>
+                <p>
+                  <strong>🏨 入住 (15:30 - 16:15)：</strong>驱车 45 分钟入住
+                  <strong>圣乔治凯悦嘉轩酒店</strong>，享受连住两晚的放松时光。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-3.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 3 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 4 -->
+            <div
+              id="day-4"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D4</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月15日 (周四): 圣乔治 ➔ 锡安国家公园 ➔
+                      【可选】雪谷州立公园 ➔ 圣乔治
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      峡谷观光巴士 • 沿河平坦步道 • 连住第2晚免换房
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程 2~2.5 小时</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >平坦慢步</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🚌 上午 (09:00 - 13:30)：</strong>轻松驱车前往
+                  <strong>锡安国家公园/Zion National Park</strong
+                  >。搭乘全空调免费观光巴士饱览两岸红岩，随后在最平坦无障碍的
+                  <strong>沿河步道/Riverside Walk</strong>
+                  随缘慢步，听维琴河水潺潺。
+                </p>
+                <p>
+                  <strong>📸 下午纯车游升级【可选】(14:30 - 16:30)：</strong
+                  >回程顺路前往
+                  <strong>雪谷州立公园/Snow Canyon State Park</strong
+                  >。纯车游公路两侧红白砂岩相间，在路边即可拍照（若感疲劳可跳过直接回酒店休息）。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-4.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 4 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 5 -->
+            <div
+              id="day-5"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D5</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月16日 (周五): 圣乔治 ➔ 科罗拉多大峡谷国家公园 ➔ 旗杆镇
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      沙漠景观瞭望塔 • 麦色观景点 • 傍晚入住旗杆镇凯悦
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程约 5.5 小时</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >低体能消耗</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🌿 上午出发与顺路歇脚 (07:30 - 11:30)：</strong>7:30
+                  准时出发。 <br />•
+                  <span class="text-amber-700 font-medium"
+                    >【可选】管泉国家纪念地/Pipe Spring</span
+                  >：清凉绿洲古堡，平地步行 200 米歇脚避暑（年票免费）； <br />•
+                  <span class="text-amber-700 font-medium"
+                    >【可选】悬崖民居奇石屋/Cliff Dwellers</span
+                  >：路边独特巨石屋拍照 10 分钟； <br />•
+                  <strong>纳瓦霍桥/Navajo Bridge</strong
+                  >：桥头观景台俯瞰大理石峡谷与科罗拉多河。
+                </p>
+                <p>
+                  <strong>🦅 中午至下午大峡谷深度游 (12:00 - 15:30)：</strong
+                  >由东门进入
+                  <strong
+                    >科罗拉多大峡谷国家公园/Grand Canyon National Park</strong
+                  >。游览
+                  <strong>沙漠景观瞭望塔 (Desert View Watchtower)</strong> ➔
+                  <span class="text-amber-700 font-medium"
+                    >【可选】利潘角 (Lipan Point)</span
+                  >
+                  俯瞰大转弯 ➔
+                  <strong>麦色观景点 (Mather Point)</strong>
+                  无障碍铺装道路漫步。
+                </p>
+                <p>
+                  <strong>🏨 入住 (17:00 - 18:30)：</strong
+                  >在南门外可自选地质博物馆或 IMAX 电影，17:00 驱车前往并入住
+                  <strong>旗杆镇凯悦嘉轩酒店</strong>，避开夜间长途山路。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-5.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 5 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 6 -->
+            <div
+              id="day-6"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D6</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月17日 (周六): 旗杆镇 ➔ 66号公路 ➔ 胡佛大坝 ➔ 拉斯维加斯
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      《赛车总动员》原型小镇 • 百乐宫喷泉与《O秀》•
+                      赌城连住第1晚
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程约 4 小时</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >低体能消耗</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🚗 上午 (09:00 - 10:50)：</strong>沿 I-40
+                  西行，顺路车览
+                  <strong>威廉姆斯/Williams</strong> 蒸汽火车，随后顺路驶入
+                  <span class="text-amber-700 font-medium"
+                    >【可选】塞利格曼/Seligman (66号公路名镇)</span
+                  >，在阳光下漫步《赛车总动员》原型街区，与彩色古董老爷车合影。
+                </p>
+                <p>
+                  <strong>🍔 午餐与大坝 (11:45 - 14:30)：</strong>在
+                  <strong>金曼/Kingman</strong> 享用午餐（推荐 Mr. D'z 或
+                  Calico's 餐厅）。下午登上
+                  <strong>胡佛大坝旁侧桥观景台</strong> 俯瞰壮丽大坝工程。
+                </p>
+                <p>
+                  <strong>🐑 顺路大角羊【可选】(14:35 - 15:15)：</strong>在
+                  <strong>博尔德城/Boulder City</strong> 的
+                  <strong>海明威公园/Hemenway Park</strong>
+                  绿草坪边近距离观察野生沙漠大角羊。
+                </p>
+                <p>
+                  <strong>🎭 傍晚至夜间 (18:30 - 21:00)：</strong>入住
+                  <strong>拉斯维加斯凯悦嘉轩酒店</strong
+                  >。打车前往百乐宫门前观赏
+                  <strong>百乐宫喷泉水秀</strong>，并在 19:30 舒适入座观赏
+                  <strong>太阳马戏团《O秀》/Cirque du Soleil "O" Show</strong>。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-6.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 6 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 7 -->
+            <div
+              id="day-7"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D7</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月18日 (周日): 拉斯维加斯 (射击 ➔ 自助餐 ➔ 球形馆
+                      Sphere)
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      真枪射击体验 • 凯撒皇宫自助盛宴 • Sphere 沉浸式电影 (20:00
+                      已订妥)
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-taxi mr-1"></i>市内打车出行</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >全空调零疲劳</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🎯 上午 (10:00 - 12:00)：</strong>自驾前往
+                  <strong>702射击场 (The Range 702)</strong> 或
+                  <strong>战场拉斯维加斯 (Battlefield Vegas)</strong>
+                  体验真枪射击，结束后回酒店洗漱休整。
+                </p>
+                <p>
+                  <strong>🌸 下午 (13:00 - 16:30)：</strong
+                  >打车前往百乐宫漫步观赏
+                  <strong>室内秋季花卉展 (Botanical Gardens)</strong>
+                  与凯撒皇宫建筑。
+                </p>
+                <p>
+                  <strong>🍽️ 傍晚 (16:45 - 18:45)：</strong>在凯撒皇宫享用
+                  <strong>凯撒皇宫自助餐/Caesars Bacchanal Buffet</strong>（已在
+                  OpenTable 预约妥当）。
+                </p>
+                <p>
+                  <strong>🌐 晚间 (19:15 - 22:00)：</strong>前往地标
+                  <strong>拉斯维加斯球形馆/Sphere Las Vegas</strong> 观看 20:00
+                  超大球幕电影（特别提醒：严禁背包，仅带手机与小手包出行）。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-7.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 7 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 8 -->
+            <div
+              id="day-8"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D8</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月19日 (周一): 拉斯维加斯 (可口可乐 ➔ 摩天轮 ➔ 日式烧肉)
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      世界可乐品尝 • 豪客摩天轮日落 • 888 日式自助烧肉
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-taxi mr-1"></i>打车便捷出行</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >体能消耗：零</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🥤 上午至中午 (10:30 - 12:30)：</strong>打车前往
+                  <strong>可口可乐主题商店/Coca-Cola Store</strong> 体验 16
+                  种世界特色饮料套餐并合影，漫步隔壁
+                  <strong>M&M's 巧克力世界</strong>，午后回酒店休息。
+                </p>
+                <p>
+                  <strong>🎡 黄昏 (17:30 - 18:30)：</strong>体验
+                  <strong>豪客摩天轮/High Roller</strong
+                  >，在全封闭空调舱内饱览日落与赌城大道璀璨夜景。
+                </p>
+                <p>
+                  <strong>🥩 晚餐与漫步 (18:15 - 21:30)：</strong>提前在 Yelp
+                  加入排队，打车前往
+                  <strong>888日式烧肉/888 Japanese BBQ</strong>
+                  享用丰盛自助晚餐，餐后漫步
+                  <strong>大运河购物中心/Grand Canal Shoppes</strong>。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-8.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 8 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 9 -->
+            <div
+              id="day-9"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D9</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月20日 (周二): 拉斯维加斯 ➔ 死亡谷国家公园 ➔ 拉斯维加斯
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      清晨出发避暑 • 扎布里斯基角 • 艺术家车道 • 恶水盆地 •
+                      连住第4晚
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>往返车程 5 小时</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >车游低消耗</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🌅 清晨出发 (07:00 - 09:00)：</strong>早晨 7:00
+                  准时满油出发，驱车 2 小时从东门进入
+                  <strong>死亡谷国家公园/Death Valley National Park</strong>。
+                </p>
+                <p>
+                  <strong>🏜️ 上午核心车游 (09:00 - 11:30)：</strong> <br />•
+                  <strong>扎布里斯基角/Zabriskie Point</strong>：下车走 2
+                  分钟坡道俯瞰金色山谷； <br />•
+                  <span class="text-amber-700 font-medium"
+                    >【可选】炉溪游客中心/Furnace Creek</span
+                  >：空调避暑、国家公园集章与温度大屏合影； <br />•
+                  <strong>艺术家车道/Artist's Drive & 调色板/Palette</strong
+                  >：坐在空调车内穿梭彩色五彩火山丘； <br />•
+                  <strong>恶水盆地/Badwater Basin</strong
+                  >：北美最低点白色平坦盐滩漫步合影。
+                </p>
+                <p>
+                  <strong>🛌 午后折返休整 (11:30 - 13:45)：</strong
+                  >游览完毕直接折返拉斯维加斯，完全避开死亡谷正午烈日高温，下午在酒店深度休息。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-9.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 9 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 10 -->
+            <div
+              id="day-10"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D10</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月21日 (周三): 拉斯维加斯 ➔ 约书亚树国家公园 ➔ 棕榈泉
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      七彩巨石 • 骷髅岩 • 奇亚斯岩 • 棕榈泉 Tac/Quila 晚餐
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程约 5.1 小时</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >低体能消耗</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🎨 上午 (09:00 - 12:30)：</strong>退房南下，在
+                  <strong>七彩巨石/Seven Magic Mountains</strong> 停车合影 15
+                  分钟，随后并入 CA-247 前往约书亚树。
+                </p>
+                <p>
+                  <strong>🌵 中午至下午 (12:30 - 14:00)：</strong>使用年票进入
+                  <strong>约书亚树国家公园/Joshua Tree National Park</strong
+                  >。纯平路游览
+                  <strong>奇亚斯岩 (Cap Rock)</strong> 与公路正旁的
+                  <strong>骷髅岩 (Skull Rock)</strong>。
+                </p>
+                <p>
+                  <strong>🌮 傍晚美食 (14:45 - 21:00)：</strong>入住
+                  <strong>拉斯布里萨斯贝斯特韦斯特优选酒店</strong>。晚上步行仅
+                  5 分钟前往人气特色餐厅
+                  <strong>Tac/Quila 餐厅</strong> 享用晚餐。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-10.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 10 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 11 -->
+            <div
+              id="day-11"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D11</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月22日 (周四): 棕榈泉 (旋转缆车) ➔ 洛杉矶
+                      (格里菲斯天文台夜景)
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      高空旋转缆车 • 莫滕植物园 • 先存行李后游天文台
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程约 2.75 小时</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >平坦慢游</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🚠 上午 (09:30 - 13:00)：</strong>体验
+                  <strong>棕榈泉高空旋转缆车/Palm Springs Aerial Tramway</strong
+                  >，登上山顶俯瞰沙漠全景；中午在山顶或市中心用餐。
+                </p>
+                <p>
+                  <strong>🦕 下午 (13:00 - 16:30)：</strong>漫步
+                  <strong>莫滕植物园/Moorten Botanical Garden</strong>；沿 I-10
+                  返回洛杉矶顺路停靠
+                  <span class="text-amber-700 font-medium"
+                    >【可选】卡巴松巨型恐龙 (Cabazon Dinosaurs)</span
+                  >
+                  合影。
+                </p>
+                <p>
+                  <strong>🌟 安全入住与天文台 (16:30 - 19:15)：</strong>先抵达
+                  <strong>格兰代尔中心凯悦嘉轩酒店</strong>
+                  办理入住并将全家托运行李全部存入房间。随后打车 15 分钟前往
+                  <strong>格里菲斯天文台/Griffith Observatory</strong
+                  >，在平坦草坪观赏好莱坞标志与日落夜景。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-11.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 11 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 12 -->
+            <div
+              id="day-12"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D12</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月23日 (周五): 洛杉矶 (盖蒂中心 ➔ 好莱坞标志 ➔
+                      圣莫尼卡落日)
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      艺术轻轨美术馆 • 大草坪地标合影 • 66号公路终点海边落日
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程约 2 小时</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >慢节奏散步</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>🏛️ 上午 (10:00 - 13:00)：</strong
+                  >搭乘免费无障碍轻轨缆车直达
+                  <strong>盖蒂中心/The Getty Center</strong
+                  >，馆内全平整，室外花园饱览洛杉矶全景。
+                </p>
+                <p>
+                  <strong>🏞️ 下午 (14:30 - 15:30)：</strong>前往
+                  <strong>好莱坞湖公园/Lake Hollywood Park</strong
+                  >，在平坦开阔大草坪近距离与 好莱坞标志 (Hollywood Sign)
+                  合影，下车即达。
+                </p>
+                <p>
+                  <strong>🌅 傍晚 (16:30 - 18:30)：</strong>前往
+                  <strong>圣莫尼卡海滩/Santa Monica State Beach</strong
+                  >，沿平坦木栈道漫步，在 66
+                  号公路终点标志前留影，欣赏太平洋落日。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-12.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 12 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 13 -->
+            <div
+              id="day-13"
+              class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm scroll-mt-20"
+            >
+              <div
+                class="p-4 sm:p-5 bg-slate-900 text-white flex flex-wrap items-center justify-between gap-3"
+              >
+                <div class="flex items-center space-x-3">
+                  <span
+                    class="w-9 h-9 rounded-xl bg-amber-500 font-bold flex items-center justify-center text-slate-950 text-sm"
+                    >D13</span
+                  >
+                  <div>
+                    <h3 class="text-base sm:text-lg font-bold">
+                      10月24日 (周六): 洛杉矶 (LAX) ➔ 离境回国
+                    </h3>
+                    <p class="text-xs text-slate-300 mt-0.5">
+                      顺畅还车 • 搭乘机场接驳巴士 • 圆满结束行程
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-2 text-xs">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-white/10 text-slate-300"
+                    ><i class="fa-solid fa-car mr-1"></i>车程 40 分钟</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium"
+                    >离境</span
+                  >
+                </div>
+              </div>
+              <div
+                class="p-4 sm:p-5 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5"
+              >
+                <p>
+                  <strong>✈️ 离境回国：</strong>国际航班于 12:30 起飞。早上
+                  08:30 办理退房，从格兰代尔酒店出发驾车 40 分钟前往 LAX
+                  机场还车点还车，搭乘免费接驳车抵达航站楼，圆满结束美西之旅。
+                </p>
+                <div class="pt-3 border-t border-slate-100 mt-2">
+                  <a
+                    href="day-13.html"
+                    class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs transition-colors shadow-sm"
+                  >
+                    <span>查看 Day 13 完整详细方案</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 💡 预订待办清单 -->
+      <section
+        id="checklist"
+        class="py-10 max-w-5xl mx-auto px-4 sm:px-6 w-full"
+      >
+        <h2
+          class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center mb-1.5"
+        >
+          <i class="fa-solid fa-list-check text-amber-500 mr-2.5"></i>
+          出行前落实预订清单
+        </h2>
+        <p class="text-slate-500 text-xs sm:text-sm mb-6">
+          按时间窗口分类整理，清晰掌控所有待办事项
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <!-- 需提前预约 -->
+          <div
+            class="bg-white rounded-2xl p-5 sm:p-6 border border-amber-200 shadow-sm"
+          >
+            <div
+              class="flex items-center space-x-2 text-amber-700 font-bold mb-4 text-sm sm:text-base"
+            >
+              <span
+                class="w-5 h-5 rounded-full bg-amber-100 flex items-center justify-center text-xs"
+                >!</span
+              >
+              <span>仍需提前预约 / 购买项目 (To Be Booked)</span>
+            </div>
+            <ul class="space-y-3.5 text-xs sm:text-sm text-slate-700">
+              <li
+                class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start"
+              >
+                <div>
+                  <div class="font-bold text-slate-900">
+                    🚠 棕榈泉高空旋转缆车 (Day 11 上午)
+                  </div>
+                  <div class="text-xs text-slate-500 mt-0.5">
+                    建议提前 2~3 周在官网购票锁定乘车时段
+                  </div>
+                </div>
+                <span
+                  class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs font-semibold whitespace-nowrap ml-2"
+                  >提前2-3周</span
+                >
+              </li>
+              <li
+                class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start"
+              >
+                <div>
+                  <div class="font-bold text-slate-900">
+                    🌮 Tac/Quila 餐厅 (Day 10 晚上)
+                  </div>
+                  <div class="text-xs text-slate-500 mt-0.5">
+                    建议提前 1~2 周在 OpenTable 免费预约座位
+                  </div>
+                </div>
+                <span
+                  class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs font-semibold whitespace-nowrap ml-2"
+                  >提前1-2周</span
+                >
+              </li>
+              <li
+                class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start"
+              >
+                <div>
+                  <div class="font-bold text-slate-900">
+                    🏛️ 盖蒂中心入场券 (Day 12 上午)
+                  </div>
+                  <div class="text-xs text-slate-500 mt-0.5">
+                    建议提前 1~2 周在官网免费预约 10:00 时段
+                  </div>
+                </div>
+                <span
+                  class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-xs font-semibold whitespace-nowrap ml-2"
+                  >免费预约</span
+                >
+              </li>
+              <li
+                class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start"
+              >
+                <div>
+                  <div class="font-bold text-slate-900">
+                    🎯 702 或 战场射击场 (Day 7 上午)
+                  </div>
+                  <div class="text-xs text-slate-500 mt-0.5">
+                    建议提前 1~2 周在官网预约射击套餐与时段
+                  </div>
+                </div>
+                <span
+                  class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs font-semibold whitespace-nowrap ml-2"
+                  >提前1-2周</span
+                >
+              </li>
+              <li
+                class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start"
+              >
+                <div>
+                  <div class="font-bold text-slate-900">
+                    🥩 888日式烧肉排队 (Day 8 晚上)
+                  </div>
+                  <div class="text-xs text-slate-500 mt-0.5">
+                    当天下午 15:30~17:45 在手机 Yelp App 线上排队
+                  </div>
+                </div>
+                <span
+                  class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-xs font-semibold whitespace-nowrap ml-2"
+                  >当天操作</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- 已完成预订 -->
+          <div
+            class="bg-white rounded-2xl p-5 sm:p-6 border border-emerald-200 shadow-sm"
+          >
+            <div
+              class="flex items-center space-x-2 text-emerald-700 font-bold mb-4 text-sm sm:text-base"
+            >
+              <i class="fa-solid fa-circle-check"></i>
+              <span>已落实预订的项目清单 (Already Booked)</span>
+            </div>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>✈️ LAX ➔ SLC 国内转机航班 UA5307 (16:31-19:25)</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>🚗 跨州异地自驾租车 (SLC 取车，LAX 还车)</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>🏨 盐湖城市中心凯悦嘉轩酒店 (10.12 - 10.14)</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>🏨 圣乔治凯悦嘉轩酒店 (10.14 - 10.16)</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>🏨 旗杆镇凯悦嘉轩酒店 (10.16 - 10.17 / 积分房)</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span
+                  >🏨 拉斯维加斯凯悦嘉轩酒店 (10.17 - 10.21 / 4晚连住)</span
+                >
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>🏨 棕榈泉贝斯特韦斯特优选酒店 (10.21 - 10.22)</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>🏨 格兰代尔中心凯悦嘉轩酒店 (10.22 - 10.24)</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>🌐 拉斯维加斯球形馆 Sphere 门票 (10.18 20:00)</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>🍽️ 凯撒皇宫自助餐 Caesars Bacchanal (10.18 16:45)</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i
+                ><span>💳 美国国家公园年票 (America the Beautiful Pass)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 🛡️ 核心安全与防范指南 -->
+      <section id="safety" class="py-10 bg-slate-900 text-white w-full">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+          <div class="text-center max-w-2xl mx-auto mb-8">
+            <span
+              class="text-amber-400 font-semibold text-xs tracking-wider uppercase"
+              >Safety & Universal Guidelines</span
+            >
+            <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold mt-1">
+              全行程核心通用出行准则
+            </h2>
+            <p class="text-slate-400 text-xs sm:text-sm mt-1.5">
+              牢记以下三项全局原则，确保全家人旅途顺畅安心
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+            <div
+              class="p-5 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-2"
+            >
+              <div class="text-amber-400 text-xl">
+                <i class="fa-solid fa-gas-pump"></i>
+              </div>
+              <h3 class="font-bold text-sm sm:text-base text-white">
+                荒漠公路“半箱油即加满”
+              </h3>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                美西州际与国家公园沿线常有数十英里无人区与无补给路段。只要油表降至
+                <strong>1/2（半箱）</strong
+                >，离开城镇前见站即补满，绝不在荒漠路段冒险压低油表。
+              </p>
+            </div>
+
+            <div
+              class="p-5 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-2"
+            >
+              <div class="text-amber-400 text-xl">
+                <i class="fa-solid fa-bottle-water"></i>
+              </div>
+              <h3 class="font-bold text-sm sm:text-base text-white">
+                高原沙漠防干燥与全天补水
+              </h3>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                美西内陆高原与沙漠相对湿度常低于
+                15%。随车全程常备整箱瓶装水，全家人随身备好润唇膏、墨镜、遮阳帽与保湿乳，随渴随饮。
+              </p>
+            </div>
+
+            <div
+              class="p-5 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-2"
+            >
+              <div class="text-amber-400 text-xl">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h3 class="font-bold text-sm sm:text-base text-white">
+                停车安全与车内零遗留
+              </h3>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                无论在景区、商圈或市区停靠，车内座位、扶手箱与后座<strong>绝不遗留任何包袋或可见物品</strong>。护照与贵重物品随身携带，大件托运行李抵店后先存入房间再出行。
+              </p>
+            </div>
+          </div>
+
+          <!-- 单日专属安全指引提示条 -->
+          <div
+            class="mt-6 p-3.5 rounded-xl bg-slate-800/40 border border-slate-700/60 text-center"
+          >
+            <p
+              class="text-xs text-slate-400 flex items-center justify-center space-x-2"
+            >
+              <i class="fa-solid fa-circle-info text-amber-400"></i>
+              <span
+                >各景区专属安全细节（如死亡谷离线地图、大峡谷防鹿、Sphere无包令、洛杉矶停车等）已精准置于各单日详细方案中。</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 页脚 -->
+      <footer
+        class="py-6 bg-slate-950 text-slate-500 text-center text-xs border-t border-slate-800 mt-auto"
+      >
+        <div class="max-w-5xl mx-auto px-4">
+          <p class="text-slate-400">
+            美西自驾旅行计划 • 2026 U.S. Road Trip Guide
+          </p>
+          <p class="mt-1">祝全家人旅途愉快、平安顺遂！</p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- ========================================================================= -->
+    <!-- 💻 交互控制脚本 (Navigation & Drawer Controller) -->
+    <!-- ========================================================================= -->
+    <script>
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const closeDrawerBtn = document.getElementById('close-drawer-btn');
+      const mobileDrawer = document.getElementById('mobile-drawer');
+      const drawerPanel = document.getElementById('drawer-panel');
+      const drawerLinks = document.querySelectorAll('.drawer-link');
+
+      function openDrawer() {
+        mobileDrawer.classList.remove('hidden');
+        setTimeout(() => {
+          mobileDrawer.classList.remove('opacity-0');
+          drawerPanel.classList.remove('translate-x-full');
+        }, 10);
+      }
+
+      function closeDrawer() {
+        mobileDrawer.classList.add('opacity-0');
+        drawerPanel.classList.add('translate-x-full');
+        setTimeout(() => {
+          mobileDrawer.classList.add('hidden');
+        }, 300);
+      }
+
+      mobileMenuBtn?.addEventListener('click', openDrawer);
+      closeDrawerBtn?.addEventListener('click', closeDrawer);
+      mobileDrawer?.addEventListener('click', (e) => {
+        if (e.target === mobileDrawer) closeDrawer();
+      });
+
+      drawerLinks.forEach((link) => {
+        link.addEventListener('click', closeDrawer);
+      });
+    </script>
+  </body>
 </html>
