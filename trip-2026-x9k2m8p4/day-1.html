@@ -5,6 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
   <title>Day 1 详细行程：抵达洛杉矶、转机盐湖城与休整 | 美西自驾路书</title>
+  <!-- 动态专属标签页图标 (Dynamic Themed Favicon) -->
+  <link id="dynamic-favicon" rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>" />
+  <script>
+    (function() {
+      const icons = ['✈️', '🚗'];
+      let idx = 0;
+      const link = document.getElementById('dynamic-favicon');
+      function updateFavicon(emoji) {
+        link.href = `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>${emoji}</text></svg>`;
+      }
+      setInterval(() => {
+        if (!document.hidden) {
+          idx = (idx + 1) % icons.length;
+          updateFavicon(icons[idx]);
+        }
+      }, 2500);
+      const docTitle = document.title;
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          document.title = '✈️ Day 1: 抵美与盐湖城取车...';
+        } else {
+          document.title = docTitle;
+          updateFavicon(icons[idx]);
+        }
+      });
+    })();
+  </script>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Font Awesome CDN -->
@@ -153,9 +180,54 @@
         </div>
       </div>
 
-      <div class="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2">
-        <p><strong>🚗 航站楼室内取车：</strong>盐湖城新航站楼设计极其紧凑高效。下飞机后步行通过连廊即可直达租车中心 (Rental Car Center)，无需搭乘室外摆渡车。在柜台出示中国驾照原件、翻译认证件与主驾驶员信用卡，办妥手续后在室内停车位直接提车出发。</p>
-        <p><strong>🛣️ 顺畅道路：</strong>出机场沿 I-80 East 转 400 South，路面宽阔车流平稳，仅需 15 分钟即可直达市中心酒店，预计 20:30 前后抵达。</p>
+      <!-- 🚗 航站楼取车与自驾保险办理全指南 (Car Rental & Insurance Guide) -->
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 space-y-3.5">
+        <div class="flex items-center space-x-2 text-slate-900 font-bold text-sm sm:text-base pb-2 border-b border-slate-200">
+          <i class="fa-solid fa-car text-amber-500"></i>
+          <span>全国租车/National Car Rental 航站楼取车与自驾保险办理指南</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-slate-700">
+          <!-- 模块 1：双驾驶人登记与免费权益 -->
+          <div class="bg-white p-3.5 rounded-lg border border-slate-200 shadow-xs space-y-2">
+            <div class="font-bold text-slate-900 flex items-center space-x-1.5">
+              <i class="fa-solid fa-id-card text-emerald-600"></i>
+              <span>双驾驶人登记与免费权益 (Additional Driver)</span>
+            </div>
+            <p class="leading-relaxed">
+              <strong>特权政策：</strong>订单已免费包含额外驾驶人特权（<strong>9 Additional Drivers: Included</strong>，免收每日附加费，节省约 $120~$180）。
+            </p>
+            <div class="leading-relaxed text-amber-900 bg-amber-50/90 p-2 rounded border border-amber-200 text-[11px] space-y-1">
+              <p class="font-bold flex items-center space-x-1">
+                <i class="fa-solid fa-triangle-exclamation text-amber-600"></i>
+                <span>柜台实操准则：费用免费 ≠ 免登记上路</span>
+              </p>
+              <p>主驾驶人与<strong>第二位同行驾驶人 (Additional Driver)</strong> 必须同时在柜台出示<strong>中国驾照原件、英文翻译认证件及护照原件</strong>，由工作人员正式录入租车合同 (Rental Agreement)。严禁未经登记驾驶，确保两人开车均享有商业保险与信用卡保险的全额赔付保障。</p>
+            </div>
+          </div>
+
+          <!-- 模块 2：黄金组合保险口径 -->
+          <div class="bg-white p-3.5 rounded-lg border border-slate-200 shadow-xs space-y-2">
+            <div class="font-bold text-slate-900 flex items-center space-x-1.5">
+              <i class="fa-solid fa-shield-halved text-blue-600"></i>
+              <span>黄金组合保险口径 (Insurance Configuration)</span>
+            </div>
+            <div class="space-y-1.5">
+              <p class="leading-relaxed">
+                <strong class="text-rose-700">❌ 明确拒绝 CDW/LDW (车损盗抢险)：</strong>在柜台明确选择 <strong>Decline CDW/LDW</strong>。租车全程使用<strong>大通蓝宝石信用卡/Chase Sapphire Preferred (CSP)</strong> 支付，由 CSP 提供的 Primary 租车主险全额赔付本车车损与盗抢（完全保护合同内登记的第二位同行驾驶人）。
+              </p>
+              <p class="leading-relaxed">
+                <strong class="text-emerald-700">✅ 自费购买 SLI/LIS (补充第三者责任险)：</strong>在柜台选择 <strong>Accept SLI/LIS</strong>。享有最高 <strong>100 万美元 ($1,000,000)</strong> 第三方人身与财产损失独立理赔额度。此项配置能无缝保护两位驾驶人，并彻底隔离个人汽车保险保单，避免事故导致个人保费上涨或跨国驾照争议。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 提车动线与车程提示 -->
+        <div class="text-xs text-slate-600 leading-relaxed bg-white p-3 rounded-lg border border-slate-200 space-y-1">
+          <p><strong>🚶 室内步行直达：</strong>盐湖城新航站楼下机后经室内连廊步行即可直达租车中心 (Rental Car Center)，无需搭乘室外摆渡车。直奔 <strong>全国租车/National Car Rental</strong> 柜台办妥登记，即可在<strong>翡翠通道 (Emerald Aisle)</strong> 自主选车出发。</p>
+          <p><strong>🛣️ 顺畅道路：</strong>出机场沿 I-80 East 转 400 South，路面宽阔车流平稳，仅需 15 分钟即可直达市中心酒店，预计 20:30 前后抵达。</p>
+        </div>
       </div>
 
       <!-- 📍 快捷导航直达按钮：取车即用 -->

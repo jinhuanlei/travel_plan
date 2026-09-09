@@ -8,6 +8,33 @@
     />
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
     <title>美西自驾旅行手册 (U.S. Road Trip Guide)</title>
+  <!-- 动态专属标签页图标 (Dynamic Themed Favicon) -->
+  <link id="dynamic-favicon" rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>" />
+  <script>
+    (function() {
+      const icons = ['🗺️', '🚗'];
+      let idx = 0;
+      const link = document.getElementById('dynamic-favicon');
+      function updateFavicon(emoji) {
+        link.href = `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>${emoji}</text></svg>`;
+      }
+      setInterval(() => {
+        if (!document.hidden) {
+          idx = (idx + 1) % icons.length;
+          updateFavicon(icons[idx]);
+        }
+      }, 2500);
+      const docTitle = document.title;
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          document.title = '🚗 美西自驾路书进行中...';
+        } else {
+          document.title = docTitle;
+          updateFavicon(icons[idx]);
+        }
+      });
+    })();
+  </script>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome CDN -->
@@ -1437,10 +1464,7 @@
                   Airlines UA5307 飞往盐湖城 (SLC)，19:25 抵达。
                 </p>
                 <p>
-                  <strong>🚗 顺畅取车：</strong
-                  >抵达盐湖城机场后，在航站楼办理租车手续，驱车 20 分钟入住
-                  <strong>盐湖城/市中心凯悦嘉轩酒店</strong>，预计 20:30
-                  前后办理入住。
+                  <strong>🚗 航站楼取车与保险办理：</strong>抵达盐湖城机场后，经室内连廊直达租车中心办理 <strong>全国租车/National Car Rental</strong> 提车手续（享有翡翠通道/Emerald Aisle 与 9 位额外驾驶人免费特权）。柜台双人出示驾照与护照实名登记第二位同行驾驶人，执行 Decline CDW（CSP 信用卡主险覆盖）+ Accept SLI（100 万美元三责险）黄金组合，办妥后驱车 20 分钟入住 <strong>盐湖城/市中心凯悦嘉轩酒店</strong>。
                 </p>
                 <p>
                   <strong>🛌 倒时差与休整：</strong
@@ -1923,7 +1947,7 @@
                 <p>
                   <strong>🎡 黄昏 (17:30 - 18:30)：</strong>体验
                   <strong>豪客摩天轮/High Roller</strong
-                  >，在全封闭空调舱内饱览日落与赌城大道璀璨夜景。
+                  >（提前在线购妥夜间票扫码登舱免排队），在全封闭空调舱内饱览日落与拉斯维加斯大道璀璨夜景。
                 </p>
                 <p>
                   <strong>🥩 晚餐与漫步 (18:15 - 21:30)：</strong>提前在 Yelp
@@ -2372,6 +2396,22 @@
               >
                 <div>
                   <div class="font-bold text-slate-900">
+                    🎡 豪客摩天轮/High Roller (Day 8 傍晚 17:30)
+                  </div>
+                  <div class="text-xs text-slate-500 mt-0.5">
+                    建议提前 1~2 周在官网在线购买夜间票 (Night Ticket)，扫码登轮免现场排队
+                  </div>
+                </div>
+                <span
+                  class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs font-semibold whitespace-nowrap ml-2"
+                  >提前1-2周</span
+                >
+              </li>
+              <li
+                class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex justify-between items-start"
+              >
+                <div>
+                  <div class="font-bold text-slate-900">
                     🥩 888日式烧肉排队 (Day 8 晚上)
                   </div>
                   <div class="text-xs text-slate-500 mt-0.5">
@@ -2401,9 +2441,11 @@
                 <i class="fa-solid fa-check text-emerald-500"></i
                 ><span>✈️ LAX ➔ SLC 国内转机航班 UA5307 (16:31-19:25)</span>
               </li>
-              <li class="flex items-center space-x-2">
-                <i class="fa-solid fa-check text-emerald-500"></i
-                ><span>🚗 跨州异地自驾租车 (SLC 取车，LAX 还车)</span>
+              <li class="flex items-start space-x-2">
+                <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                <span
+                  >🚗 跨州异地自驾租车与自驾保险 (全国租车/National Car Rental 盐湖城取/洛杉矶还，已订妥；含翡翠通道与 9 位额外驾驶人免费特权，柜台实名登记第二位同行驾驶人，执行 Decline CDW + Accept SLI 100万美元责任险)</span
+                >
               </li>
               <li class="flex items-center space-x-2">
                 <i class="fa-solid fa-check text-emerald-500"></i
