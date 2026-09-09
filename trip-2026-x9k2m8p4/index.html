@@ -10,6 +10,15 @@
     <title>美西自驾旅行手册 (U.S. Road Trip Guide)</title>
   <!-- 专属标签页图标 (Themed Favicon) -->
   <link id="dynamic-favicon" rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>" />
+  <script>
+    // 切走标签页时替换标题，回来还原
+    (function () {
+      const docTitle = document.title;
+      document.addEventListener('visibilitychange', () => {
+        document.title = document.hidden ? '🚗 美西自驾路书进行中...' : docTitle;
+      });
+    })();
+  </script>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome CDN -->

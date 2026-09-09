@@ -7,6 +7,15 @@
   <title>Day 8 详细行程：可口可乐主题店、豪客摩天轮与888日式烧肉 | 美西自驾路书</title>
   <!-- 专属标签页图标 (Themed Favicon) -->
   <link id="dynamic-favicon" rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎡</text></svg>" />
+  <script>
+    // 切走标签页时替换标题，回来还原
+    (function () {
+      const docTitle = document.title;
+      document.addEventListener('visibilitychange', () => {
+        document.title = document.hidden ? '🎡 Day 8: 豪客摩天轮与繁华夜景...' : docTitle;
+      });
+    })();
+  </script>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Font Awesome CDN -->
