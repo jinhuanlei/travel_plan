@@ -10,6 +10,7 @@ travel_plan_en.pdf
 # Agent instructions & internal rules
 .agents/
 .agents/*
+CLAUDE.md
 
 # OS generated files
 .DS_Store
