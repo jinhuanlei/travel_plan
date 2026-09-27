@@ -5,7 +5,7 @@
 - **行程日期**：10月12日 至 10月24日 (共13天)
 - **航班时间**：10月12日 早上 10:00 降落洛杉矶国际机场 (LAX) => 10月12日 16:31 搭乘美联航/United Airlines UA5307 转机飞往盐湖城国际机场 (SLC)，19:25 抵达
 - **离境航班**：10月24日 中午 12:30 起飞回国 (LAX)
-- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 盐湖城 (Salt Lake City) => 犹他州议会大厦 (Utah State Capitol) => 圣殿广场 (Temple Square) => 大盐湖羚羊岛州立公园 (Antelope Island State Park) => 科洛布峡谷景区 (Kolob Canyons) => 圣乔治 (St. George) => 【可选】雪谷州立公园 (Snow Canyon State Park) => 锡安国家公园 (Zion National Park) => 锡安–卡梅尔山公路 (Zion–Mount Carmel Highway) => 佩吉 (Page) => 马蹄湾 (Horseshoe Bend) => 【可选】纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff) => 威廉姆斯 (Williams) => 【可选】塞利格曼 (Seligman, Route 66) => 胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge) => 【可选】博尔德城与海明威公园 (Boulder City & Hemenway Park) => 拉斯维加斯 (Las Vegas) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 【可选】卡巴松巨型恐龙 (Cabazon Dinosaurs) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
+- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 盐湖城 (Salt Lake City) => 犹他州议会大厦 (Utah State Capitol) => 圣殿广场 (Temple Square) => 大盐湖羚羊岛州立公园 (Antelope Island State Park) => 科洛布峡谷景区 (Kolob Canyons) => 圣乔治 (St. George) => 【可选】雪谷州立公园 (Snow Canyon State Park) => 锡安国家公园 (Zion National Park) => 锡安–卡梅尔山公路 (Zion–Mount Carmel Highway) => 佩吉 (Page) => 马蹄湾 (Horseshoe Bend) => 【可选】纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff) => 威廉姆斯 (Williams) => 【可选】塞利格曼 (Seligman, Route 66) => 胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge) => 【可选】博尔德城与海明威公园 (Boulder City & Hemenway Park) => 拉斯维加斯 (Las Vegas) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
 
 ## 🏨 宾馆住宿总结 (Accommodation Summary)
 
@@ -148,28 +148,29 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 
 ### Day 10 (10月21日): 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs)
 
-- **今日车程**：约 5.1 小时（在 6 小时限制内，包含短暂停靠，全天路况良好）。
+- **今日车程**：约 5.5 小时（全程最长的一天，仍在 6 小时限制内；中途在 巴斯托/Barstow 和 约书亚树镇/Joshua Tree 两次停靠休息）。
 - **今日交通**：全天跨州【自驾 Drive】；晚上 Tac/Quila 餐厅【步行 Walk 5分钟】。
 - **今日行程**：
-  - 上午出发与艺术打卡 (09:00 => 09:45)：在 凯悦/Hyatt 享用早餐并退房。向南行驶 25 分钟，停靠于 I-15 路旁的 **七彩巨石/Seven Magic Mountains** 免费停车场。全家沿着平坦路面慢步 80 米到彩色巨石塔前合影，停留 15 => 20 分钟（免费，无需门票/预约）。
-  - 中转驱车 (09:45 => 12:30)：继续向南并入 CA-247 公路，驶往 约书亚树国家公园 (Joshua Tree National Park)。
-  - 中午至下午车游 (12:30 => 14:00)：使用年票进入公园。这是一个大部分标志性景观都在路边的公园，非常适合低体能自驾游览。
+  - 早上出发与艺术打卡 (08:00 => 08:45)：在 凯悦/Hyatt 享用早餐并退房，08:00 出发。向南行驶 25 分钟，停靠于 I-15 路旁的 **七彩巨石/Seven Magic Mountains** 免费停车场。全家沿着平坦路面慢步 80 米到彩色巨石塔前合影，停留 15 => 20 分钟（免费，无需门票/预约）。
+  - 中转歇脚 (10:45 => 11:15)：沿 I-15 南下约 2 小时抵达 巴斯托/Barstow，加油、使用洗手间并稍作拉伸。
+  - 荒漠公路 (11:15 => 12:45)：转入 CA-247 公路南下，经 尤卡谷/Yucca Valley 抵达 约书亚树镇/Joshua Tree。**CA-247 为双车道荒漠公路，约 40 英里无补给，只在白天通行，出发前在巴斯托加满油。**
+  - 午餐 (12:45 => 13:45)：在公园西门外的 约书亚树镇/Joshua Tree 小镇轻松用午餐。
+  - 下午车游 (13:45 => 15:30)：从西门使用年票进入 约书亚树国家公园 (Joshua Tree National Park)。这是一个大部分标志性景观都在路边的公园，非常适合低体能自驾游览。
     - 奇亚斯岩 (Cap Rock)：拥有非常平坦的无障碍环形步道（约 0.4 英里）。
     - 骷髅岩 (Skull Rock)：就在公路正旁边，下车走 20 米即可看到巨大的骷髅状岩石。
-  - 下午 (14:00 => 14:45)：游览完毕后驱车 45 分钟抵达棕榈泉市中心，入住 **拉斯布里萨斯贝斯特韦斯特优选酒店/Best Western Plus Las Brisas Hotel**。
-  - 晚间温泉与美食打卡 (15:00 => 21:00)：在酒店享用免费露天热水池 (Hot Tub) 与休闲区。晚餐步行仅 5 分钟（约 400 米）前往棕榈泉人气的墨西哥餐厅 **Tac/Quila 餐厅/Tac/Quila Restaurant** (415 N Palm Canyon Dr) 享用（提示：建议提前 1=>2 周在 OpenTable 官网或 App 预约）。
+  - 下午 (15:30 => 16:45)：游览完毕后驱车约 1 小时 15 分钟抵达棕榈泉市中心，入住 **拉斯布里萨斯贝斯特韦斯特优选酒店/Best Western Plus Las Brisas Hotel**。
+  - 晚间温泉与美食打卡 (17:00 => 21:00)：在酒店享用免费露天热水池 (Hot Tub) 与休闲区。晚餐步行仅 5 分钟（约 400 米）前往棕榈泉人气的墨西哥餐厅 **Tac/Quila 餐厅/Tac/Quila Restaurant** (415 N Palm Canyon Dr) 享用（提示：建议提前 1=>2 周在 OpenTable 官网或 App 预约）。
 
 ### Day 11 (10月22日): 棕榈泉 (Palm Springs) => 洛杉矶 (Los Angeles) —— 旋转缆车、植物园与天文台夜景慢游
 
-- **今日车程**：约 2.75 小时（棕榈泉/Palm Springs 至 洛杉矶/Los Angeles 约 2 小时，格兰代尔/Glendale 往返 格里菲斯天文台/Griffith Observatory 约 45 分钟）。
+- **今日车程**：约 3 小时（棕榈泉/Palm Springs 至 格兰代尔/Glendale 约 2.5 小时，已计入周四下午进城车流；格里菲斯天文台/Griffith Observatory 往返打车）。
 - **今日交通**：白天缆车与植物园【自驾 Drive】；傍晚前往格里菲斯天文台强烈推荐【打车 Uber/Lyft】。
 - **今日行程**：
-  - 上午 (09:30 => 11:45)：体验 棕榈泉高空旋转缆车/Palm Springs Aerial Tramway（需提前购票）。乘坐缆车直达 2596 米的山顶车站，在平坦观景台 360 度俯瞰沙漠绿洲全景；随后沿 **沙漠景观步道/Desert View Trail** 或 **朗维尤探索步道/Long Valley Discovery Trail** 慢节奏散步，林荫环绕、空气清凉，体能消耗极低；下山前可在车站自然历史展厅参观或在壁炉大厅品尝热饮。
-  - 中午 (12:15 => 13:30)：搭乘缆车下山后驱车 15 分钟抵达 棕榈泉/Palm Springs 市中心，在环境舒适惬意的餐厅享用午餐（推荐：**露露加州小馆/LuLu California Bistro** 或 **中央大车站餐厅/Grand Central Palm Springs** 或 **泰勒汉堡/Tyler's Burgers**）。
-  - 下午市中心人文 (13:30 => 14:30)：游览 莫滕植物园/Moorten Botanical Garden（今日为周四，正常开放）。在明亮日光下慢节奏散步，观赏奇特的沙漠多肉与仙人掌温室，步行平缓且耗时短。
-  - 下午公路地标打卡 (**可选项目，视全家体能精力而定，若感疲劳可直接沿高速直达洛杉矶**) (14:50 => 15:10)：沿 I-10 州际公路顺路停靠 **卡巴松巨型恐龙/Cabazon Dinosaurs**。美西公路文化的经典地标，路边矗立着巨型霸王龙与雷龙雕塑。车停路边即可在平地上与恐龙合影（外围拍照免费，停留 10-15 分钟，体能消耗为零）。
-  - 下午驱车与安全入住 (15:10 => 16:45)：游览结束后驱车返回 洛杉矶/Los Angeles，前往北部入住 格兰代尔中心凯悦嘉轩酒店/Hyatt Place Glendale / Downtown。先在酒店大门临时停靠卸下全家托运行李并办理入住，随后可驾车 1 分钟停入隔壁的 **橙街公共停车场/Orange Street Parking Structure** (地址: 222 N Orange St, Glendale, CA 91203，日封顶仅 $15，室内多层带监控与电梯，步行 2 分钟返回酒店) 或选择酒店代客泊车 ($48/晚)。办理入住并将所有行李妥善放置于房间内，确保车内不留任何物品，防范破窗盗窃风险。
-  - 傍晚至夜间景点 (17:00 => 19:15)：在酒店打车（约 $12-$15，15分钟）前往 **格里菲斯天文台/Griffith Observatory**。在无障碍平坦观景台与草坪慢节奏散步，欣赏落日余晖、远眺 好莱坞标志/Hollywood Sign，俯瞰洛杉矶全景夜景（免去山顶排队找车位与防砸车烦恼）。
+  - 上午 (09:45 => 12:00)：体验 棕榈泉高空旋转缆车/Palm Springs Aerial Tramway（需提前购票；周一至周五首班车 10:00 上山，09:45 前到山脚车站停车）。乘坐缆车直达 2596 米的山顶车站，在平坦观景台 360 度俯瞰沙漠绿洲全景；随后沿 **沙漠景观步道/Desert View Trail** 或 **朗维尤探索步道/Long Valley Discovery Trail** 慢节奏散步，林荫环绕、空气清凉，体能消耗极低；下山前可在车站自然历史展厅参观或在壁炉大厅品尝热饮。
+  - 中午 (12:15 => 13:15)：搭乘缆车下山后驱车 15 分钟抵达 棕榈泉/Palm Springs 市中心，在环境舒适惬意的餐厅享用午餐（推荐：**露露加州小馆/LuLu California Bistro** 或 **中央大车站餐厅/Grand Central Palm Springs** 或 **泰勒汉堡/Tyler's Burgers**）。
+  - 下午市中心人文 (13:15 => 13:45)：游览 莫滕植物园/Moorten Botanical Garden（今日为周四，正常开放）。在明亮日光下慢节奏散步，观赏奇特的沙漠多肉与仙人掌温室，步行平缓且耗时短（**若感疲劳可跳过，直接出发前往洛杉矶**）。
+  - 下午驱车与安全入住 (14:00 => 16:30)：14:00 准时出发，沿 I-10 州际公路驶往 洛杉矶/Los Angeles（途经 卡巴松/Cabazon 时可在车内远眺路边的巨型恐龙雕塑，不下车停留），前往北部入住 格兰代尔中心凯悦嘉轩酒店/Hyatt Place Glendale / Downtown。先在酒店大门临时停靠卸下全家托运行李并办理入住，随后可驾车 1 分钟停入隔壁的 **橙街公共停车场/Orange Street Parking Structure** (地址: 222 N Orange St, Glendale, CA 91203，日封顶仅 $15，室内多层带监控与电梯，步行 2 分钟返回酒店) 或选择酒店代客泊车 ($48/晚)。办理入住并将所有行李妥善放置于房间内，确保车内不留任何物品，防范破窗盗窃风险。
+  - 傍晚至夜间景点 (17:15 => 19:15)：在酒店打车（约 $12-$15，15分钟）前往 **格里菲斯天文台/Griffith Observatory**。在无障碍平坦观景台与草坪慢节奏散步，欣赏落日余晖（当天日落约 18:10）、远眺 好莱坞标志/Hollywood Sign，俯瞰洛杉矶全景夜景（免去山顶排队找车位与防砸车烦恼）。
   - 晚上 (19:30 以后)：打车返回 格兰代尔/Glendale 市中心街区慢节奏散步，享用晚餐。
 
 ### Day 12 (10月23日): 洛杉矶 (Los Angeles) —— 艺术、地标与太平洋落日收尾游
@@ -230,7 +231,6 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 - **死亡谷炉溪游客中心/Furnace Creek Visitor Center** (Day 9 顺路可选)：**已包含在国家公园年票内**，无需额外买票。
 - **死亡谷/Death Valley 艺术家车道/Artist's Drive & 艺术家调色板/Artist's Palette** (Day 9)：**已包含在国家公园年票内**，无需额外买票。
 - **七彩巨石/Seven Magic Mountains** (Day 10 中转)：**免费**，无需门票或预约。
-- **卡巴松巨型恐龙/Cabazon Dinosaurs** (Day 11 顺路可选)：**外围拍照免费**，公路旁停车即可合影，无需提前购票。
 - **🌵 莫滕植物园/Moorten Botanical Garden** (Day 11 下午)：无法提前在线购票，门票 (**$7/人**) 仅限在现场售票处以现金或刷卡支付。
 - **🏛️ 格里菲斯天文台/Griffith Observatory** (Day 11 傍晚)：**外围观景台与主展厅免费**，无需提前预约门票。推荐先在 Glendale 酒店卸下行李后再前往。
 - **大盐湖羚羊岛州立公园/Antelope Island State Park** / **雪谷州立公园/Snow Canyon State Park**：属于犹他州立公园系统，国家公园年票不通用，需在入口处现场购买门票（约 $15=>20 每车，现场支付即可，无需提前预约）。
