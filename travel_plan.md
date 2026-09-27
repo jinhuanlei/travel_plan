@@ -5,14 +5,15 @@
 - **行程日期**：10月12日 至 10月24日 (共13天)
 - **航班时间**：10月12日 早上 10:00 降落洛杉矶国际机场 (LAX) => 10月12日 16:31 搭乘美联航/United Airlines UA5307 转机飞往盐湖城国际机场 (SLC)，19:25 抵达
 - **离境航班**：10月24日 中午 12:30 起飞回国 (LAX)
-- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 盐湖城 (Salt Lake City) => 犹他州议会大厦 (Utah State Capitol) => 圣殿广场 (Temple Square) => 大盐湖羚羊岛州立公园 (Antelope Island State Park) => 科洛布峡谷景区 (Kolob Canyons) => 圣乔治 (St. George) => 锡安国家公园 (Zion National Park) => 雪谷州立公园 (Snow Canyon State Park) => 【可选】管泉国家纪念地 (Pipe Spring National Monument) => 【可选】悬崖民居奇石屋 (Cliff Dwellers) => 纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff) => 威廉姆斯 (Williams) => 【可选】塞利格曼 (Seligman, Route 66) => 胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge) => 【可选】博尔德城与海明威公园 (Boulder City & Hemenway Park) => 拉斯维加斯 (Las Vegas) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 【可选】卡巴松巨型恐龙 (Cabazon Dinosaurs) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
+- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 盐湖城 (Salt Lake City) => 犹他州议会大厦 (Utah State Capitol) => 圣殿广场 (Temple Square) => 大盐湖羚羊岛州立公园 (Antelope Island State Park) => 科洛布峡谷景区 (Kolob Canyons) => 圣乔治 (St. George) => 【可选】雪谷州立公园 (Snow Canyon State Park) => 锡安国家公园 (Zion National Park) => 锡安–卡梅尔山公路 (Zion–Mount Carmel Highway) => 佩吉 (Page) => 马蹄湾 (Horseshoe Bend) => 【可选】纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff) => 威廉姆斯 (Williams) => 【可选】塞利格曼 (Seligman, Route 66) => 胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge) => 【可选】博尔德城与海明威公园 (Boulder City & Hemenway Park) => 拉斯维加斯 (Las Vegas) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 【可选】卡巴松巨型恐龙 (Cabazon Dinosaurs) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
 
 ## 🏨 宾馆住宿总结 (Accommodation Summary)
 
 | 日期区间             | 入住城市                | 推荐酒店                                                                  | 酒店地址 / Hotel Address                       | 预计每晚预算 | 住宿特色                                                                                |
 | :------------------- | :---------------------- | :------------------------------------------------------------------------ | :--------------------------------------------- | :----------- | :-------------------------------------------------------------------------------------- |
 | 10.12 => 10.14 (2晚) | 盐湖城 (Salt Lake City) | 盐湖城/市中心凯悦嘉轩酒店/Hyatt Place Salt Lake City/Downtown/The Gateway | 55 N 400 W, Salt Lake City, UT 84101           | $140 => $190 | 【已订妥】市中心核心地段，提供免费热早餐，便于首日轻松倒时差，停车费为 $15/晚           |
-| 10.14 => 10.16 (2晚) | 圣乔治 (St. George)     | 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center             | 1819 S 120 E, St. George, UT 84790             | $130 => $180 | 【已订妥】舒适连住，包含全家热早餐，方便前往国家公园，性价比高                          |
+| 10.14 => 10.15 (1晚) | 圣乔治 (St. George)     | 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center             | 1819 S 120 E, St. George, UT 84790             | $130 => $180 | 【已订妥，需将预订调整为 1 晚】包含全家热早餐，次日早出发前往锡安国家公园               |
+| 10.15 => 10.16 (1晚) | 佩吉 (Page)             | 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell                           | 1126 N Navajo Dr, Page, AZ 86040               | $150 => $230 | 【待预订】包含全家热早餐与免费停车，距马蹄湾/Horseshoe Bend 约 10 分钟车程              |
 | 10.16 => 10.17 (1晚) | 旗杆镇 (Flagstaff)      | 旗杆镇凯悦嘉轩酒店/<br />Hyatt Place Flagstaff                            | 397 S Malpais Ln, Flagstaff, AZ 86001          | $160 => $220 | 【已订妥】已使用凯悦/Hyatt积分兑换完成 (确认号: 40023B23500861)，包含全家热早餐               |
 | 10.17 => 10.21 (4晚) | 拉斯维加斯 (Las Vegas)  | 拉斯维加斯凯悦嘉轩酒店/Hyatt Place Las Vegas                              | 4520 Paradise Rd, Las Vegas, NV 89169          | $140 => $220 | 【已订妥】连住4晚不挪窝 (确认号: 40023B22959570)，留足三个完整白天在市内放松，包含全家热早餐 |
 | 10.21 => 10.22 (1晚) | 棕榈泉 (Palm Springs)   | 拉斯布里萨斯贝斯特韦斯特优选酒店/Best Western Plus Las Brisas Hotel       | 222 S Indian Canyon Dr, Palm Springs, CA 92262 | $140 => $200 | 【已订妥】提供免费热早餐，位于市中心，步行 5 分钟可达人气餐厅 Tac/Quila                 |
@@ -54,37 +55,43 @@
   - 上午 (09:30 => 14:00)：在 凯悦/Hyatt 享用早餐后退房。沿 15 号公路一路向南，中途在 雪松城/Cedar City 停靠休息并享用午餐。
   - 下午顺路打卡 (14:30 => 15:30)：沿 15 号公路继续南下，从 40 号出口驶入 锡安国家公园的科洛布峡谷景区 (Kolob Canyons, Zion National Park)。无需长时间徒步，全家只需驾车在 5 英里的景观公路上行进，并在观景点近距离俯瞰壮丽的红色砂岩断崖，持国家公园年票免费。
   - 下午 (15:30 => 16:15)：驱车 45 分钟抵达 圣乔治/St. George 入住 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center。下午在设施现代的酒店内休息，或在周边慢节奏散步、轻松就餐。
+  - **【可选项目：雪谷州立公园/Snow Canyon State Park】**(16:45 => 17:45，**视全家体能精力而定，若感疲劳可直接在酒店休息**)：距酒店约 15 分钟车程，有“微缩版锡安”之称。完全允许纯车游，红白相间的砂岩就在公路两边，全家在车窗内或路边即可拍到红岩景色（当天日落约 18:45，时间充裕）。
 
-### Day 4 (10月15日): 圣乔治 (St. George) => 锡安国家公园 (Zion National Park) => 【可选】雪谷州立公园 (Snow Canyon State Park) => 圣乔治 (St. George)
+### Day 4 (10月15日): 圣乔治 (St. George) => 锡安国家公园 (Zion National Park) => 锡安–卡梅尔山公路 (Zion–Mount Carmel Highway) => 佩吉 (Page) => 马蹄湾 (Horseshoe Bend)
 
-- **今日车程**：约 2 小时 => 2.5 小时。
+_【入住 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell（待预订）。】_
+
+- **今日车程**：约 3.5 小时（锡安游览后从东门出园直达佩吉，不走回头路）。
 - **今日交通**：全天自驾 (Drive)；锡安公园内部搭乘免费观光巴士 (Park Shuttle)。
+- **⏰ 时区提醒**：进入 亚利桑那州/Arizona 后时间**倒退 1 小时**（犹他州/Utah 实行夏令时，亚利桑那州不实行）。今日 16:00 前为犹他时间，抵达佩吉后为亚利桑那时间。
 - **今日行程**：使用国家公园年票。
-  - 上午车游 (09:00 => 13:30)：无需更换酒店。轻松驱车前往 锡安国家公园 (Zion National Park)。全家乘坐园内的免费观光巴士，透过大窗户饱览红岩耸立的峡谷美景。随后可在最平坦的 沿河步道 (Riverside Walk) 随缘慢步。这是一条沿着维琴河修建的无障碍平道，清凉舒适，无费力攀爬。
-  - 下午纯车游升级 (**可选项目，视全家体能精力而定，若感疲劳可直接跳过返回酒店**) (14:30 => 16:30)：回程顺路前往有“微缩版锡安”之称的 雪谷州立公园 (Snow Canyon State Park)。这里完全允许纯车游，红白相间的砂岩就在公路两边，全家无需费力徒步即可在路边轻松拍出红岩大片，补充视觉体验。
-  - 晚上：早早返回圣乔治市区，享受纯休闲、低消耗的度假时光。
+  - 早上出发 (07:30)：享用 凯悦嘉轩/Hyatt Place 免费早餐后退房，提早出发。10 月为锡安旺季，游客中心停车场上午即会停满。
+  - 上午车游 (08:30 => 12:00)：约 1 小时抵达 锡安游客中心/Zion Canyon Visitor Center 停车。全家乘坐园内的免费观光巴士，透过大窗户饱览红岩耸立的峡谷美景，在终点站 西纳瓦瓦神庙/Temple of Sinawava 下车，沿最平坦的 沿河步道/Riverside Walk 随缘慢步。这是一条沿着维琴河修建的铺装平道，清凉舒适，走到哪里都可以随时折返。
+    - **停车备选**：若游客中心停车场已满，可停在南门外 斯普林代尔/Springdale 小镇的付费停车场，搭乘小镇免费接驳车进园。
+  - 午餐 (12:00 => 13:00)：在南门外的 斯普林代尔/Springdale 小镇轻松用餐。
+  - 下午景观公路 (13:00 => 14:00)：驾车沿 锡安–卡梅尔山公路/Zion–Mount Carmel Highway 从东门出园。沿途是之字形盘山路、1.8 公里的历史隧道/Zion–Mount Carmel Tunnel，以及 棋盘台地/Checkerboard Mesa 路边停车点，全程车窗观景，低体能消耗。
+  - 下午转场 (14:00 => 16:00，犹他时间)：经 卡纳布/Kanab（中途洗手间与短暂歇脚）驶往 佩吉/Page，约 2 小时。
+  - 下午 马蹄湾/Horseshoe Bend (15:15 => 16:30，亚利桑那时间)：下午是观赏马蹄湾光线最好的时段，河湾内的科罗拉多河能照到阳光，也避开了日落前的人流。步道往返约 2.4 公里，压实沙土路面，基本平坦，仅有一段缓坡（回程为上坡），全程约 30 => 45 分钟。步道沿途无遮阴，请带好饮用水与帽子；停车场设有洗手间与遮阳凉亭座椅。停车费 $10/车（由佩吉市管理，国家公园年票不适用）。**当天日落约 17:50，务必在天黑前返回停车场。**
+  - 晚上 (16:45 起)：入住 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell，在 佩吉/Page 镇上轻松晚餐。
 
-### Day 5 (10月16日): 圣乔治 (St. George) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff)
+### Day 5 (10月16日): 佩吉 (Page) => 【可选】纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff)
 
 _【已订妥入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，使用 凯悦/Hyatt 积分兑换完毕。】_
 
-- **今日车程**：约 5.5 小时（大峡谷东门进南门出，不走回头路，在安全驾驶范围内）。
+- **今日车程**：约 4.5 小时（不去纳瓦霍桥约 4 小时；大峡谷东门进南门出，不走回头路）。
 - **今日交通**：全天自驾 (Drive)。
+- **⏰ 时区提醒**：卡梅伦印第安贸易站位于 纳瓦霍保留地/Navajo Nation 内，当地实行夏令时，手机时间可能自动跳快 1 小时。今日行程一律按亚利桑那时间。
 - **今日行程**：
-  - 上午出发与顺路歇脚 (07:30 => 11:30)：享用 凯悦嘉轩/Hyatt Place 免费早餐后提早退房（7:30 准时出发）。驾车沿 AZ-389 与 US-89A 驶往大峡谷东门方向：
-    - **【可选项目 1：管泉国家纪念地/Pipe Spring National Monument】**(08:30 => 09:10，视精力自选)：正位于 AZ-389 公路旁，持国家公园年票免费。沙漠绿洲清凉泉水与百年先驱者石砌堡垒（温莎城堡/Winsor Castle），全平整硬化地面，步行仅 200-300 米，配有干净洗手间与空调访客中心，非常适合全家人中途拉伸与避暑歇脚（**若感疲劳可直接不下车沿公路直行**）。
-    - **【可选项目 2：悬崖民居奇石屋/Cliff Dwellers Historic Stone Houses】**(10:15 => 10:30，视精力自选)：位于 US-89A 公路紧靠路肩处。利用倒塌的巨型红色平衡石修建的独特石屋，下车在平地拍照 10-15 分钟即可（免费，体能消耗为零，**若感疲劳可直接在车内观赏掠过**）。
-    - **纳瓦霍桥/Navajo Bridge** (10:35 => 10:55)：在平坦的桥头观景台眺望科罗拉多河与大理石峡谷，稍作拉伸。
-  - 中转补给与印第安文化 (11:30 => 12:00)：在大峡谷东门前的 **卡梅伦印第安贸易站 (Cameron Trading Post)** 停靠 30 分钟。这里是百年印第安手工艺术品站，配有干净洗手间与补给站，全家在此休息调整（免费，无需门票/预约）。
-  - 中午至下午深度游 (12:00 => 15:30)：由东门进入 科罗拉多大峡谷国家公园 (Grand Canyon National Park)。
-    - **沙漠景观瞭望塔 (Desert View Watchtower)**：近距离平视大峡谷地平线与历史塔楼。
-    - **【可选项目 3：利潘角观景点/Lipan Point】**(12:45 => 13:05，视精力自选)：位于东门至南缘村庄的景观公路 AZ-64 旁。停车场紧邻观景台（步行仅 20 米平路），俯瞰科罗拉多河大转弯视野极其壮阔，避开密集人流（持年票免费，**若时间紧或感疲劳可直接开往麦色观景点**）。
-    - **麦色观景点 (Mather Point)**：沿景观大道西行抵达，全平坦无障碍铺装路面，步行仅需 3 => 5 分钟，安全、低体能消耗地饱览最深邃壮丽的断崖风光，且避开了傍晚的高原寒风。
-  - 下午 (15:30 => 17:00)：在离开公园南缘前往酒店前，全家可根据体能与时间，自由选择以下几项安全性高、低消耗的活动作为可选项：
-    - **选项一：亚瓦派地质博物馆/Yavapai Geology Museum**（位于麦色观景点/Mather Point 旁，步行 5 分钟即达，游览约 30 分钟）：全室内全景大窗，可舒适地避风并饱览大峡谷地质断层与 3D 立体沙盘（免费，凭年票直接入内）。
-    - **选项二：大峡谷 IMAX 电影/Grand Canyon IMAX Movie**（位于南门外图萨扬/Tusayan 镇上，自驾前往 旗杆镇/Flagstaff 顺路必经，电影放映约 34 分钟）：在超大屏幕上沉浸式观看大峡谷的历史与飞越体验，安全性极高，完全不消耗体力（票价约 $10-15/人，可现场或提前 1-2 天购票）。
-    - **选项三：隐士路观光巴士慢游/Hermit Road Shuttle Bus Tour**（在隐士路/Hermit Road 巴士起终点乘车，往返约 1-1.5 小时）：乘坐免费的红线巴士，坐在车窗前饱览大峡谷最陡峭的崖壁风光，适合纯车游观光（免费，无需预约）。
-    - 游览结束后，下午 17:00（5 点整）准时驱车 1.5 小时前往 旗杆镇/Flagstaff。**当天下午 5:51 太阳落山，过了傍晚 6 点天就完全黑透**。后半程天黑后林区大角鹿（Elk）经常横穿马路，请严格控制车速在 45-55 mph 以下，全车保持留意，于 18:30 前顺利抵达 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，避免夜间长途山路驾驶，并在 全食超市/Whole Foods 采购物资及享用晚餐。
+  - 上午出发 (07:30 => 08:30)：享用 凯悦嘉轩/Hyatt Place 免费早餐后退房，08:30 出发，沿 89 号公路/US-89 南下。
+    - **【可选项目：纳瓦霍桥/Navajo Bridge】**(09:15 => 09:35，视精力自选)：在 苦泉/Bitter Springs 路口转入 US-89A，西行约 14 英里抵达。在平坦的桥头观景台眺望科罗拉多河与大理石峡谷，稍作拉伸（免费，往返多花约 40 分钟；**若感疲劳可直接沿 US-89 南下，或晚 40 分钟出发**）。
+  - 午餐与印第安文化 (10:50 => 11:50)：在大峡谷东门前的 **卡梅伦印第安贸易站 (Cameron Trading Post)** 停靠休息并享用午餐。这里是百年印第安手工艺术品站，配有餐厅、干净洗手间与补给站（免费，无需门票/预约）。
+  - 中午至下午深度游 (12:30 => 15:45)：由东门进入 科罗拉多大峡谷国家公园 (Grand Canyon National Park)。
+    - **沙漠景观瞭望塔 (Desert View Watchtower)** (12:30 => 13:15)：近距离平视大峡谷地平线与历史塔楼。
+    - **【可选项目：利潘角观景点/Lipan Point】**(13:30 => 13:45，视精力自选)：位于东门至南缘村庄的景观公路 AZ-64 旁。停车场紧邻观景台（步行仅 20 米平路），俯瞰科罗拉多河大转弯，避开密集人流（持年票免费，**若时间紧或感疲劳可直接开往麦色观景点**）。
+    - **麦色观景点 (Mather Point)** (14:30 => 15:00)：沿景观大道西行抵达，全平坦无障碍铺装路面，步行仅需 3 => 5 分钟，安全、低体能消耗地饱览深邃的断崖风光。
+    - **亚瓦派地质博物馆/Yavapai Geology Museum** (15:00 => 15:45)：位于麦色观景点/Mather Point 旁，步行 5 分钟即达。全室内全景大窗，可舒适地避风并观看大峡谷地质断层与 3D 立体沙盘（免费，凭年票直接入内）。
+    - **或 大峡谷 IMAX 电影/Grand Canyon IMAX Movie**（与地质博物馆二选一）：位于南门外 图萨扬/Tusayan 镇上，前往旗杆镇顺路必经，放映约 34 分钟，完全不消耗体力（票价约 $10-15/人）。选择 IMAX 的话抵达旗杆镇会接近天黑。
+  - 下午 (16:00 => 17:30)：16:00 准时驱车 1.5 小时前往 旗杆镇/Flagstaff。**当天 17:51 日落**，林区公路黄昏时大角鹿（Elk）经常横穿马路，请控制车速在 45-55 mph 以下，全车保持留意，于日落前抵达 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，并在 全食超市/Whole Foods 采购物资及享用晚餐。
 
 ### Day 6 (10月17日): 旗杆镇 (Flagstaff) => 拉斯维加斯 (Las Vegas) —— 66号公路风情、大坝与太阳马戏团《O秀》（连住第1晚）
 
@@ -189,7 +196,7 @@ _【已订妥入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，使用 �
 - **✈️ 洛杉矶转盐湖城国内段机票/Domestic Connecting Flight (LAX => SLC)**：**已订妥** (确认号/Confirmation #: E7L9VV，美联航/United Airlines UA5307，经济舱，10月12日 16:31 起飞 => 19:25 抵达盐湖城)。
 - **🚗 跨州异地租车服务与自驾保险方案/Car Rental & Insurance Policy** (盐湖城/Salt Lake City 租车，洛杉矶/Los Angeles 还车)：**已订妥** (全国租车/National Car Rental，租期 10月12日 17:00 => 10月24日 17:00，包含翡翠通道/Emerald Aisle 权益与 9 位额外驾驶人免费特权 `9 Additional Drivers: Included`；柜台双人出示驾照+翻译件+护照正式登记第二位同行驾驶人；口径执行明确拒绝 CDW/LDW 由大通蓝宝石信用卡/CSP Primary 全额覆盖本车车损，自费选购 SLI/LIS 获得 100 万美元第三者责任险)。
 - **🏨 盐湖城/市中心凯悦嘉轩酒店/Hyatt Place Salt Lake City/Downtown/The Gateway** (Day 1 10月12日入住 2 晚)：**已订妥** (自助停车为 $15/晚，包含无限次进出特权)。
-- **🏨 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center** (Day 3 10月14日入住 2 晚)：**已订妥** (包含全家热早餐，适合连续入住休息)。
+- **🏨 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center** (Day 3 10月14日入住 1 晚)：**已订妥，出行前需将预订调整为 1 晚** (10月15日退房；调整前先确认退改政策。包含全家热早餐)。
 - **🏨 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff** (Day 5 10月16日入住 1 晚)：**已订妥** (确认号/Confirmation #: 40023B23500861，地址: 397 S Malpais Ln, Flagstaff, AZ 86001，已使用 凯悦/Hyatt 积分兑换完毕，包含全家热早餐)。
 - **🏨 拉斯维加斯凯悦嘉轩酒店/Hyatt Place Las Vegas** (Day 6 10月17日入住 4 晚)：**已订妥** (确认号/Confirmation #: 40023B22959570，地址: 4520 Paradise Rd, Las Vegas, NV 89169，连住 4 晚，包含全家热早餐，避开赌场喧嚣)。
 - **🏨 拉斯布里萨斯贝斯特韦斯特优选酒店/Best Western Plus Las Brisas Hotel (棕榈泉/Palm Springs)** (Day 10 10月21日入住 1 晚)：**已订妥** (包含全家热早餐，步行 5 分钟可达市中心餐厅)。
@@ -200,6 +207,7 @@ _【已订妥入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，使用 �
 
 ### 2. 🎟️ 仍需提前购买/预约的门票与项目 (To Be Booked)
 
+- **🏨 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell** (Day 4 10月15日入住 1 晚)：**待预订** (地址: 1126 N Navajo Dr, Page, AZ 86040，预计 $150 => $230/晚，以凯悦官网为准；包含全家热早餐与免费停车)。
 - **🎬 大峡谷 IMAX 电影/Grand Canyon IMAX Movie** (Day 5 下午，可选)：若计划体验，可在出行前 1=>2 天或现场在官网购票，每小时滚动放映，无需过度提早抢票。
 - **🎯 战场拉斯维加斯/Battlefield Vegas 或 702射击场/The Range 702** (Day 7 上午)：建议**提前 1=>2 周**在官网预约枪型套餐与时间段，确保全家无需在现场排队等待。
 - **🎡 豪客摩天轮/High Roller (拉斯维加斯/Las Vegas)** (Day 8 傍晚)：建议**提前 1=>2 周**在官网在线购买常规观景夜间票 (Night Ticket)。凭手机电子票二维码即可直接扫码安检登轮，免去现场人工售票窗口排队购票及现场差价（正值日落晚霞与大道夜景交替黄金时刻）。
@@ -209,9 +217,10 @@ _【已订妥入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，使用 �
 
 ### 3. 🚗 沿途免费或已包含年票内、无需提前买票/预约的顺路景点
 
-- **💳 美国国家公园年票/America the Beautiful National Parks Pass**：**已拥有**。请务必在出行前随身携带。本行程包含的 科洛布峡谷/Kolob Canyons、锡安/Zion、管泉国家纪念地/Pipe Spring、大峡谷/Grand Canyon、死亡谷/Death Valley、约书亚树/Joshua Tree 等国家公园与国家纪念地均可直接凭此年票及持票人身份证件/护照免费进入。
-- **管泉国家纪念地/Pipe Spring National Monument** (Day 5 顺路可选)：**已包含在国家公园年票内**，无需提前预约，现场出示年票即可免费入内。
-- **悬崖民居奇石屋/Cliff Dwellers Historic Stone Houses** (Day 5 顺路可选)：**免费**，位于 US-89A 公路边，无需门票或预约。
+- **💳 美国国家公园年票/America the Beautiful National Parks Pass**：**已拥有**。请务必在出行前随身携带。本行程包含的 科洛布峡谷/Kolob Canyons、锡安/Zion、大峡谷/Grand Canyon、死亡谷/Death Valley、约书亚树/Joshua Tree 等国家公园与国家纪念地均可直接凭此年票及持票人身份证件/护照免费进入。
+- **锡安–卡梅尔山公路/Zion–Mount Carmel Highway** (Day 4 出园路线)：位于锡安国家公园内，**已包含在国家公园年票内**，无需额外买票。
+- **马蹄湾/Horseshoe Bend** (Day 4 下午)：无需预约，停车费 **$10/车**，现场刷卡或现金支付。停车场由佩吉市管理，**国家公园年票不适用**。
+- **纳瓦霍桥/Navajo Bridge** (Day 5 顺路可选)：**免费**，无需门票或预约。
 - **利潘角观景点/Lipan Point (大峡谷东门景观路)** (Day 5 顺路可选)：**已包含在国家公园年票内**，无需额外买票。
 - **卡梅伦印第安贸易站/Cameron Trading Post** (Day 5 中转)：**免费**，无需门票或预约。
 - **威廉姆斯/Williams (66号公路门户小镇)** (Day 6 顺路可选)：**免费**，位于 I-40 公路旁，街区漫步车览无需门票。
@@ -232,11 +241,11 @@ _【已订妥入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，使用 �
   - **手机完全无信号 (No Cellular Service)**：进入公园后全域无移动网络信号。出发前必须在 **Google Maps** 提前下载好包含“死亡谷全域”的**离线地图 (Offline Maps)**。
   - **防暑与避热原则**：即使在 10 月中旬，正午地表温度仍可达 35°C~40°C。严格执行“早上 07:00 出发、上午 11:30 前完成游览并撤离”的策略，不在正午暴晒时段在户外逗留；全家随身携带足量饮用水。
   - **车况与满油进谷**：早晨出车前在中控屏检查轮胎胎压；谷内油价极高且油站极少，离开 拉斯维加斯/Las Vegas 或路经 帕伦普/Pahrump 镇时**务必加满油箱**再入谷。
-- **🦌 89A公路与大峡谷至旗杆镇林区防野生动物横穿 (Wildlife Crossing)**：
-  - **高发路段**：Day 5 傍晚（17:00~18:30）从 **科罗拉多大峡谷国家公园/Grand Canyon National Park** 前往 **旗杆镇/Flagstaff** 的高原林区公路（AZ-64 / US-180）。
+- **🦌 大峡谷至旗杆镇林区防野生动物横穿 (Wildlife Crossing)**：
+  - **高发路段**：Day 5 下午至黄昏（16:00~17:30）从 **科罗拉多大峡谷国家公园/Grand Canyon National Park** 前往 **旗杆镇/Flagstaff** 的高原林区公路（AZ-64 / US-180）。
   - **应对措施**：黄昏时成群的大角鹿 (Elk) 与骡鹿 (Mule Deer) 频繁横穿马路。驾驶时务必控制车速（保持在 45-55 mph 以下），视线远眺道路两侧，无对向来车时开启远光灯增加视野，切勿超速急刹。
 - **⛽ 荒漠公路“半箱油即加满”原则 (Fuel Management)**：
-  - **荒漠路段**：从 **圣乔治/St. George** 到大峡谷东门，以及从 **金曼/Kingman** 到 **胡佛大坝/Hoover Dam**，中途有大段荒无人烟的沙漠与峡谷路段，数十英里无补给站。
+  - **荒漠路段**：从 **卡纳布/Kanab** 到 **佩吉/Page**、从 **佩吉/Page** 到大峡谷东门，以及从 **金曼/Kingman** 到 **胡佛大坝/Hoover Dam**，中途有大段荒无人烟的沙漠与峡谷路段，数十英里无补给站。
   - **操作准则**：自驾途中只要油量表降至 **1/2（半箱）**，在途经城镇时立即顺手加满，绝不在荒漠路段冒险压低油表。
 - **🔒 洛杉矶/Los Angeles 防砸车盗窃核心铁律 (Leave Nothing in Sight)**：
   - **车内零遗留**：洛杉矶部分热门景区（好莱坞、圣莫尼卡海滩、格里菲斯天文台山下）存在破窗盗窃风险。车厢座位、扶手箱及脚垫上**切勿遗留任何物品**（包括外套、纸袋、充电线、零钱或墨镜），避免引来砸窗。
@@ -257,4 +266,5 @@ _【已订妥入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，使用 �
 - **🅿️ 格兰代尔/Glendale 酒店自助停车指南**：入住 **格兰代尔中心凯悦嘉轩酒店/Hyatt Place Glendale / Downtown** 时，如不选择官方代客泊车 ($48/晚)，推荐停靠隔壁由市政府运营的 **橙街公共停车场/Orange Street Parking Structure** (地址: `222 N Orange St, Glendale, CA 91203`)。距离酒店仅 150 米（步行 2 分钟），收费为前 90 分钟免费、$3/小时，日封顶 $15/24小时。全室内带监控与电梯，比私营露天地块更加规范安全。建议先在酒店大门临时停靠卸下托运行李并办理入住，再由一人驾驶空车前往停放。
 - **🎡 豪客摩天轮/High Roller 登轮贴士**：因 17:30-18:30 为落日与夜景转换黄金期，建议出行前 1~2 周在线买好夜间票 (Night Ticket)。抵达 LINQ商业街/The LINQ Promenade 后直接凭手机电子票二维码扫码过检登舱，免除现场窗口排队，舱内全空调恒温且配有长椅，一圈 30 分钟极其平稳舒适。
 - **🍣 888日式烧肉餐厅/888 Japanese BBQ**：由于该店只接受当天 Yelp App 线上 Waitlist 排队，建议在 Day 8 傍晚 17:45 左右乘坐摩天轮时在手机上提前加入排队（从摩天轮打车至餐厅仅 10-12 分钟），下车即可叫号入座，零现场等位。
+- **⏰ 犹他州与亚利桑那州时差**：10 月犹他州/Utah 实行夏令时，亚利桑那州/Arizona 不实行，Day 4 进入亚利桑那后时间倒退 1 小时；但 纳瓦霍保留地/Navajo Nation（如 卡梅伦印第安贸易站/Cameron Trading Post 一带）实行夏令时，手机时间可能来回跳动。Day 4 下午至 Day 5 一律以亚利桑那时间为准。
 - **🧥 洋葱式穿衣法**：10 月中旬高原地区（盐湖城、大峡谷、旗杆镇）清晨可能接近 0 度，而死亡谷、棕榈泉正午可达 25-30 度。请务必采用洋葱式穿衣法（防风防寒保暖外衣+内搭透气薄款衣物），随气温变化灵活穿脱。
