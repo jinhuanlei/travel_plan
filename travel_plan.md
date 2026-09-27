@@ -12,8 +12,8 @@
 | 日期区间             | 入住城市                | 推荐酒店                                                                  | 酒店地址 / Hotel Address                       | 预计每晚预算 | 住宿特色                                                                                |
 | :------------------- | :---------------------- | :------------------------------------------------------------------------ | :--------------------------------------------- | :----------- | :-------------------------------------------------------------------------------------- |
 | 10.12 => 10.14 (2晚) | 盐湖城 (Salt Lake City) | 盐湖城/市中心凯悦嘉轩酒店/Hyatt Place Salt Lake City/Downtown/The Gateway | 55 N 400 W, Salt Lake City, UT 84101           | $140 => $190 | 【已订妥】市中心核心地段，提供免费热早餐，便于首日轻松倒时差，停车费为 $15/晚           |
-| 10.14 => 10.15 (1晚) | 圣乔治 (St. George)     | 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center             | 1819 S 120 E, St. George, UT 84790             | $130 => $180 | 【已订妥，需将预订调整为 1 晚】包含全家热早餐，次日早出发前往锡安国家公园               |
-| 10.15 => 10.16 (1晚) | 佩吉 (Page)             | 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell                           | 1126 N Navajo Dr, Page, AZ 86040               | $150 => $230 | 【待预订】包含全家热早餐与免费停车，距马蹄湾/Horseshoe Bend 约 10 分钟车程              |
+| 10.14 => 10.15 (1晚) | 圣乔治 (St. George)     | 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center             | 1819 S 120 E, St. George, UT 84790             | $130 => $180 | 【已订妥】包含全家热早餐，次日早出发前往锡安国家公园               |
+| 10.15 => 10.16 (1晚) | 佩吉 (Page)             | 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell                           | 1126 N Navajo Dr, Page, AZ 86040               | $150 => $230 | 【已订妥】包含全家热早餐与免费停车，距马蹄湾/Horseshoe Bend 约 10 分钟车程              |
 | 10.16 => 10.17 (1晚) | 旗杆镇 (Flagstaff)      | 旗杆镇凯悦嘉轩酒店/<br />Hyatt Place Flagstaff                            | 397 S Malpais Ln, Flagstaff, AZ 86001          | $160 => $220 | 【已订妥】已使用凯悦/Hyatt积分兑换完成 (确认号: 40023B23500861)，包含全家热早餐               |
 | 10.17 => 10.21 (4晚) | 拉斯维加斯 (Las Vegas)  | 拉斯维加斯凯悦嘉轩酒店/Hyatt Place Las Vegas                              | 4520 Paradise Rd, Las Vegas, NV 89169          | $140 => $220 | 【已订妥】连住4晚不挪窝 (确认号: 40023B22959570)，留足三个完整白天在市内放松，包含全家热早餐 |
 | 10.21 => 10.22 (1晚) | 棕榈泉 (Palm Springs)   | 拉斯布里萨斯贝斯特韦斯特优选酒店/Best Western Plus Las Brisas Hotel       | 222 S Indian Canyon Dr, Palm Springs, CA 92262 | $140 => $200 | 【已订妥】提供免费热早餐，位于市中心，步行 5 分钟可达人气餐厅 Tac/Quila                 |
@@ -59,7 +59,7 @@
 
 ### Day 4 (10月15日): 圣乔治 (St. George) => 锡安国家公园 (Zion National Park) => 锡安–卡梅尔山公路 (Zion–Mount Carmel Highway) => 佩吉 (Page) => 马蹄湾 (Horseshoe Bend)
 
-_【入住 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell（待预订）。】_
+_【已订妥入住 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell。】_
 
 - **今日车程**：约 3.5 小时（锡安游览后从东门出园直达佩吉，不走回头路）。
 - **今日交通**：全天自驾 (Drive)；锡安公园内部搭乘免费观光巴士 (Park Shuttle)。
@@ -196,7 +196,8 @@ _【已订妥入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，使用 �
 - **✈️ 洛杉矶转盐湖城国内段机票/Domestic Connecting Flight (LAX => SLC)**：**已订妥** (确认号/Confirmation #: E7L9VV，美联航/United Airlines UA5307，经济舱，10月12日 16:31 起飞 => 19:25 抵达盐湖城)。
 - **🚗 跨州异地租车服务与自驾保险方案/Car Rental & Insurance Policy** (盐湖城/Salt Lake City 租车，洛杉矶/Los Angeles 还车)：**已订妥** (全国租车/National Car Rental，租期 10月12日 17:00 => 10月24日 17:00，包含翡翠通道/Emerald Aisle 权益与 9 位额外驾驶人免费特权 `9 Additional Drivers: Included`；柜台双人出示驾照+翻译件+护照正式登记第二位同行驾驶人；口径执行明确拒绝 CDW/LDW 由大通蓝宝石信用卡/CSP Primary 全额覆盖本车车损，自费选购 SLI/LIS 获得 100 万美元第三者责任险)。
 - **🏨 盐湖城/市中心凯悦嘉轩酒店/Hyatt Place Salt Lake City/Downtown/The Gateway** (Day 1 10月12日入住 2 晚)：**已订妥** (自助停车为 $15/晚，包含无限次进出特权)。
-- **🏨 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center** (Day 3 10月14日入住 1 晚)：**已订妥，出行前需将预订调整为 1 晚** (10月15日退房；调整前先确认退改政策。包含全家热早餐)。
+- **🏨 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center** (Day 3 10月14日入住 1 晚)：**已订妥** (10月15日退房，包含全家热早餐)。
+- **🏨 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell** (Day 4 10月15日入住 1 晚)：**已订妥** (地址: 1126 N Navajo Dr, Page, AZ 86040，包含全家热早餐与免费停车)。
 - **🏨 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff** (Day 5 10月16日入住 1 晚)：**已订妥** (确认号/Confirmation #: 40023B23500861，地址: 397 S Malpais Ln, Flagstaff, AZ 86001，已使用 凯悦/Hyatt 积分兑换完毕，包含全家热早餐)。
 - **🏨 拉斯维加斯凯悦嘉轩酒店/Hyatt Place Las Vegas** (Day 6 10月17日入住 4 晚)：**已订妥** (确认号/Confirmation #: 40023B22959570，地址: 4520 Paradise Rd, Las Vegas, NV 89169，连住 4 晚，包含全家热早餐，避开赌场喧嚣)。
 - **🏨 拉斯布里萨斯贝斯特韦斯特优选酒店/Best Western Plus Las Brisas Hotel (棕榈泉/Palm Springs)** (Day 10 10月21日入住 1 晚)：**已订妥** (包含全家热早餐，步行 5 分钟可达市中心餐厅)。
@@ -207,7 +208,6 @@ _【已订妥入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff，使用 �
 
 ### 2. 🎟️ 仍需提前购买/预约的门票与项目 (To Be Booked)
 
-- **🏨 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell** (Day 4 10月15日入住 1 晚)：**待预订** (地址: 1126 N Navajo Dr, Page, AZ 86040，预计 $150 => $230/晚，以凯悦官网为准；包含全家热早餐与免费停车)。
 - **🎬 大峡谷 IMAX 电影/Grand Canyon IMAX Movie** (Day 5 下午，可选)：若计划体验，可在出行前 1=>2 天或现场在官网购票，每小时滚动放映，无需过度提早抢票。
 - **🎯 战场拉斯维加斯/Battlefield Vegas 或 702射击场/The Range 702** (Day 7 上午)：建议**提前 1=>2 周**在官网预约枪型套餐与时间段，确保全家无需在现场排队等待。
 - **🎡 豪客摩天轮/High Roller (拉斯维加斯/Las Vegas)** (Day 8 傍晚)：建议**提前 1=>2 周**在官网在线购买常规观景夜间票 (Night Ticket)。凭手机电子票二维码即可直接扫码安检登轮，免去现场人工售票窗口排队购票及现场差价（正值日落晚霞与大道夜景交替黄金时刻）。
