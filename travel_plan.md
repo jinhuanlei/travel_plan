@@ -5,7 +5,7 @@
 - **行程日期**：10月12日 至 10月24日 (共13天)
 - **航班时间**：10月12日 早上 10:00 降落洛杉矶国际机场 (LAX) => 10月12日 16:31 搭乘美联航/United Airlines UA5307 转机飞往盐湖城国际机场 (SLC)，19:25 抵达
 - **离境航班**：10月24日 中午 12:30 起飞回国 (LAX)
-- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 盐湖城 (Salt Lake City) => 犹他州议会大厦 (Utah State Capitol) => 圣殿广场 (Temple Square) => 大盐湖羚羊岛州立公园 (Antelope Island State Park) => 科洛布峡谷景区 (Kolob Canyons) => 圣乔治 (St. George) => 【可选】雪谷州立公园 (Snow Canyon State Park) => 锡安国家公园 (Zion National Park) => 锡安–卡梅尔山公路 (Zion–Mount Carmel Highway) => 佩吉 (Page) => 马蹄湾 (Horseshoe Bend) => 【可选】纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff) => 威廉姆斯 (Williams) => 【可选】塞利格曼 (Seligman, Route 66) => 胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge) => 【可选】博尔德城与海明威公园 (Boulder City & Hemenway Park) => 拉斯维加斯 (Las Vegas) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
+- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 盐湖城 (Salt Lake City) => 犹他州议会大厦 (Utah State Capitol) => 圣殿广场 (Temple Square) => 大盐湖羚羊岛州立公园 (Antelope Island State Park) => 科洛布峡谷景区 (Kolob Canyons) => 圣乔治 (St. George) => 【可选】雪谷州立公园 (Snow Canyon State Park) => 锡安国家公园 (Zion National Park) => 锡安–卡梅尔山公路 (Zion–Mount Carmel Highway) => 佩吉 (Page) => 马蹄湾 (Horseshoe Bend) => 【可选】纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff) => 威廉姆斯 (Williams) => 【可选】塞利格曼 (Seligman, Route 66) => 胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge) => 【可选】博尔德城与海明威公园 (Boulder City & Hemenway Park) => 拉斯维加斯 (Las Vegas) => 红石峡谷国家保护区 (Red Rock Canyon) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
 
 ## 🏨 宾馆住宿总结 (Accommodation Summary)
 
@@ -104,10 +104,11 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
     - **漫步体验**：在明亮晨光下漫步平坦主街，道路两侧露天停放着五颜六色、画有卡通大眼睛的 1930~1950 年代古董老爷车、老式加油机与趣味路标（如著名的雪帽汽车餐厅/Delgadillo's Snow Cap），拍照极其出片。平整硬化地面，停留 25 => 35 分钟，极低体能消耗（免费，无需门票/预约；**若感疲劳可直接在车内慢速观赏后直行**）。
   - 中途午餐 (11:45 => 12:45)：驱车 50 分钟抵达 66 号公路枢纽 **金曼 (Kingman)** 小镇享用午餐并稍作休息。
   - 大坝奇观俯瞰 (13:45 => 14:30)：沿 US-93 驶往拉斯维加斯途中，在胡佛大坝前驶下，停靠于大坝桥专用免费停车场。全家沿着平缓的无障碍坡道登上 **胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge Pedestrian Walkway)**，在高空直接俯瞰胡佛大坝（Hoover Dam）与科罗拉多河（免费，无需门票/预约）。
-  - 历史绿洲与野生大角羊 (**可选项目 2，视全家体能精力而定，若感疲劳可直接直行前往酒店**) (14:35 => 15:15)：
+  - 历史绿洲与野生大角羊 (**可选项目 2，视全家体能精力而定，若感疲劳可直接直行前往酒店**) (14:35 => 15:00)：
     - **博尔德城/Boulder City**：离开胡佛大坝前往拉斯维加斯的正路必经点。当年为修建胡佛大坝而建立的历史绿洲小城，街道绿树成荫、宁静整洁，是进入热闹都市前绝佳的慢节奏缓冲休息区。
     - **海明威公园/Hemenway Park**：小镇内的宁静公园，常年有成群的野生**沙漠大角羊/Desert Bighorn Sheep**在平整绿草坪上悠闲吃草与休憩。车停公园旁即可在草坪边安全、低体能消耗地近距离观察野生动物（免费，无需门票/预约）。
-  - 下午抵达与客房休整 (15:30/16:00 => 17:15)：驱车顺利抵达 拉斯维加斯/Las Vegas 入住 **拉斯维加斯凯悦嘉轩酒店/Hyatt Place Las Vegas**，安顿行李，全家在客房内洗漱休整 1.5 小时，吃些随身水果点心垫底，洗去旅途疲劳。
+  - **⏰ 建议最晚 15:00 从 博尔德城/Boulder City（或胡佛大坝）出发前往拉斯维加斯**：约 30 分钟车程，15:30 前入住，保证看秀前有近 2 小时休整。
+  - 下午抵达与客房休整 (15:30 => 17:15)：驱车顺利抵达 拉斯维加斯/Las Vegas 入住 **拉斯维加斯凯悦嘉轩酒店/Hyatt Place Las Vegas**，安顿行李，全家在客房内洗漱休整 1.5 小时，吃些随身水果点心垫底，洗去旅途疲劳。
   - 傍晚喷泉、大秀与夜间晚餐 (17:15 => 21:30)：
     - **打车与喷泉 (17:15 => 18:00)**：在酒店门前打车（约 $8-$10，5-7 分钟车程，预留等车与交通缓冲）前往 **百乐宫酒店/Bellagio Hotel & Casino**。在门前湖畔观赏水感十足的 **百乐宫喷泉/Bellagio Fountain** 音乐水秀（整点/15分一场），随后步行穿过室内花园前往剧院。
     - **太阳马戏团《O秀》/Cirque du Soleil "O" Show (18:30 => 20:00)**：于 18:00 剧院开放后从容验票入座（18:30 场次，建议 18:15 前落座）。在百乐宫专用水上剧院观赏 90 分钟水上大秀，坐席舒适，视觉震撼，无语言门槛，全平路低体能消耗。
@@ -118,17 +119,22 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 - **今日车程**：仅限市内短途出行。
 - **今日交通**：上午射击【自驾 Drive】往返并回酒店休整；下午至夜间【打车 Uber/Lyft】往返百乐宫、凯撒皇宫与球形馆。
 - **今日行程**：
-  - 上午 (10:00 => 12:00)：全家自驾前往 战场拉斯维加斯射击场 (Battlefield Vegas) 或 702射击场 (The Range 702) 体验真枪射击（免费专用停车场）。12:00 结束自驾返回酒店休整洗漱。
-  - 中午至下午 (13:00 => 16:30)：在酒店打车（约 $8-$10）前往百乐宫酒店 (Bellagio Hotel) 散步，观赏精美的 室内秋季花卉展 (Conservatory & Botanical Gardens)。随后前往隔壁的凯撒皇宫酒店 (Caesars Palace) 稍作休息。
-  - 傍晚盛宴 (16:45 => 18:45)：在凯撒皇宫享用 凯撒皇宫自助餐/Caesars Bacchanal Buffet（16:45 入座，凭 OpenTable 凭证入场）。
+  - 上午 (10:00 => 12:00)：全家自驾前往 战场拉斯维加斯射击场 (Battlefield Vegas) 或 702射击场 (The Range 702) 体验真枪射击（免费专用停车场）。12:00 结束自驾返回酒店。
+  - 中午至下午 (12:00 => 14:30)：在酒店午餐并休整。今晚是自助餐加球形馆，约 22:00 才结束，下午多休息。
+  - 下午慢游 (**以下两项均为可选，视全家体能精力而定；若都跳过，16:15 直接打车前往凯撒皇宫即可**) (14:30 => 16:30)：
+    - **【可选】百乐宫室内花园/Bellagio Conservatory & Botanical Gardens** (14:45 => 15:30)：打车（约 $8-$10）前往百乐宫，观赏室内秋季花卉展。昨晚去看《O秀》时只是路过，今天可以慢慢看（免费）。
+    - **【可选】火烈鸟野生动物栖息地/Flamingo Wildlife Habitat** (15:45 => 16:20)：从百乐宫沿大道步行约 12 分钟，位于凯撒皇宫正对面的火烈鸟酒店内。平路慢步 20 => 30 分钟，观赏火烈鸟、鹈鹕、乌龟与锦鲤（免费，无需预约）。结束后步行 5 分钟前往凯撒皇宫。
+  - 傍晚盛宴 (16:45 => 18:45)：在凯撒皇宫享用 凯撒皇宫自助餐/Caesars Bacchanal Buffet（已预约 16:45，OpenTable 确认）。
   - 晚间震撼 (19:15 => 22:00)：前往全新的地标 拉斯维加斯球形馆 (Sphere Las Vegas)，观看超大球幕沉浸式电影，坐在舒适的独立座椅上感受震撼视觉（提示：球形馆执行严格无包政策，禁止携带书包/双肩包入内，仅允许小于 15x15x5 厘米的极小手包，建议轻装出行）。散场后打车（约 $10-$15）直达酒店。
 
-### Day 8 (10月19日): 拉斯维加斯 (Las Vegas) —— 可口可乐主题商店、黄昏摩天轮与日式烧肉盛宴（连住第3晚 / 完整白天 2）
+### Day 8 (10月19日): 拉斯维加斯 (Las Vegas) —— 红石峡谷、可口可乐主题商店、黄昏摩天轮与日式烧肉晚餐（连住第3晚 / 完整白天 2）
 
-- **今日车程**：仅限市内短途出行（今日继续不换房不搬行李，彻底放松体能）。
-- **今日交通**：全天推荐【打车 Uber/Lyft】（从摩天轮打车至 888 烧肉仅 10-12 分钟车程，全天免去主街找车位与高昂停车费）。
+- **今日车程**：约 1.5 小时（酒店往返红石峡谷约 1 小时 + 峡谷内单向景观公路约 30 分钟；下午起全天不开车）。
+- **今日交通**：上午红石峡谷【自驾 Drive】；下午起推荐【打车 Uber/Lyft】（从摩天轮打车至 888 烧肉仅 10-12 分钟车程，免去主街找车位与高昂停车费）。
 - **今日行程**：
-  - 上午至中午 (10:30 => 12:30)：打车前往拉斯维加斯大道南段。游览 **可口可乐主题商店/Coca-Cola Store Las Vegas**，在室内全空调环境中体验来自世界各地的16种可口可乐特色饮品品尝套餐 (Around the World Tray)，并与可口可乐北极熊合影，全平路低体能消耗。随后顺便漫步隔壁的 **M&M's 巧克力世界/M&M's World Las Vegas** 观赏4层巧克力奇幻展区，整体游览约 1 => 1.5 小时。午后打车返回酒店休息。
+  - 上午车游 (08:30 => 11:30)：自驾约 35 分钟前往 **红石峡谷国家保护区/Red Rock Canyon National Conservation Area**（**需提前在 Recreation.gov 预约入场时段**，10 月份 08:00 => 17:00 入场必须预约；国家公园年票可用）。沿 13 英里单向 **景观公路/Scenic Drive** 车游，红白相间的砂岩山体就在路边，在 **卡利科山/Calico Hills** 等路边停车点下车拍照，全程坐车观景，低体能消耗；可在 **游客中心/Visitor Center** 使用洗手间与参观展厅。
+  - 中午至下午 (12:00 => 15:00)：返回酒店午餐并休息。明后两天都是长途驾驶日，今天下午多休整。
+  - 下午室内慢逛 (15:30 => 17:00)：打车前往拉斯维加斯大道南段。游览 **可口可乐主题商店/Coca-Cola Store Las Vegas**，在室内全空调环境中体验来自世界各地的16种可口可乐特色饮品品尝套餐 (Around the World Tray)，并与可口可乐北极熊合影，全平路低体能消耗。随后顺便漫步隔壁的 **M&M's 巧克力世界/M&M's World Las Vegas** 观赏4层巧克力展区。结束后打车约 10 分钟前往摩天轮。
   - 黄昏全景摩天轮 (17:30 => 18:30)：打车前往体验 **豪客摩天轮/High Roller**。凭提前在线购妥的夜间电子票二维码直接扫码安检登轮，免去现场人工售票窗口排队购票及现场差价。搭乘全空调封闭的巨型舒适座舱（配备水平自平衡系统与长椅），在 30 分钟的慢速旋转中缓缓升至 167 米高空，饱览夕阳余晖与拉斯维加斯大道霓虹初亮的辉煌夜景，体能消耗为零。
   - 晚间烧肉盛宴与慢步 (18:15 => 21:30)：在 17:45 摩天轮座舱内打开手机 Yelp App 线上加入 Waitlist 排队。18:00 结束体验后步行至 LINQ 上客点，打车（约 $10-$12，仅 10-12 分钟车程）直达 **888日式烧肉/888 Japanese BBQ** 享用丰盛的日式自助烧肉晚餐，下车即叫号入座，零现场等位。餐后前往著名的 **大运河购物中心/Grand Canal Shoppes** 室内舒适散步，游览结束后打车返回酒店。
 
@@ -138,13 +144,13 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 - **今日交通**：全天自驾 (Drive) 往返死亡谷；晚间市区就餐可选打车或自驾。
 - **今日行程**：
   - 早上 (07:00 => 09:00)：备好车内饮水与干粮，早上 7:00 准时出发，驱车 2 小时从东门进入 死亡谷国家公园 (Death Valley National Park)。
-  - 上午核心游览 (09:00 => 11:30)：
-    - 扎布里斯基角 (Zabriskie Point)：无需任何徒步，从车位走 2 分钟平缓坡道即可俯瞰金色褶皱山谷。
+  - 上午核心游览 (09:00 => 12:00)：按“先往南到恶水盆地，回程再走艺术家车道”的顺序游览（艺术家车道为由南向北的单行道，只能在返回途中驶入）。
+    - 扎布里斯基角 (Zabriskie Point) (09:00 => 09:30)：无需任何徒步，从车位走 2 分钟平缓坡道即可俯瞰金色褶皱山谷。
     - **【可选项目：炉溪游客中心/Furnace Creek Visitor Center】**(09:45 => 10:15，视精力自选)：位于扎布里斯基角前往恶水盆地的必经路口。全室内空调避暑、国家公园集章、室外实时温度大屏幕合影以及洗手间补给，全平路低体能消耗（持年票免费，**若赶时间可直接前往恶水盆地**）。
-    - 艺术家车道 (Artist's Drive & Artist's Palette)：驱车前往恶水盆地途中，驶入全长 9 英里的单向景观公路 **艺术家车道 (Artist's Drive)**。全家人无需下车，即可坐在空调车内穿梭于五彩斑斓的火山岩丘中，仅在著名的 **艺术家调色板 (Artist's Palette)** 观景点停车 5 分钟进行下车拍照（免费，包含在国家公园年票内）。
-    - 恶水盆地 (Badwater Basin)：北美最低点，全平坦的白色盐滩，从停车场出车门即可步入。全家在边缘平地慢步，低体能消耗饱览盐白大地的广袤。
-  - 下午折返 (11:30 => 13:45)：游览完毕后直接驱车折返 拉斯维加斯/Las Vegas。下午 13:45 左右回到 拉斯维加斯凯悦嘉轩酒店/Hyatt Place Las Vegas 休息，完全避开了 死亡谷国家公园/Death Valley National Park 正午及下午的极端高温与烈日晒伤。整个下午在酒店内彻底放松。
-  - 晚上：在拉斯维加斯市区内轻松就餐。
+    - 恶水盆地 (Badwater Basin) (10:45 => 11:15)：沿 恶水路/Badwater Road 南下约 30 分钟抵达。北美最低点，全平坦的白色盐滩，从停车场出车门即可步入。全家在边缘平地慢步，低体能消耗饱览盐白大地的广袤。
+    - 艺术家车道 (Artist's Drive & Artist's Palette) (11:25 => 12:00)：从恶水盆地往回（向北）行驶约 8 英里，右转驶入全长 9 英里的单向景观公路 **艺术家车道 (Artist's Drive)**。全家人无需下车，即可坐在空调车内穿梭于五彩斑斓的火山岩丘中，仅在 **艺术家调色板 (Artist's Palette)** 观景点停车 5 分钟下车拍照（免费，包含在国家公园年票内）。出口回到炉溪附近。
+  - 下午折返 (12:00 => 14:00)：沿 CA-190 向东出园，经 帕伦普/Pahrump 驱车约 2 小时返回 拉斯维加斯/Las Vegas。下午 14:00 左右回到 拉斯维加斯凯悦嘉轩酒店/Hyatt Place Las Vegas 休息，完全避开了 死亡谷国家公园/Death Valley National Park 正午及下午的极端高温与烈日晒伤。整个下午在酒店内彻底放松。
+  - 晚上：在拉斯维加斯市区内轻松就餐，早点收拾好行李。明天 08:00 出发，是全程车程最长的一天。
 
 ### Day 10 (10月21日): 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs)
 
@@ -194,8 +200,8 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 
 ### 1. 🧾 预订信息 (Reservation Details)
 
-- **✈️ 洛杉矶转盐湖城国内段机票/Domestic Connecting Flight (LAX => SLC)**：(确认号/Confirmation #: E7L9VV，美联航/United Airlines UA5307，经济舱，10月12日 16:31 起飞 => 19:25 抵达盐湖城)。
-- **🚗 跨州异地租车服务与自驾保险方案/Car Rental & Insurance Policy** (盐湖城/Salt Lake City 租车，洛杉矶/Los Angeles 还车)：(全国租车/National Car Rental，租期 10月12日 17:00 => 10月24日 17:00，包含翡翠通道/Emerald Aisle 权益与 9 位额外驾驶人免费特权 `9 Additional Drivers: Included`；柜台双人出示驾照+翻译件+护照正式登记第二位同行驾驶人；口径执行明确拒绝 CDW/LDW 由大通蓝宝石信用卡/CSP Primary 全额覆盖本车车损，自费选购 SLI/LIS 获得 100 万美元第三者责任险)。
+- **✈️ 洛杉矶转盐湖城国内段机票/Domestic Connecting Flight (LAX => SLC)**：**已订妥** (确认号/Confirmation #: E7L9VV，美联航/United Airlines UA5307，经济舱，10月12日 16:31 起飞 => 19:25 抵达盐湖城)。
+- **🚗 跨州异地租车服务与自驾保险方案/Car Rental & Insurance Policy** (盐湖城/Salt Lake City 租车，洛杉矶/Los Angeles 还车)：**已订妥** (全国租车/National Car Rental，租期 10月12日 17:00 => 10月24日 17:00，包含翡翠通道/Emerald Aisle 权益与 9 位额外驾驶人免费特权 `9 Additional Drivers: Included`；柜台双人出示驾照+翻译件+护照正式登记第二位同行驾驶人；口径执行明确拒绝 CDW/LDW 由大通蓝宝石信用卡/CSP Primary 全额覆盖本车车损，自费选购 SLI/LIS 获得 100 万美元第三者责任险)。
 - **🏨 盐湖城/市中心凯悦嘉轩酒店/Hyatt Place Salt Lake City/Downtown/The Gateway** (Day 1 10月12日入住 2 晚)：(自助停车为 $15/晚，包含无限次进出特权)。
 - **🏨 圣乔治凯悦嘉轩酒店/Hyatt Place St. George / Convention Center** (Day 3 10月14日入住 1 晚)：(10月15日退房，包含全家热早餐)。
 - **🏨 佩吉凯悦嘉轩酒店/Hyatt Place Page / Lake Powell** (Day 4 10月15日入住 1 晚)：(地址: 1126 N Navajo Dr, Page, AZ 86040，包含全家热早餐与免费停车)。
@@ -203,13 +209,14 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 - **🏨 拉斯维加斯凯悦嘉轩酒店/Hyatt Place Las Vegas** (Day 6 10月17日入住 4 晚)：(地址: 4520 Paradise Rd, Las Vegas, NV 89169，连住 4 晚，包含全家热早餐，避开赌场喧嚣)。
 - **🏨 拉斯布里萨斯贝斯特韦斯特优选酒店/Best Western Plus Las Brisas Hotel (棕榈泉/Palm Springs)** (Day 10 10月21日入住 1 晚)：(包含全家热早餐，步行 5 分钟可达市中心餐厅)。
 - **🏨 格兰代尔中心凯悦嘉轩酒店/Hyatt Place Glendale / Downtown (洛杉矶/Los Angeles)** (Day 11 10月22日入住 2 晚)：(包含全家热早餐，位于治安极佳北部区域，周边步行与就餐便利)。
-- **🎟️ 拉斯维加斯球形馆/Sphere Las Vegas** (Day 7 10月18日 晚上 8:00)：(入场时间 20:00，不可更改。特别提示：球形馆执行严格无包政策，严禁携带任何书包/双肩包/背包，仅允许携带尺寸在 15x15x5 厘米/6x6x2英寸以内的极小手包，且馆内不提供寄存服务)。
-- **🍽️ 凯撒皇宫自助餐/Caesars Bacchanal Buffet** (Day 7 10月18日 傍晚 16:45)：(16:45 入座，凭 OpenTable 凭证入场)。
-- **🎭 太阳马戏团《O秀》/Cirque du Soleil "O" Show (百乐宫专用水上剧院/O Theatre at Bellagio)** (Day 6 10月17日 傍晚 18:30)：(Category B 座席，开场时间 18:30，建议 18:00 开放检票后于 18:15 前落座，时长约 90 分钟，凭手机电子票二维码扫码入座)。
+- **🎟️ 拉斯维加斯球形馆/Sphere Las Vegas** (Day 7 10月18日 晚上 8:00)：**已订妥** (门票已购，入场时间 20:00，不可更改。特别提示：球形馆执行严格无包政策，严禁携带任何书包/双肩包/背包，仅允许携带尺寸在 15x15x5 厘米/6x6x2英寸以内的极小手包，且馆内不提供寄存服务)。
+- **🍽️ 凯撒皇宫自助餐/Caesars Bacchanal Buffet** (Day 7 10月18日 傍晚 16:45)：**已订妥** (已在 OpenTable 完成 16:45 预约，凭预约凭证入场)。
+- **🎭 太阳马戏团《O秀》/Cirque du Soleil "O" Show (百乐宫专用水上剧院/O Theatre at Bellagio)** (Day 6 10月17日 傍晚 18:30)：**已订妥** (已选 Category B 座席，开场时间 18:30，建议 18:00 开放检票后于 18:15 前落座，时长约 90 分钟，凭手机电子票二维码扫码入座)。
 
 ### 2. 🎟️ 仍需提前购买/预约的门票与项目 (To Be Booked)
 
 - **🎬 大峡谷 IMAX 电影/Grand Canyon IMAX Movie** (Day 5 下午，可选)：若计划体验，可在出行前 1=>2 天或现场在官网购票，每小时滚动放映，无需过度提早抢票。
+- **🏜️ 红石峡谷国家保护区/Red Rock Canyon National Conservation Area 景观公路入场时段** (Day 8 上午)：10 月份 08:00 => 17:00 入场**必须提前预约**，在 Recreation.gov 官网预约（提前 30 天开放，每天太平洋时间 07:00 放票），建议预约 08:30 => 09:30 的时段。门票凭国家公园年票免费，入口出示预约二维码与年票即可。
 - **🎯 战场拉斯维加斯/Battlefield Vegas 或 702射击场/The Range 702** (Day 7 上午)：建议**提前 1=>2 周**在官网预约枪型套餐与时间段，确保全家无需在现场排队等待。
 - **🎡 豪客摩天轮/High Roller (拉斯维加斯/Las Vegas)** (Day 8 傍晚)：建议**提前 1=>2 周**在官网在线购买常规观景夜间票 (Night Ticket)。凭手机电子票二维码即可直接扫码安检登轮，免去现场人工售票窗口排队购票及现场差价（正值日落晚霞与大道夜景交替黄金时刻）。
 - **🚠 棕榈泉高空旋转缆车/Palm Springs Aerial Tramway** (Day 11 上午)：建议**提前 2=>3 周**在官网购票，避免现场排队浪费 1=>2 小时。
@@ -218,7 +225,7 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 
 ### 3. 🚗 沿途免费或已包含年票内、无需提前买票/预约的顺路景点
 
-- **💳 美国国家公园年票/America the Beautiful National Parks Pass**：请务必在出行前随身携带。本行程包含的 科洛布峡谷/Kolob Canyons、锡安/Zion、大峡谷/Grand Canyon、死亡谷/Death Valley、约书亚树/Joshua Tree 等国家公园与国家纪念地均可直接凭此年票及持票人身份证件/护照免费进入。
+- **💳 美国国家公园年票/America the Beautiful National Parks Pass**：**已拥有**。请务必在出行前随身携带。本行程包含的 科洛布峡谷/Kolob Canyons、锡安/Zion、大峡谷/Grand Canyon、红石峡谷/Red Rock Canyon、死亡谷/Death Valley、约书亚树/Joshua Tree 等国家公园与国家纪念地均可直接凭此年票及持票人身份证件/护照免费进入。
 - **锡安–卡梅尔山公路/Zion–Mount Carmel Highway** (Day 4 出园路线)：位于锡安国家公园内，**已包含在国家公园年票内**，无需额外买票。
 - **马蹄湾/Horseshoe Bend** (Day 4 下午)：无需预约，停车费 **$10/车**，现场刷卡或现金支付。停车场由佩吉市管理，**国家公园年票不适用**。
 - **纳瓦霍桥/Navajo Bridge** (Day 5 顺路可选)：**免费**，无需门票或预约。
@@ -227,6 +234,7 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 - **威廉姆斯/Williams (66号公路门户小镇)** (Day 6 顺路可选)：**免费**，位于 I-40 公路旁，街区漫步车览无需门票。
 - **66号公路塞利格曼/Seligman** (Day 6 中转)：**免费**，无需门票或预约。
 - **胡佛大坝旁侧桥观景台/Hoover Dam Bypass Bridge Pedestrian Walkway** (Day 6 中转)：**免费**，无需门票或预约。
+- **火烈鸟野生动物栖息地/Flamingo Wildlife Habitat** (Day 7 下午可选)：**免费**，无需门票或预约。
 - **博尔德城/Boulder City & 海明威公园/Hemenway Park (野生大角羊)** (Day 6 顺路可选)：**免费**，公共社区公园与历史绿洲小镇，无需门票或预约。
 - **死亡谷炉溪游客中心/Furnace Creek Visitor Center** (Day 9 顺路可选)：**已包含在国家公园年票内**，无需额外买票。
 - **死亡谷/Death Valley 艺术家车道/Artist's Drive & 艺术家调色板/Artist's Palette** (Day 9)：**已包含在国家公园年票内**，无需额外买票。
