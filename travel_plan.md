@@ -5,7 +5,7 @@
 - **行程日期**：10月12日 至 10月24日 (共13天)
 - **航班时间**：10月12日 早上 10:00 降落洛杉矶国际机场 (LAX) => 10月12日 16:31 搭乘美联航/United Airlines UA5307 转机飞往盐湖城国际机场 (SLC)，19:25 抵达
 - **离境航班**：10月24日 中午 12:30 起飞回国 (LAX)
-- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 盐湖城 (Salt Lake City) => 犹他州议会大厦 (Utah State Capitol) => 圣殿广场 (Temple Square) => 大盐湖羚羊岛州立公园 (Antelope Island State Park) => 科洛布峡谷景区 (Kolob Canyons) => 圣乔治 (St. George) => 【可选】雪谷州立公园 (Snow Canyon State Park) => 锡安国家公园 (Zion National Park) => 锡安–卡梅尔山公路 (Zion–Mount Carmel Highway) => 佩吉 (Page) => 马蹄湾 (Horseshoe Bend) => 【可选】纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff) => 威廉姆斯 (Williams) => 【可选】塞利格曼 (Seligman, Route 66) => 胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge) => 【可选】博尔德城与海明威公园 (Boulder City & Hemenway Park) => 拉斯维加斯 (Las Vegas) => 红石峡谷国家保护区 (Red Rock Canyon) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
+- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 盐湖城 (Salt Lake City) => 犹他州议会大厦 (Utah State Capitol) => 圣殿广场 (Temple Square) => 大盐湖羚羊岛州立公园 (Antelope Island State Park) => 科洛布峡谷景区 (Kolob Canyons) => 圣乔治 (St. George) => 【可选】雪谷州立公园 (Snow Canyon State Park) => 锡安国家公园 (Zion National Park) => 锡安–卡梅尔山公路 (Zion–Mount Carmel Highway) => 佩吉 (Page) => 马蹄湾 (Horseshoe Bend) => 【可选】纳瓦霍桥 (Navajo Bridge) => 卡梅伦印第安贸易站 (Cameron Trading Post) => 科罗拉多大峡谷国家公园 (Grand Canyon National Park) => 旗杆镇 (Flagstaff) => 威廉姆斯 (Williams) => 【可选】塞利格曼 (Seligman, Route 66) => 胡佛大坝旁侧桥观景台 (Hoover Dam Bypass Bridge) => 【可选】博尔德城与海明威公园 (Boulder City & Hemenway Park) => 拉斯维加斯 (Las Vegas) => 【可选】红石峡谷国家保护区 (Red Rock Canyon) 或 奥特莱斯 (Premium Outlets) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
 
 ## 🏨 宾馆住宿总结 (Accommodation Summary)
 
@@ -129,14 +129,24 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 
 ### Day 8 (10月19日): 拉斯维加斯 (Las Vegas) —— 红石峡谷、可口可乐主题商店、黄昏摩天轮与日式烧肉晚餐（连住第3晚 / 完整白天 2）
 
-- **今日车程**：约 1.5 小时（酒店往返红石峡谷约 1 小时 + 峡谷内单向景观公路约 30 分钟；下午起全天不开车）。
+- **今日车程**：约 1.5 小时（酒店往返红石峡谷约 1 小时 + 峡谷内单向景观公路约 30 分钟；下午起全天不开车）；上午另有约 2 => 2.5 英里的徒步。
 - **今日交通**：上午红石峡谷【自驾 Drive】；下午起推荐【打车 Uber/Lyft】（从摩天轮打车至 888 烧肉仅 10-12 分钟车程，免去主街找车位与高昂停车费）。
 - **今日行程**：
-  - 上午车游 (08:30 => 11:30)：自驾约 35 分钟前往 **红石峡谷国家保护区/Red Rock Canyon National Conservation Area**（**需提前在 Recreation.gov 预约入场时段**，10 月份 08:00 => 17:00 入场必须预约；国家公园年票可用）。沿 13 英里单向 **景观公路/Scenic Drive** 车游，红白相间的砂岩山体就在路边，在 **卡利科山/Calico Hills** 等路边停车点下车拍照，全程坐车观景，低体能消耗；可在 **游客中心/Visitor Center** 使用洗手间与参观展厅。
-  - 中午至下午 (12:00 => 15:00)：返回酒店午餐并休息。明后两天都是长途驾驶日，今天下午多休整。
+  - **【可选项目：红石峡谷徒步与景观公路】** (08:15 => 13:00，**若当天觉得很累可以不去**，因为第二天要去死亡谷)：吃完早餐 08:15 出发，自驾约 35 分钟前往 **红石峡谷国家保护区/Red Rock Canyon National Conservation Area**（**入场时段 09:00 => 10:00 已订妥**，1 辆私家车；预约为一小时时段，请在时段内通过收费站，可提前 30 分钟到；国家公园年票可用）。当天早上看天气，二选一：
+    - **选项一（比较凉快）：卡利科坦克步道/Calico Tanks Trail**：往返约 2.2 => 2.5 英里，爬升约 420 英尺，中等难度，约 2 => 2.5 小时。起点在 **砂岩采石场/Sandstone Quarry** 停车场（热门步道口，早到更有车位）。沿干河谷向上，最后一段是岩石台阶，需要手扶，终点是岩壁间的天然水潭，可远眺拉斯维加斯大道。
+    - **选项二（比较热）：蒙科皮环线/Moenkopi Loop**：约 2 英里，基本平坦，约 1.5 小时。起点在 **游客中心/Visitor Center**（游客中心 08:00 开放）。沿石灰岩山脊步行，沿途可见三叠纪化石与沙漠植物，视野开阔。出发前建议致电 (702) 515-5350，确认游客中心与收费站的位置关系，以及是否需要另外预约。
+    - 走完步道后沿 13 英里单向 **景观公路/Scenic Drive** 继续车游，途经 **卡利科山观景点/Calico Hills Overlooks** 顺路停靠拍照。携带足量饮用水、帽子与防晒，尽量在 12:00 前结束步行。
+  - **【可选项目：拉斯维加斯奥特莱斯/Las Vegas Premium Outlets 购物】** (10:30 => 13:00，与红石峡谷徒步二选一，也可以睡到自然醒，视当天体力和兴趣自选)：营业时间周一至周六 10:00 => 20:00（周日 10:00 => 19:00），无需门票或预约。
+    - **北奥特莱斯/Las Vegas North Premium Outlets**（875 S Grand Central Pkwy，推荐）：约 180 家店，距大道约 2.5 英里，露天购物街；据资料停车费约 $5/天（内华达州居民免费）。
+    - **南奥特莱斯/Las Vegas South Premium Outlets**（7400 Las Vegas Blvd S）：约 145 家店，全室内空调，免费停车，位置更靠南、距离更远。
+    - 可在奥特莱斯内用午餐，随后返回酒店休整。
+  - 中午至下午 (13:15 => 15:00)：返回酒店午餐并休息。明后两天都是长途驾驶日，今天下午多休整。
   - 下午室内慢逛 (15:30 => 17:00)：打车前往拉斯维加斯大道南段。游览 **可口可乐主题商店/Coca-Cola Store Las Vegas**，在室内全空调环境中体验来自世界各地的16种可口可乐特色饮品品尝套餐 (Around the World Tray)，并与可口可乐北极熊合影，全平路低体能消耗。随后顺便漫步隔壁的 **M&M's 巧克力世界/M&M's World Las Vegas** 观赏4层巧克力展区。结束后打车约 10 分钟前往摩天轮。
   - 黄昏全景摩天轮 (17:30 => 18:30)：打车前往体验 **豪客摩天轮/High Roller**。凭提前在线购妥的夜间电子票二维码直接扫码安检登轮，免去现场人工售票窗口排队购票及现场差价。搭乘全空调封闭的巨型舒适座舱（配备水平自平衡系统与长椅），在 30 分钟的慢速旋转中缓缓升至 167 米高空，饱览夕阳余晖与拉斯维加斯大道霓虹初亮的辉煌夜景，体能消耗为零。
-  - 晚间烧肉盛宴与慢步 (18:15 => 21:30)：在 17:45 摩天轮座舱内打开手机 Yelp App 线上加入 Waitlist 排队。18:00 结束体验后步行至 LINQ 上客点，打车（约 $10-$12，仅 10-12 分钟车程）直达 **888日式烧肉/888 Japanese BBQ** 享用丰盛的日式自助烧肉晚餐，下车即叫号入座，零现场等位。餐后前往著名的 **大运河购物中心/Grand Canal Shoppes** 室内舒适散步，游览结束后打车返回酒店。
+  - 晚间烧肉盛宴与慢步 (18:15 => 21:30)：在 17:45 摩天轮座舱内打开手机 Yelp App 线上加入 Waitlist 排队。18:00 结束体验后步行至 LINQ 上客点，打车（约 $10-$12，仅 10-12 分钟车程）直达 **888日式烧肉/888 Japanese BBQ** 享用丰盛的日式自助烧肉晚餐，下车即叫号入座，零现场等位。餐后前往 **威尼斯人大运河购物中心/Venetian Grand Canal Shoppes** 室内散步（免费）。
+    - **【可选】威尼斯人贡多拉/Venetian Gondola**：在室内河道乘船 10 => 13 分钟，共乘约 $39/人（部分工作日约 $34/人），从 2 楼 **Emporio d'Gondola** 上船；室内营业周日至周四 10:00 => 23:00，最后一班在关门前 15 分钟发船。
+    - **购票建议**：无需强制预约，官网可提前 60 天在线购买；当天也可在 2 楼 Emporio d'Gondola 现场购票（先到先得）。有游客反映高峰时段最长要等约 3 小时，想稳妥可提前在线买。
+    - 第二天 07:00 出发去死亡谷，尽量在 22:00 前打车返回酒店。
 
 ### Day 9 (10月20日): 拉斯维加斯 (Las Vegas) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) —— 连住第4晚
 
@@ -212,11 +222,12 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 - **🎟️ 拉斯维加斯球形馆/Sphere Las Vegas** (Day 7 10月18日 晚上 8:00)：**已订妥** (门票已购，入场时间 20:00，不可更改。特别提示：球形馆执行严格无包政策，严禁携带任何书包/双肩包/背包，仅允许携带尺寸在 15x15x5 厘米/6x6x2英寸以内的极小手包，且馆内不提供寄存服务)。
 - **🍽️ 凯撒皇宫自助餐/Caesars Bacchanal Buffet** (Day 7 10月18日 傍晚 16:45)：**已订妥** (已在 OpenTable 完成 16:45 预约，凭预约凭证入场)。
 - **🎭 太阳马戏团《O秀》/Cirque du Soleil "O" Show (百乐宫专用水上剧院/O Theatre at Bellagio)** (Day 6 10月17日 傍晚 18:30)：**已订妥** (已选 Category B 座席，开场时间 18:30，建议 18:00 开放检票后于 18:15 前落座，时长约 90 分钟，凭手机电子票二维码扫码入座)。
+- **🏜️ 红石峡谷国家保护区/Red Rock Canyon National Conservation Area 景观公路入场时段** (Day 8 10月19日 上午，可选项目)：**已订妥** (Recreation.gov，入场时段 09:00 => 10:00，1 辆私家车；年票折抵后费用 $2。预约为一小时时段，请在时段内通过收费站，可提前 30 分钟到；当天很累可以不去)。
 
 ### 2. 🎟️ 仍需提前购买/预约的门票与项目 (To Be Booked)
 
+- **🛶 威尼斯人贡多拉/Venetian Gondola** (Day 8 晚上，可选)：共乘约 $39/人（部分工作日约 $34/人）。**可提前 60 天在官网在线购买**，也可当天在 2 楼 Emporio d'Gondola 现场购票；高峰时段可能排队，想稳妥就提前在线买。
 - **🎬 大峡谷 IMAX 电影/Grand Canyon IMAX Movie** (Day 5 下午，可选)：若计划体验，可在出行前 1=>2 天或现场在官网购票，每小时滚动放映，无需过度提早抢票。
-- **🏜️ 红石峡谷国家保护区/Red Rock Canyon National Conservation Area 景观公路入场时段** (Day 8 上午)：10 月份 08:00 => 17:00 入场**必须提前预约**，在 Recreation.gov 官网预约（提前 30 天开放，每天太平洋时间 07:00 放票），建议预约 08:30 => 09:30 的时段。门票凭国家公园年票免费，入口出示预约二维码与年票即可。
 - **🎯 战场拉斯维加斯/Battlefield Vegas 或 702射击场/The Range 702** (Day 7 上午)：建议**提前 1=>2 周**在官网预约枪型套餐与时间段，确保全家无需在现场排队等待。
 - **🎡 豪客摩天轮/High Roller (拉斯维加斯/Las Vegas)** (Day 8 傍晚)：建议**提前 1=>2 周**在官网在线购买常规观景夜间票 (Night Ticket)。凭手机电子票二维码即可直接扫码安检登轮，免去现场人工售票窗口排队购票及现场差价（正值日落晚霞与大道夜景交替黄金时刻）。
 - **🚠 棕榈泉高空旋转缆车/Palm Springs Aerial Tramway** (Day 11 上午)：建议**提前 2=>3 周**在官网购票，避免现场排队浪费 1=>2 小时。
@@ -231,6 +242,7 @@ _【入住 旗杆镇凯悦嘉轩酒店/Hyatt Place Flagstaff（凯悦/Hyatt 积�
 - **纳瓦霍桥/Navajo Bridge** (Day 5 顺路可选)：**免费**，无需门票或预约。
 - **利潘角观景点/Lipan Point (大峡谷东门景观路)** (Day 5 顺路可选)：**已包含在国家公园年票内**，无需额外买票。
 - **卡梅伦印第安贸易站/Cameron Trading Post** (Day 5 中转)：**免费**，无需门票或预约。
+- **拉斯维加斯奥特莱斯/Las Vegas Premium Outlets** (Day 8 上午可选)：**无需门票或预约**，北奥特莱斯据资料停车费约 $5/天，南奥特莱斯免费停车。
 - **威廉姆斯/Williams (66号公路门户小镇)** (Day 6 顺路可选)：**免费**，位于 I-40 公路旁，街区漫步车览无需门票。
 - **66号公路塞利格曼/Seligman** (Day 6 中转)：**免费**，无需门票或预约。
 - **胡佛大坝旁侧桥观景台/Hoover Dam Bypass Bridge Pedestrian Walkway** (Day 6 中转)：**免费**，无需门票或预约。
