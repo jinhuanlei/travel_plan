@@ -5,7 +5,7 @@
 - **行程日期**：10月12日 至 10月24日 (共13天)
 - **航班时间**：10月12日 早上 10:00 降落洛杉矶国际机场 (LAX) => 当天转乘 美国联合航空/United Airlines 飞往丹佛国际机场 (DEN)（**已订妥**）；10月17日（周六）由丹佛国际机场 (DEN) 乘 美国联合航空/United Airlines 飞往拉斯维加斯哈里·里德国际机场 (LAS)（**已订妥**）
 - **离境航班**：10月24日 中午 12:30 起飞回国 (LAX)
-- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 丹佛 (Denver) => 【丹佛周边可选方案，临时选择】红岩公园 (Red Rocks Park) / 丹佛动物园 (Denver Zoo) / 联合车站 (Denver Union Station) / 落基山国家公园 (Rocky Mountain National Park) / 博尔德 (Boulder) / 铁山温泉 (Iron Mountain Hot Springs) => 【10月14日 固定】派克峰齿轨火车 (Pikes Peak Cog Railway) => 飞 => 拉斯维加斯 (Las Vegas) => 胡佛水坝 (Hoover Dam) => 【可选】红石峡谷国家保护区 (Red Rock Canyon) 或 奥特莱斯 (Premium Outlets) => 【备用可选】弗里蒙特街体验 (Fremont Street Experience) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂别墅 (The Getty Villa) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
+- **🚗 路线总览**：洛杉矶 (Los Angeles) => 飞 => 丹佛 (Denver) => 【丹佛周边可选方案，临时选择】红岩公园 (Red Rocks Park) / 丹佛动物园 (Denver Zoo) / 联合车站 (Denver Union Station) / 落基山国家公园 (Rocky Mountain National Park) / 博尔德 (Boulder) / 铁山温泉 (Iron Mountain Hot Springs) => 【10月14日 固定】派克峰齿轨火车 (Pikes Peak Cog Railway) => 飞 => 拉斯维加斯 (Las Vegas) => 胡佛水坝 (Hoover Dam) => 【可选】红石峡谷国家保护区 (Red Rock Canyon) 或 奥特莱斯 (Premium Outlets) => 【备用可选】弗里蒙特街体验 (Fremont Street Experience) => 死亡谷国家公园 (Death Valley National Park) => 拉斯维加斯 (Las Vegas) => 约书亚树国家公园 (Joshua Tree National Park) => 棕榈泉 (Palm Springs) => 莫滕植物园 (Moorten Botanical Garden) => 洛杉矶 (Los Angeles) => 格里菲斯天文台 (Griffith Observatory) => 盖蒂中心 (The Getty Center) => 好莱坞湖公园 (Lake Hollywood Park) => 圣莫尼卡海滩 (Santa Monica State Beach)
 - **本方案特点**：前 5 天以丹佛为基地，不换酒店、不拖行李；10月13日走方案 A（红岩公园、丹佛动物园、联合车站），10月14日乘派克峰齿轨火车，10月15日、16日从“丹佛可选方案清单”的方案 B、C 中临时挑选；10月17日飞到拉斯维加斯后，行程从 Day 6 起与已订门票完全对应。
 
 ## 🏨 宾馆住宿总结 (Accommodation Summary)
@@ -210,10 +210,10 @@
 
 ### Day 12 (10月23日): 洛杉矶 (Los Angeles) —— 艺术、地标与太平洋落日收尾游
 
-- **今日车程**：约 3 小时（酒店往返盖蒂别墅、好莱坞湖公园与圣莫尼卡）。
+- **今日车程**：约 2 小时。
 - **今日交通**：全天自驾 (Drive)。
 - **今日行程**：
-  - 上午 (10:00 => 12:30)：08:45 从酒店出发，约 1 小时到达 **盖蒂别墅/The Getty Villa**（太平洋帕利塞兹/Pacific Palisades，**10:00 入场时段已订妥**，免费，3 位；建议 09:40 前到停车场）。仿古罗马乡间别墅的建筑与庭院、花园是看点，从山坡上可远眺太平洋海岸线，沿庭院慢步游览。停车费以官网为准。
+  - 上午 (10:00 => 13:00)：09:00 从酒店出发，约 35 分钟到达 **盖蒂中心/The Getty Center** 山脚停车场（**10:00 入场时段已订妥**，免费，3 位）。乘坐免费轻轨缆车直达山顶，园区开阔平整，室外花园能将洛杉矶风光一览无遗。
   - 下午 (14:30 => 15:30)：前往 好莱坞湖公园/Lake Hollywood Park。在开阔大草坪近距离观赏与合影 好莱坞标志/Hollywood Sign，下车即达，完全无需爬山徒步。
   - 傍晚海边落日 (16:30 => 18:30)：全家驱车前往 圣莫尼卡海滩/Santa Monica State Beach。沿着完全平坦的木栈道慢节奏散步，在 66 号公路终点标志前留影，听着海浪，静静欣赏壮丽的太平洋落日，为自驾之旅画上圆满句号。
 
@@ -252,7 +252,7 @@
 - **🦁 丹佛动物园/Denver Zoo** (Day 2，10月13日)：**官网要求网上买分时段门票，购票后不退款；现场是否有余票不确定，建议买好再去**。出发前在官网购买（成人 $27，3 人约 $81，选 12:00 => 12:30 入园时段）；每天 16:00 闭园，园区旁停车免费。
 - **🛶 威尼斯人贡多拉/Venetian Gondola** (Day 7 下午，可选)：共乘约 $39/人（部分工作日约 $34/人）。**可提前 60 天在官网在线购买**，也可当天在 2 楼 Emporio d'Gondola 现场购票；高峰时段可能排队，想稳妥就提前在线买。
 - **🎯 702射击场/The Range 702** (Day 7 中午 12:30)：**待预订**，建议**尽早**在官网或电话 702-425-5312 预约枪型套餐与时间段，确保全家无需在现场排队等待；预约时可问是否提供大道往返免费接送。
-- **🏛️ 盖蒂别墅/The Getty Villa** (Day 12 10月23日 10:00)：**已订妥**（免费入场券，3 位，10:00 入场时段）。
+- **🏛️ 盖蒂中心/The Getty Center** (Day 12 10月23日 10:00)：**已订妥**（免费入场券，3 位，10:00 入场时段）。
 
 ### 3. 🚗 沿途免费或已包含年票内、无需提前买票/预约的顺路景点
 
